@@ -1,0 +1,589 @@
+﻿combinacion,estilo_prompt,id,pregunta,faithfulness_gpt-4.1-mini,faithfulness_llama-3.3-70b,faithfulness_deepseek-v3.2,promedio_jueces,n_jueces
+openai_cs800__raft-llama3.1-8b__raft,raft,1,¿Cuántas escuelas conforman la Facultad de Ingeniería de la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,2,¿Mediante qué Resolución se creó la Escuela de Ingeniería de Sistemas y Computación (EISC)?,1.0,0.6666666666666666,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__raft,raft,3,¿En qué año se creó el programa académico de Ingeniería de Sistemas de la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,4,¿Cuál es el título que otorga el programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,5,¿Cuál es la duración estimada del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,6,¿Cuántos créditos académicos tiene el programa de Ingeniería de Sistemas?,1.0,1.0,0.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,7,¿Cuál es el código SNIES del programa de Ingeniería de Sistemas en la sede Cali?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,9,¿Cuál fue la primera Resolución de Acreditación en Alta Calidad del programa de Ingeniería de Sistemas y en qué año se otorgó?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,10,¿Cuál fue la Resolución que renovó la acreditación en alta calidad por 8 años en el año 2018?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,11,¿Qué acreditación internacional obtuvo el programa en el año 2018?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,13,¿En qué sedes se desarrolla el programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,14,¿Cuántos programas de posgrado tiene la Facultad de Ingeniería según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,15,¿Cuál es la misión de la Escuela de Ingeniería de Sistemas y Computación (EISC)?,1.0,1.0,0.5714285714285714,0.8571428571428571,3
+openai_cs800__raft-llama3.1-8b__raft,raft,16,¿Cuál es la visión de la Escuela de Ingeniería de Sistemas y Computación (EISC)?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,18,¿Cuántos docentes tiene el programa de Ingeniería de Sistemas a la fecha según la Tabla 3?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__raft,raft,19,¿En qué año se modificó el nombre del programa a Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,20,¿Qué resolución renovó por ocho años el registro calificado del programa de Ingeniería de Sistemas?,1.0,1.0,0.5,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__raft,raft,23,"Según la Tabla 4, ¿cuál fue la calificación del Factor 8 'Investigación, desarrollo tecnológico e innovación'?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,24,¿Qué factores se acercan al óptimo definido como ideal según la Figura 5?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,25,"Según la Tabla 4, ¿cuál fue la calificación de la Característica 14 'Remuneración por méritos'?",1.0,1.0,0.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,26,¿Cuál fue la calificación del Factor 4 'Egresados' según la Tabla 4?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,31,"Según el documento, ¿cuántos años lleva el programa académico Ingeniería en Sistemas en la región?",0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,34,¿Qué aspectos se mencionan como razones del éxito del programa académico Ingeniería en Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,36,¿Cuál es el objetivo de los Planes de Mejoramiento según el documento?,1.0,0.5714285714285714,1.0,0.8571428571428571,3
+openai_cs800__raft-llama3.1-8b__raft,raft,38,¿Qué anexos contiene el documento para la visita de pares académicos?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,39,"Según el documento, ¿qué factores necesitan mayor fortalecimiento según la Figura 5?",0.0259740259740259,0.025974025974025976,,0.025974025974025938,2
+openai_cs800__raft-llama3.1-8b__raft,raft,40,¿Qué calificación y grado de cumplimiento obtuvo el Factor 1 'Proyecto Educativo del Programa e Identidad Institucional' en el proceso de autoevaluación actual?,0.0,1.0,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,41,¿Qué entidades o estándares internacionales se tomaron como referencia para la reforma curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,42,Describa las fases del proceso de rediseño curricular del programa de Ingeniería de Sistemas.,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,43,¿Cuáles son los objetivos específicos del programa académico de Ingeniería de Sistemas?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,44,¿Cuáles son las 5 competencias genéricas definidas por la Facultad de Ingeniería?,0.1666666666666666,,0.0,0.0833333333333333,2
+openai_cs800__raft-llama3.1-8b__raft,raft,45,¿Qué competencias específicas se definen para el egresado en el ámbito de la gestión inteligente de datos?,0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,46,¿Cuál fue la Resolución del Consejo Académico que modificó el programa académico de Ingeniería de Sistemas en 2020?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,48,Compare la duración en semestres y el total de créditos de los programas de Ingeniería de Sistemas de la Universidad de Antioquia y la Universidad Nacional de Colombia según la Tabla 1.3.,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,49,"Según la evaluación de los empleadores (Tabla 1.4), ¿cuáles son las dos competencias con la calificación más baja?",0.3333333333333333,0.5,,0.41666666666666663,2
+openai_cs800__raft-llama3.1-8b__raft,raft,50,¿Cuál es la tasa de enganche de los egresados del programa de Ingeniería de Sistemas y qué porcentaje se vincula a medianas y grandes empresas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,51,¿En qué porcentaje crecieron las prácticas y pasantías en el período 2023-1 en comparación con períodos como 2020-2 y 2021-1?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,52,¿Qué evidencia se menciona en el documento sobre el impacto social de los trabajos de grado del programa?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,53,¿Se detectaron recomendaciones en el proceso de autoevaluación anterior que se asociaran al Factor 1 y se incluyeran en el plan de mejoramiento?,0.3333333333333333,1.0,0.5,0.611111111111111,3
+openai_cs800__raft-llama3.1-8b__raft,raft,54,¿Cuál es la misión del Programa Académico de Ingeniería de Sistemas?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,55,"Según el documento, ¿qué principios metodológicos esenciales se destacan en la nueva estructura curricular planteada en el PEP?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,57,¿Qué contextos se tuvieron en cuenta para la actualización curricular del programa de Ingeniería de Sistemas y qué elementos se consideraron en cada uno?,1.0,0.8888888888888888,1.0,0.9629629629629629,3
+openai_cs800__raft-llama3.1-8b__raft,raft,58,¿Cuál es el porcentaje de ponderación de la característica 'Proyecto Educativo del Programa' dentro del Factor 1 según el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,60,¿Cuál fue la calificación y el grado de cumplimiento del Factor 10 'Medios educativos y ambientes de aprendizaje' en el proceso de autoevaluación actual?,0.0,1.0,0.0,0.3333333333333333,3
+openai_cs800__raft-llama3.1-8b__raft,raft,61,¿Cuáles son los métodos pedagógicos que aplica el programa de Ingeniería de Sistemas para mejorar los ambientes de aprendizaje?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,62,¿Qué cursos virtuales desarrollados por profesores de la EISC están consolidados y pueden ser usados en el pregrado?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,65,¿Qué instalaciones y espacios conforman el Edificio B13 (Escuela de Ingeniería de Sistemas y Computación)?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,66,¿Cuántas adquisiciones tiene la Biblioteca Mario Carvajal y cuál fue la inversión en recursos bibliográficos en el año 2021?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,67,"Según la Tabla 10.3, ¿cuántos metros cuadrados de aulas se intervinieron en el año 2017?",0.0,1.0,0.0,0.3333333333333333,3
+openai_cs800__raft-llama3.1-8b__raft,raft,69,¿Qué recursos y servicios ofrece la Biblioteca Mario Carvajal a los usuarios?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,73,"Según la Tabla 10.7, ¿cuántas actividades de promoción de lectura se realizaron en 2019 y cuántos asistentes tuvieron?",0.9090909090909092,1.0,,0.9545454545454546,2
+openai_cs800__raft-llama3.1-8b__raft,raft,74,¿Qué estrategias implementó la División de Bibliotecas durante la pandemia para promover la lectura?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,75,"Según la Tabla 10.9, ¿cuántos trabajos de grado se reportaron en el repositorio en el año 2023?",0.5,1.0,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__raft,raft,76,"Según la Tabla 10.10, ¿cuál fue la calificación de los estudiantes sobre la actualización del material bibliográfico?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,77,"Según la Tabla 10.11, ¿cuál fue la calificación de los profesores sobre la suficiencia del material bibliográfico?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,80,"¿Cuál fue la calificación y el grado de cumplimiento del Factor 11 'Organización, administración y financiación del programa académico' en el proceso de autoevaluación actual?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,81,"Según la Tabla 11.1, ¿cuál es el tiempo promedio de dedicación de los profesores nombrados a las actividades de docencia?",0.5,0.5,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,82,¿Qué mecanismos de participación tienen los estudiantes en los órganos de dirección de la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,83,¿Quiénes integran el Consejo de Escuela 2024 de la Escuela de Ingeniería de Sistemas y Computación?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,85,¿Cuáles son los sistemas de información académicos que utiliza la Universidad del Valle para la gestión administrativa?,0.25,1.0,1.0,0.75,3
+openai_cs800__raft-llama3.1-8b__raft,raft,86,"Según la Tabla 11.3, ¿cuántos correos se enviaron/recibieron a través de direccion.pais@correounivalle.edu.co en el año 2023?",0.6666666666666666,1.0,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__raft,raft,89,¿Cómo se regula la oferta académica y la definición de cupos para los programas de la Universidad del Valle?,1.0,0.6666666666666666,0.5,0.7222222222222222,3
+openai_cs800__raft-llama3.1-8b__raft,raft,90,"Según la Tabla 11.6, ¿cuál fue la calificación de los estudiantes sobre los recursos financieros?",,1.0,1.0,1.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,91,¿Cuáles son los fondos presupuestales de la Universidad del Valle según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,92,¿Qué inversiones se realizaron con el presupuesto del Fondo Especial de la Unidad Académica entre 2022 y 2024?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,93,¿Qué objetivos tiene el Programa Institucional de Autoevaluación de la Calidad establecido por la Resolución 031 de 2002?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,98,¿Qué normativa regula la elección de representantes estudiantiles en los comités de planes de estudio?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,99,"Según las conclusiones del Factor 11, ¿cuáles son las fortalezas del programa en relación con la organización, administración y financiación?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,100,¿Cuál fue la calificación y el grado de cumplimiento del Factor 2 'Estudiantes' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,101,¿Cuál es el porcentaje total de Formación General en la estructura curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,102,¿Qué es el Grupo de Apoyo a la Cultura Académica (GRACA) y cuál es su objetivo?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,103,¿Cuántos estudiantes del programa de Ingeniería de Sistemas participaron en tutorías de GRACA en el periodo 2018-2?,1.0,1.0,0.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,104,¿Qué estrategias se implementaron para mejorar los resultados en la prueba Saber Pro según el plan de mejoramiento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,105,¿Qué porcentaje de estudiantes participan en actividades de desarrollo tecnológico según la Tabla 2.2?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,107,¿Cuántos estudiantes fueron admitidos por Transferencia y Traslado en el periodo 2024-I según la Tabla 2.6?,0.5,0.0,0.0,0.16666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,108,¿Qué herramientas y estrategias utiliza la Universidad del Valle para fomentar el trabajo autónomo de los estudiantes?,0.6666666666666666,1.0,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__raft,raft,109,"Según el Acuerdo 009 de 1997, ¿qué estímulos académicos se otorgan a los estudiantes?",1.0,0.3333333333333333,1.0,0.7777777777777777,3
+openai_cs800__raft-llama3.1-8b__raft,raft,111,"Según las encuestas (Tabla 2.8), ¿cómo calificaron los estudiantes la pertinencia del reglamento estudiantil y las políticas académicas?",0.5,0.5,0.5,0.5,3
+openai_cs800__raft-llama3.1-8b__raft,raft,112,¿Qué oportunidades de mejora se identificaron para el Factor 2 en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,113,¿Qué modificaciones se realizaron al Reglamento Estudiantil (Acuerdo 009 de 1997) para reducir la deserción y el rezago académico?,0.6666666666666666,0.6666666666666666,1.0,0.7777777777777777,3
+openai_cs800__raft-llama3.1-8b__raft,raft,115,¿Qué acciones de apoyo socioeconómico ofrece la Vicerrectoría de Bienestar Universitario para los estudiantes?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,116,¿Qué porcentaje de estudiantes participa en actividades de extensión según la Tabla 2.2 y qué oportunidad de mejora se identifica?,1.0,1.0,0.6666666666666666,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__raft,raft,117,¿Qué cambios se realizaron en los nombres de las asignaturas con la Resolución No. 106 de 2021?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,119,"Según las encuestas (Tabla 2.8), ¿cuál fue la percepción de estudiantes y profesores sobre la aplicación del reglamento estudiantil?",0.8,0.8571428571428571,1.0,0.8857142857142857,3
+openai_cs800__raft-llama3.1-8b__raft,raft,122,Describa el proceso de selección y vinculación de profesores en la Universidad del Valle.,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,123,¿Qué áreas de conocimiento se priorizaron en la convocatoria de profesores de tiempo completo de 2024 para la Escuela de Ingeniería de Sistemas y Computación?,1.0,0.6666666666666666,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__raft,raft,125,¿Cuáles son las categorías del escalafón docente establecidas en el Decreto 1279 de 2002?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,126,¿Qué percepción tienen los profesores sobre la aplicación y pertinencia del Estatuto Profesoral según la Tabla 3.8?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,127,¿Cuáles son los mecanismos de estímulo académico para el desarrollo profesoral establecidos por la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,131,¿Qué estímulos académicos se ofrecen a los profesores según la Resolución 031 de 2004 del Consejo Superior?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,132,¿Cuál es la percepción de los estudiantes sobre la pertinencia y calidad del material académico producido por los profesores?,0.0,,0.0,0.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,133,¿Qué cursos virtuales han sido desarrollados por los profesores de la Escuela de Ingeniería de Sistemas y Computación según la Tabla 3.17?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__raft,raft,134,¿Qué libros fueron escritos por profesores de la Escuela de Ingeniería de Sistemas y Computación y publicados por la Editorial Universidad del Valle?,1.0,0.8571428571428571,,0.9285714285714286,2
+openai_cs800__raft-llama3.1-8b__raft,raft,139,¿Qué aspectos de la evaluación de profesores son valorados con calificaciones más bajas según la Tabla 3.22 y qué explicación se sugiere para ello?,0.3333333333333333,0.5714285714285714,,0.45238095238095233,2
+openai_cs800__raft-llama3.1-8b__raft,raft,140,¿Cuál fue la calificación y el grado de cumplimiento del Factor 4 'Egresados' en el proceso de autoevaluación actual?,0.5,0.5,0.5,0.5,3
+openai_cs800__raft-llama3.1-8b__raft,raft,141,¿Cuál es la tasa de empleabilidad de los egresados del programa de Ingeniería de Sistemas según la encuesta de la DACA?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,142,¿Qué porcentaje de los egresados del programa de Ingeniería de Sistemas se vincula a medianas y grandes empresas?,0.0,1.0,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,143,Describa los cuatro pilares fundamentales en los que la Coordinación de Egresados ha enfocado su trabajo.,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,144,¿Cuántos microperfiles de egresados se elaboraron y compartieron a través de los canales institucionales en 2023?,0.5,0.5,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,145,¿Qué eventos organizó la Vicerrectoría de Extensión y Proyección Social para los egresados en 2023 y cuántos participantes tuvieron?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__raft,raft,146,¿Cuáles son los beneficios que la Coordinación de Egresados ha establecido para los egresados a través de nuevas alianzas?,1.0,0.7142857142857143,0.7777777777777778,0.8306878306878307,3
+openai_cs800__raft-llama3.1-8b__raft,raft,148,¿Qué iniciativas se han implementado para fortalecer la asociatividad de los egresados?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,150,¿Qué porcentaje de egresados se vincula al sector de 'Información y comunicaciones' según la Tabla 4.2?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,151,¿Cuál fue la calificación otorgada por los egresados al programa en relación con la formación para el desarrollo profesional según las encuestas de la DACA?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,153,¿Qué porcentaje de egresados participa en contextos tecnológicos y financieros según la Tabla 4.6?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,154,"Según la Tabla 4.7, ¿cuál es la calificación de los empleadores sobre el desempeño de los egresados en la solución de problemas tecnológicos?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,155,¿Qué áreas de mejora identificaron los egresados y empleadores según las encuestas realizadas?,0.75,,0.5,0.625,2
+openai_cs800__raft-llama3.1-8b__raft,raft,156,¿Qué acciones concretas se tomaron en la reforma curricular para atender las sugerencias de egresados y empleadores sobre áreas de mejora?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,157,¿Qué oportunidades de mejoramiento se identificaron para el Factor 4 en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,158,¿Cuántas charlas técnicas se realizaron entre 2020 y principios de 2024 y cuál fue el propósito de estas actividades?,1.0,0.5,0.5,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,159,¿Qué porcentaje de los empleadores encuestados reconoce la relevancia del aporte de los egresados en sus organizaciones y qué porcentaje ha observado mejoras significativas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,160,¿Cuál fue la calificación y el grado de cumplimiento del Factor 5 'Aspectos Académicos y Resultados de Aprendizaje' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,161,¿Cuáles son los cinco componentes de la Formación General definidos en la Resolución 136 del Consejo Académico?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,162,¿Qué porcentaje de créditos corresponde al Ciclo Básico y al Ciclo Profesional en la estructura curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,163,¿Qué principios metodológicos se destacan en el Acuerdo 025 de 2015 para la formación integral?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,165,¿Cuáles son las estrategias pedagógicas que promueve el programa de Ingeniería de Sistemas para mejorar el aprendizaje activo?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,167,¿Qué porcentaje de estudiantes y profesores considera que los mecanismos de interdisciplinariedad curricular son excelentes o buenos según la Tabla 5.7?,0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,168,¿Qué resolución del Consejo Académico aprobó la modificación curricular del programa de Ingeniería de Sistemas y en qué año?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,169,¿Qué tipo de software se está implementando para apoyar la evaluación y gestión curricular basada en competencias?,0.5,0.5,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,170,"Según la Tabla 5.3, ¿cuáles son los campos de aplicación asociados al grupo de investigación AVISPA?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,171,¿Qué asignaturas del ciclo profesional se identifican como interdisciplinarias en la Tabla 5.6?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,172,¿Cuál fue el porcentaje de avance de la acción 'Terminar el diseño de la reforma curricular del programa e implantarla' según el plan de mejoramiento?,0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,173,¿En qué contextos se abordan los procesos de flexibilización curricular mencionados en el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,175,¿Cuáles son los tres niveles de diseño curricular que articula la reforma curricular del programa de Ingeniería de Sistemas?,1.0,1.0,0.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,176,¿Cuántos créditos totales tiene la estructura curricular del programa de Ingeniería de Sistemas según la Resolución 180 de 2024?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,178,¿Cuál es la percepción de los estudiantes y profesores sobre la calidad y pertinencia del proceso de evaluación y autorregulación del programa según la Tabla 5.12?,0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,179,¿Cuál fue la calificación y el grado de cumplimiento del Factor 6 'Permanencia y graduación' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,182,¿Cuál fue el porcentaje de deserción promedio del programa de Ingeniería de Sistemas en el período observado según SPADIES?,1.0,0.0,0.0,0.3333333333333333,3
+openai_cs800__raft-llama3.1-8b__raft,raft,183,¿Cuáles son las cinco dimensiones que analiza el sistema de alertas tempranas (Semáforo de Alertas) de la estrategia ASES?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,188,¿Cuáles son las ponderaciones establecidas para la admisión al programa de Ingeniería de Sistemas según la Tabla 6.8?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__raft,raft,190,¿Qué estrategias de apoyo socioeconómico ofrece la Universidad del Valle para apoyar la permanencia de los estudiantes?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,195,¿Qué oportunidades de mejoramiento se identificaron para el Factor 6 en el proceso de autoevaluación actual?,0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,196,"Según la Tabla 6.2, ¿cuál fue la tasa de duración del programa para la cohorte de ingreso 2018?",0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,198,¿Cuál es el Sistema de Registro Académico (SIRA) y qué información documenta?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,200,¿Cuántos convenios activos tiene el programa de Ingeniería de Sistemas y en cuántos países se distribuyen?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,202,¿Cuáles son los referentes internacionales utilizados para la reforma curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,203,"Según la Tabla 7.2, ¿cuántos estudiantes de movilidad saliente tuvo el programa en 2023 y cuáles fueron sus destinos y modalidades?",0.8,0.8333333333333334,,0.8166666666666667,2
+openai_cs800__raft-llama3.1-8b__raft,raft,205,¿Qué estrategias se implementaron para fortalecer la movilidad saliente de estudiantes según el plan de mejoramiento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,206,¿Qué convenios específicos se firmaron para la movilidad saliente de estudiantes del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,208,¿Qué evidencia se menciona sobre la participación de profesores de la Escuela en eventos académicos internacionales?,1.0,1.0,0.3333333333333333,0.7777777777777778,3
+openai_cs800__raft-llama3.1-8b__raft,raft,209,¿Qué participación tuvo la profesora Beatriz Florián en el desarrollo del CC2020?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,210,¿Qué nivel de dominio de una segunda lengua se requiere para la graduación en el programa de Ingeniería de Sistemas?,1.0,,1.0,1.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,212,¿Qué porcentaje de estudiantes del programa ha expresado haber realizado formación en segunda lengua durante su proceso educativo?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,215,¿Qué acciones se realizaron para promover el desarrollo de actividades de extensión según el plan de mejoramiento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,217,¿Qué programas de movilidad internacional se mencionan en el documento en relación con estudiantes del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,218,¿Qué porcentaje de avance tuvo la acción 'Vincular la Escuela a actividades de extensión' según el plan de mejoramiento y por qué?,0.6666666666666666,1.0,0.6666666666666666,0.7777777777777777,3
+openai_cs800__raft-llama3.1-8b__raft,raft,219,"¿Cuál fue la calificación y el grado de cumplimiento del Factor 8 'Investigación, desarrollo tecnológico e innovación' en el proceso de autoevaluación actual?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,220,¿Cuáles son las asignaturas del programa de Ingeniería de Sistemas que fortalecen las prácticas investigativas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,221,"¿Qué políticas institucionales de la Universidad del Valle respaldan la formación en investigación, desarrollo tecnológico e innovación?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,224,¿Cuál fue la calificación de los estudiantes sobre la formación en investigación según la Tabla 8.1?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,227,¿Qué papel desempeña el Seminario de Trabajo de Grado en la formación investigativa de los estudiantes?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,228,¿Qué porcentaje de estudiantes califica como excelente o buena la cooperación académica y científica a nivel nacional e internacional?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,229,¿Qué sugerencias hicieron los estudiantes para mejorar la participación en investigación según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,233,¿Qué resolución crea las modalidades de común interés en el marco del programa de semilleros de investigación?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__raft,raft,235,¿Qué aspectos relacionados con el compromiso con la investigación se evidencian en los trabajos de grado de los estudiantes?,1.0,,1.0,1.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,236,¿Qué porcentaje de estudiantes ha participado en actividades que contribuyen a su formación investigativa según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,237,¿Cuáles son las líneas de investigación del grupo AVISPA según la Tabla 8.2?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,240,¿Qué servicios y programas de la Vicerrectoría de Bienestar Universitario se mencionan en el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,241,"Según la Tabla 9.1, ¿cuántos estudiantes del programa de Ingeniería de Sistemas utilizaron el servicio de atención psicológica en 2018?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,242,¿Cuántos almuerzos diarios se suministran actualmente en el Restaurante Universitario?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,243,¿Qué servicios ofrece el Servicio Médico Estudiantil?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,244,¿Cuál es el área del Centro Deportivo Universitario en el Campus de Meléndez?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,245,¿Qué política adoptó el Consejo Superior para la inclusión de personas con discapacidad?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,246,¿Cuáles son los principios que guían la Política de Discapacidad e Inclusión?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,247,¿Qué estrategias implementó la Universidad durante la pandemia del COVID-19 para apoyar a la comunidad universitaria?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,249,¿Cuál fue el porcentaje de estudiantes que calificó la calidad y pertinencia de los programas de bienestar como 'Excelente' o 'Bueno' según las encuestas de la DACA?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,251,"Según la Figura 9.3, ¿qué porcentaje de estudiantes está 'Totalmente de acuerdo' en que la infraestructura y espacios del programa contribuyen a su bienestar?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,252,"Según la Figura 9.4, ¿cómo calificaron los profesores los espacios académicos del programa (salones, salas y auditorios)?",0.8333333333333334,1.0,1.0,0.9444444444444445,3
+openai_cs800__raft-llama3.1-8b__raft,raft,254,¿Qué acciones se implementaron para la inclusión de estudiantes con discapacidad visual en la Universidad?,0.5,1.0,,0.75,2
+openai_cs800__raft-llama3.1-8b__raft,raft,256,¿Qué comités apoyan la toma de decisiones en la Vicerrectoría de Bienestar Universitario?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,257,¿Cuál fue el aumento porcentual en prácticas y pasantías en el semestre 2023-1 en comparación con 2020-2 y 2021-1?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,258,¿Qué oportunidades de mejoramiento se identificaron para el Factor 9 en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,259,¿Cuál fue la calificación y el grado de cumplimiento del Factor 12 'Recursos físicos y tecnológicos' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,263,¿Qué dependencia de la Universidad es responsable de la administración de los recursos informáticos y de telecomunicaciones?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,264,"Según la Tabla 12.3, ¿cuál fue el ancho de banda internacional en el año 2023?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,268,"Según la Tabla 12.6, ¿cuántas cuentas activas de estudiantes de pregrado había en el año 2023?",1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__raft,raft,269,¿Qué sistemas de información ha desarrollado la OITEL para la Universidad?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,271,¿Cuál fue el valor aproximado de los computadores asignados por la DACA para la Sala 5 en el período 2024-I?,1.0,0.0,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__raft,raft,275,¿Cuántos servidores virtualizados con tecnología Vmware Vsphere tiene la Universidad?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,276,¿Qué servicios de videoconferencia ofrece la Universidad a la comunidad académica?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,277,¿Qué capacidad de almacenamiento centralizado (SAN) tiene la Universidad?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,279,¿Cuál fue la Resolución del Ministerio de Educación Nacional que otorgó la cuarta renovación de la acreditación en alta calidad al programa de Ingeniería en Sistemas en 2018?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,280,¿Cuántas Sedes Regionales conforman actualmente el Sistema de Regionalización de la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,281,¿Cuál es la función principal de la Dirección de Autoevaluación y Calidad Académica (DACA) dentro del SIAC?,0.6666666666666666,1.0,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__raft,raft,282,"Según el documento, ¿cuáles son las primeras tres fases del modelo de autoevaluación que se mencionan específicamente para el caso de renovación de la acreditación en alta calidad?",1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,283,"Según el documento, ¿cuáles son las fuentes de información documental consideradas en el proceso de autoevaluación?",1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,284,¿Cómo se califican las fuentes de información documental y de opinión en el modelo de autoevaluación?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,285,¿Cuál es el intervalo de calificación para el grado de cumplimiento 'Plenamente' según la escala de valoración cualitativa?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,286,¿Qué estamentos participan como fuentes de información de opinión en el proceso de autoevaluación?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,287,¿Cuál es el propósito de la Fase 5 'Formulación del plan de mejoramiento' en el modelo de autoevaluación?,1.0,0.6666666666666666,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__raft,raft,288,¿Qué aspectos se definen en la Herramienta de seguimiento al cumplimiento al plan de mejoramiento (HSCPM)?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__raft,raft,290,¿Qué acciones se llevan a cabo en la Fase 12 'Rediseño y seguimiento al cumplimiento al plan de mejoramiento'?,0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,291,¿Cuál fue el nombre original de la Universidad del Valle y por qué fue creada?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,292,"Según el documento, ¿el programa de Ingeniería en Sistemas ha obtenido una acreditación internacional y, de ser así, cuál es?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__raft,raft,293,¿Cuáles son los campos clave que se mencionan como fundamentales y se integran en el programa de Ingeniería en Sistemas?,0.3333333333333333,0.29411764705882354,,0.3137254901960784,2
+openai_cs800__raft-llama3.1-8b__raft,raft,296,Compare los intervalos de calificación para los niveles de cumplimiento 'Alto Grado' e 'Insatisfactorio' según la Tabla 2.,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,1,¿Cuántas escuelas conforman la Facultad de Ingeniería de la Universidad del Valle?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,2,¿Mediante qué Resolución se creó la Escuela de Ingeniería de Sistemas y Computación (EISC)?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,3,¿En qué año se creó el programa académico de Ingeniería de Sistemas de la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,4,¿Cuál es el título que otorga el programa de Ingeniería de Sistemas?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,5,¿Cuál es la duración estimada del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,6,¿Cuántos créditos académicos tiene el programa de Ingeniería de Sistemas?,1.0,1.0,0.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,7,¿Cuál es el código SNIES del programa de Ingeniería de Sistemas en la sede Cali?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,9,¿Cuál fue la primera Resolución de Acreditación en Alta Calidad del programa de Ingeniería de Sistemas y en qué año se otorgó?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,10,¿Cuál fue la Resolución que renovó la acreditación en alta calidad por 8 años en el año 2018?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,11,¿Qué acreditación internacional obtuvo el programa en el año 2018?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,13,¿En qué sedes se desarrolla el programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,14,¿Cuántos programas de posgrado tiene la Facultad de Ingeniería según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,15,¿Cuál es la misión de la Escuela de Ingeniería de Sistemas y Computación (EISC)?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,16,¿Cuál es la visión de la Escuela de Ingeniería de Sistemas y Computación (EISC)?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,18,¿Cuántos docentes tiene el programa de Ingeniería de Sistemas a la fecha según la Tabla 3?,1.0,1.0,0.75,0.9166666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,19,¿En qué año se modificó el nombre del programa a Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,20,¿Qué resolución renovó por ocho años el registro calificado del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,23,"Según la Tabla 4, ¿cuál fue la calificación del Factor 8 'Investigación, desarrollo tecnológico e innovación'?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,24,¿Qué factores se acercan al óptimo definido como ideal según la Figura 5?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,25,"Según la Tabla 4, ¿cuál fue la calificación de la Característica 14 'Remuneración por méritos'?",1.0,1.0,0.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,26,¿Cuál fue la calificación del Factor 4 'Egresados' según la Tabla 4?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,31,"Según el documento, ¿cuántos años lleva el programa académico Ingeniería en Sistemas en la región?",1.0,0.0,0.0,0.3333333333333333,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,34,¿Qué aspectos se mencionan como razones del éxito del programa académico Ingeniería en Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,36,¿Cuál es el objetivo de los Planes de Mejoramiento según el documento?,1.0,0.14285714285714285,1.0,0.7142857142857143,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,38,¿Qué anexos contiene el documento para la visita de pares académicos?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,39,"Según el documento, ¿qué factores necesitan mayor fortalecimiento según la Figura 5?",0.5,1.0,0.0,0.5,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,40,¿Qué calificación y grado de cumplimiento obtuvo el Factor 1 'Proyecto Educativo del Programa e Identidad Institucional' en el proceso de autoevaluación actual?,0.0,1.0,0.0,0.3333333333333333,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,41,¿Qué entidades o estándares internacionales se tomaron como referencia para la reforma curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,42,Describa las fases del proceso de rediseño curricular del programa de Ingeniería de Sistemas.,1.0,0.8,1.0,0.9333333333333332,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,43,¿Cuáles son los objetivos específicos del programa académico de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,44,¿Cuáles son las 5 competencias genéricas definidas por la Facultad de Ingeniería?,1.0,0.8,,0.9,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,45,¿Qué competencias específicas se definen para el egresado en el ámbito de la gestión inteligente de datos?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,46,¿Cuál fue la Resolución del Consejo Académico que modificó el programa académico de Ingeniería de Sistemas en 2020?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,48,Compare la duración en semestres y el total de créditos de los programas de Ingeniería de Sistemas de la Universidad de Antioquia y la Universidad Nacional de Colombia según la Tabla 1.3.,1.0,1.0,0.5,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,49,"Según la evaluación de los empleadores (Tabla 1.4), ¿cuáles son las dos competencias con la calificación más baja?",1.0,0.5,0.5,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,50,¿Cuál es la tasa de enganche de los egresados del programa de Ingeniería de Sistemas y qué porcentaje se vincula a medianas y grandes empresas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,51,¿En qué porcentaje crecieron las prácticas y pasantías en el período 2023-1 en comparación con períodos como 2020-2 y 2021-1?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,52,¿Qué evidencia se menciona en el documento sobre el impacto social de los trabajos de grado del programa?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,53,¿Se detectaron recomendaciones en el proceso de autoevaluación anterior que se asociaran al Factor 1 y se incluyeran en el plan de mejoramiento?,0.3333333333333333,1.0,1.0,0.7777777777777777,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,54,¿Cuál es la misión del Programa Académico de Ingeniería de Sistemas?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,55,"Según el documento, ¿qué principios metodológicos esenciales se destacan en la nueva estructura curricular planteada en el PEP?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,57,¿Qué contextos se tuvieron en cuenta para la actualización curricular del programa de Ingeniería de Sistemas y qué elementos se consideraron en cada uno?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,58,¿Cuál es el porcentaje de ponderación de la característica 'Proyecto Educativo del Programa' dentro del Factor 1 según el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,60,¿Cuál fue la calificación y el grado de cumplimiento del Factor 10 'Medios educativos y ambientes de aprendizaje' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,61,¿Cuáles son los métodos pedagógicos que aplica el programa de Ingeniería de Sistemas para mejorar los ambientes de aprendizaje?,1.0,,1.0,1.0,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,62,¿Qué cursos virtuales desarrollados por profesores de la EISC están consolidados y pueden ser usados en el pregrado?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,65,¿Qué instalaciones y espacios conforman el Edificio B13 (Escuela de Ingeniería de Sistemas y Computación)?,0.1111111111111111,0.8888888888888888,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,66,¿Cuántas adquisiciones tiene la Biblioteca Mario Carvajal y cuál fue la inversión en recursos bibliográficos en el año 2021?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,67,"Según la Tabla 10.3, ¿cuántos metros cuadrados de aulas se intervinieron en el año 2017?",0.0,1.0,0.5,0.5,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,69,¿Qué recursos y servicios ofrece la Biblioteca Mario Carvajal a los usuarios?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,73,"Según la Tabla 10.7, ¿cuántas actividades de promoción de lectura se realizaron en 2019 y cuántos asistentes tuvieron?",0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,74,¿Qué estrategias implementó la División de Bibliotecas durante la pandemia para promover la lectura?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,75,"Según la Tabla 10.9, ¿cuántos trabajos de grado se reportaron en el repositorio en el año 2023?",0.5,1.0,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,76,"Según la Tabla 10.10, ¿cuál fue la calificación de los estudiantes sobre la actualización del material bibliográfico?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,77,"Según la Tabla 10.11, ¿cuál fue la calificación de los profesores sobre la suficiencia del material bibliográfico?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,80,"¿Cuál fue la calificación y el grado de cumplimiento del Factor 11 'Organización, administración y financiación del programa académico' en el proceso de autoevaluación actual?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,81,"Según la Tabla 11.1, ¿cuál es el tiempo promedio de dedicación de los profesores nombrados a las actividades de docencia?",0.6666666666666666,0.25,0.6666666666666666,0.5277777777777778,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,82,¿Qué mecanismos de participación tienen los estudiantes en los órganos de dirección de la Universidad del Valle?,0.8571428571428571,0.8571428571428571,0.6666666666666666,0.7936507936507936,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,83,¿Quiénes integran el Consejo de Escuela 2024 de la Escuela de Ingeniería de Sistemas y Computación?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,85,¿Cuáles son los sistemas de información académicos que utiliza la Universidad del Valle para la gestión administrativa?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,86,"Según la Tabla 11.3, ¿cuántos correos se enviaron/recibieron a través de direccion.pais@correounivalle.edu.co en el año 2023?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,89,¿Cómo se regula la oferta académica y la definición de cupos para los programas de la Universidad del Valle?,1.0,0.5555555555555556,0.3333333333333333,0.6296296296296297,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,90,"Según la Tabla 11.6, ¿cuál fue la calificación de los estudiantes sobre los recursos financieros?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,91,¿Cuáles son los fondos presupuestales de la Universidad del Valle según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,92,¿Qué inversiones se realizaron con el presupuesto del Fondo Especial de la Unidad Académica entre 2022 y 2024?,0.5,0.75,1.0,0.75,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,93,¿Qué objetivos tiene el Programa Institucional de Autoevaluación de la Calidad establecido por la Resolución 031 de 2002?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,98,¿Qué normativa regula la elección de representantes estudiantiles en los comités de planes de estudio?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,99,"Según las conclusiones del Factor 11, ¿cuáles son las fortalezas del programa en relación con la organización, administración y financiación?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,100,¿Cuál fue la calificación y el grado de cumplimiento del Factor 2 'Estudiantes' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,101,¿Cuál es el porcentaje total de Formación General en la estructura curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,102,¿Qué es el Grupo de Apoyo a la Cultura Académica (GRACA) y cuál es su objetivo?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,103,¿Cuántos estudiantes del programa de Ingeniería de Sistemas participaron en tutorías de GRACA en el periodo 2018-2?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,104,¿Qué estrategias se implementaron para mejorar los resultados en la prueba Saber Pro según el plan de mejoramiento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,105,¿Qué porcentaje de estudiantes participan en actividades de desarrollo tecnológico según la Tabla 2.2?,1.0,,1.0,1.0,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,107,¿Cuántos estudiantes fueron admitidos por Transferencia y Traslado en el periodo 2024-I según la Tabla 2.6?,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,108,¿Qué herramientas y estrategias utiliza la Universidad del Valle para fomentar el trabajo autónomo de los estudiantes?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,109,"Según el Acuerdo 009 de 1997, ¿qué estímulos académicos se otorgan a los estudiantes?",0.5,1.0,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,111,"Según las encuestas (Tabla 2.8), ¿cómo calificaron los estudiantes la pertinencia del reglamento estudiantil y las políticas académicas?",1.0,0.6666666666666666,0.75,0.8055555555555555,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,112,¿Qué oportunidades de mejora se identificaron para el Factor 2 en el proceso de autoevaluación actual?,1.0,0.75,,0.875,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,113,¿Qué modificaciones se realizaron al Reglamento Estudiantil (Acuerdo 009 de 1997) para reducir la deserción y el rezago académico?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,115,¿Qué acciones de apoyo socioeconómico ofrece la Vicerrectoría de Bienestar Universitario para los estudiantes?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,116,¿Qué porcentaje de estudiantes participa en actividades de extensión según la Tabla 2.2 y qué oportunidad de mejora se identifica?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,117,¿Qué cambios se realizaron en los nombres de las asignaturas con la Resolución No. 106 de 2021?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,119,"Según las encuestas (Tabla 2.8), ¿cuál fue la percepción de estudiantes y profesores sobre la aplicación del reglamento estudiantil?",1.0,0.75,1.0,0.9166666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,122,Describa el proceso de selección y vinculación de profesores en la Universidad del Valle.,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,123,¿Qué áreas de conocimiento se priorizaron en la convocatoria de profesores de tiempo completo de 2024 para la Escuela de Ingeniería de Sistemas y Computación?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,125,¿Cuáles son las categorías del escalafón docente establecidas en el Decreto 1279 de 2002?,1.0,1.0,0.3333333333333333,0.7777777777777778,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,126,¿Qué percepción tienen los profesores sobre la aplicación y pertinencia del Estatuto Profesoral según la Tabla 3.8?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,127,¿Cuáles son los mecanismos de estímulo académico para el desarrollo profesoral establecidos por la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,131,¿Qué estímulos académicos se ofrecen a los profesores según la Resolución 031 de 2004 del Consejo Superior?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,132,¿Cuál es la percepción de los estudiantes sobre la pertinencia y calidad del material académico producido por los profesores?,0.3333333333333333,0.0,0.5,0.27777777777777773,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,133,¿Qué cursos virtuales han sido desarrollados por los profesores de la Escuela de Ingeniería de Sistemas y Computación según la Tabla 3.17?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,134,¿Qué libros fueron escritos por profesores de la Escuela de Ingeniería de Sistemas y Computación y publicados por la Editorial Universidad del Valle?,1.0,0.8,1.0,0.9333333333333332,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,139,¿Qué aspectos de la evaluación de profesores son valorados con calificaciones más bajas según la Tabla 3.22 y qué explicación se sugiere para ello?,1.0,0.875,,0.9375,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,140,¿Cuál fue la calificación y el grado de cumplimiento del Factor 4 'Egresados' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,141,¿Cuál es la tasa de empleabilidad de los egresados del programa de Ingeniería de Sistemas según la encuesta de la DACA?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,142,¿Qué porcentaje de los egresados del programa de Ingeniería de Sistemas se vincula a medianas y grandes empresas?,0.0,1.0,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,143,Describa los cuatro pilares fundamentales en los que la Coordinación de Egresados ha enfocado su trabajo.,1.0,,1.0,1.0,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,144,¿Cuántos microperfiles de egresados se elaboraron y compartieron a través de los canales institucionales en 2023?,0.5,0.6666666666666666,1.0,0.7222222222222222,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,145,¿Qué eventos organizó la Vicerrectoría de Extensión y Proyección Social para los egresados en 2023 y cuántos participantes tuvieron?,1.0,0.5,0.0,0.5,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,146,¿Cuáles son los beneficios que la Coordinación de Egresados ha establecido para los egresados a través de nuevas alianzas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,148,¿Qué iniciativas se han implementado para fortalecer la asociatividad de los egresados?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,150,¿Qué porcentaje de egresados se vincula al sector de 'Información y comunicaciones' según la Tabla 4.2?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,151,¿Cuál fue la calificación otorgada por los egresados al programa en relación con la formación para el desarrollo profesional según las encuestas de la DACA?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,153,¿Qué porcentaje de egresados participa en contextos tecnológicos y financieros según la Tabla 4.6?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,154,"Según la Tabla 4.7, ¿cuál es la calificación de los empleadores sobre el desempeño de los egresados en la solución de problemas tecnológicos?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,155,¿Qué áreas de mejora identificaron los egresados y empleadores según las encuestas realizadas?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,156,¿Qué acciones concretas se tomaron en la reforma curricular para atender las sugerencias de egresados y empleadores sobre áreas de mejora?,0.8571428571428571,0.8571428571428571,,0.8571428571428571,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,157,¿Qué oportunidades de mejoramiento se identificaron para el Factor 4 en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,158,¿Cuántas charlas técnicas se realizaron entre 2020 y principios de 2024 y cuál fue el propósito de estas actividades?,1.0,,0.75,0.875,2
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,159,¿Qué porcentaje de los empleadores encuestados reconoce la relevancia del aporte de los egresados en sus organizaciones y qué porcentaje ha observado mejoras significativas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,160,¿Cuál fue la calificación y el grado de cumplimiento del Factor 5 'Aspectos Académicos y Resultados de Aprendizaje' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,161,¿Cuáles son los cinco componentes de la Formación General definidos en la Resolución 136 del Consejo Académico?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,162,¿Qué porcentaje de créditos corresponde al Ciclo Básico y al Ciclo Profesional en la estructura curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,163,¿Qué principios metodológicos se destacan en el Acuerdo 025 de 2015 para la formación integral?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,165,¿Cuáles son las estrategias pedagógicas que promueve el programa de Ingeniería de Sistemas para mejorar el aprendizaje activo?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,167,¿Qué porcentaje de estudiantes y profesores considera que los mecanismos de interdisciplinariedad curricular son excelentes o buenos según la Tabla 5.7?,0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,168,¿Qué resolución del Consejo Académico aprobó la modificación curricular del programa de Ingeniería de Sistemas y en qué año?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,169,¿Qué tipo de software se está implementando para apoyar la evaluación y gestión curricular basada en competencias?,0.6666666666666666,1.0,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,170,"Según la Tabla 5.3, ¿cuáles son los campos de aplicación asociados al grupo de investigación AVISPA?",0.5,1.0,0.0,0.5,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,171,¿Qué asignaturas del ciclo profesional se identifican como interdisciplinarias en la Tabla 5.6?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,172,¿Cuál fue el porcentaje de avance de la acción 'Terminar el diseño de la reforma curricular del programa e implantarla' según el plan de mejoramiento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,173,¿En qué contextos se abordan los procesos de flexibilización curricular mencionados en el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,175,¿Cuáles son los tres niveles de diseño curricular que articula la reforma curricular del programa de Ingeniería de Sistemas?,0.5,0.5,0.5,0.5,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,176,¿Cuántos créditos totales tiene la estructura curricular del programa de Ingeniería de Sistemas según la Resolución 180 de 2024?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,178,¿Cuál es la percepción de los estudiantes y profesores sobre la calidad y pertinencia del proceso de evaluación y autorregulación del programa según la Tabla 5.12?,0.5,1.0,0.5,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,179,¿Cuál fue la calificación y el grado de cumplimiento del Factor 6 'Permanencia y graduación' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,182,¿Cuál fue el porcentaje de deserción promedio del programa de Ingeniería de Sistemas en el período observado según SPADIES?,0.0,1.0,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,183,¿Cuáles son las cinco dimensiones que analiza el sistema de alertas tempranas (Semáforo de Alertas) de la estrategia ASES?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,188,¿Cuáles son las ponderaciones establecidas para la admisión al programa de Ingeniería de Sistemas según la Tabla 6.8?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,190,¿Qué estrategias de apoyo socioeconómico ofrece la Universidad del Valle para apoyar la permanencia de los estudiantes?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,195,¿Qué oportunidades de mejoramiento se identificaron para el Factor 6 en el proceso de autoevaluación actual?,1.0,0.75,0.6666666666666666,0.8055555555555555,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,196,"Según la Tabla 6.2, ¿cuál fue la tasa de duración del programa para la cohorte de ingreso 2018?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,198,¿Cuál es el Sistema de Registro Académico (SIRA) y qué información documenta?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,200,¿Cuántos convenios activos tiene el programa de Ingeniería de Sistemas y en cuántos países se distribuyen?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,202,¿Cuáles son los referentes internacionales utilizados para la reforma curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,203,"Según la Tabla 7.2, ¿cuántos estudiantes de movilidad saliente tuvo el programa en 2023 y cuáles fueron sus destinos y modalidades?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,205,¿Qué estrategias se implementaron para fortalecer la movilidad saliente de estudiantes según el plan de mejoramiento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,206,¿Qué convenios específicos se firmaron para la movilidad saliente de estudiantes del programa de Ingeniería de Sistemas?,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.5555555555555555,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,208,¿Qué evidencia se menciona sobre la participación de profesores de la Escuela en eventos académicos internacionales?,0.6666666666666666,1.0,0.3333333333333333,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,209,¿Qué participación tuvo la profesora Beatriz Florián en el desarrollo del CC2020?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,210,¿Qué nivel de dominio de una segunda lengua se requiere para la graduación en el programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,212,¿Qué porcentaje de estudiantes del programa ha expresado haber realizado formación en segunda lengua durante su proceso educativo?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,215,¿Qué acciones se realizaron para promover el desarrollo de actividades de extensión según el plan de mejoramiento?,1.0,0.6666666666666666,0.8,0.8222222222222223,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,217,¿Qué programas de movilidad internacional se mencionan en el documento en relación con estudiantes del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,218,¿Qué porcentaje de avance tuvo la acción 'Vincular la Escuela a actividades de extensión' según el plan de mejoramiento y por qué?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,219,"¿Cuál fue la calificación y el grado de cumplimiento del Factor 8 'Investigación, desarrollo tecnológico e innovación' en el proceso de autoevaluación actual?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,220,¿Cuáles son las asignaturas del programa de Ingeniería de Sistemas que fortalecen las prácticas investigativas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,221,"¿Qué políticas institucionales de la Universidad del Valle respaldan la formación en investigación, desarrollo tecnológico e innovación?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,224,¿Cuál fue la calificación de los estudiantes sobre la formación en investigación según la Tabla 8.1?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,227,¿Qué papel desempeña el Seminario de Trabajo de Grado en la formación investigativa de los estudiantes?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,228,¿Qué porcentaje de estudiantes califica como excelente o buena la cooperación académica y científica a nivel nacional e internacional?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,229,¿Qué sugerencias hicieron los estudiantes para mejorar la participación en investigación según el documento?,0.8333333333333334,1.0,1.0,0.9444444444444445,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,233,¿Qué resolución crea las modalidades de común interés en el marco del programa de semilleros de investigación?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,235,¿Qué aspectos relacionados con el compromiso con la investigación se evidencian en los trabajos de grado de los estudiantes?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,236,¿Qué porcentaje de estudiantes ha participado en actividades que contribuyen a su formación investigativa según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,237,¿Cuáles son las líneas de investigación del grupo AVISPA según la Tabla 8.2?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,240,¿Qué servicios y programas de la Vicerrectoría de Bienestar Universitario se mencionan en el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,241,"Según la Tabla 9.1, ¿cuántos estudiantes del programa de Ingeniería de Sistemas utilizaron el servicio de atención psicológica en 2018?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,242,¿Cuántos almuerzos diarios se suministran actualmente en el Restaurante Universitario?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,243,¿Qué servicios ofrece el Servicio Médico Estudiantil?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,244,¿Cuál es el área del Centro Deportivo Universitario en el Campus de Meléndez?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,245,¿Qué política adoptó el Consejo Superior para la inclusión de personas con discapacidad?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,246,¿Cuáles son los principios que guían la Política de Discapacidad e Inclusión?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,247,¿Qué estrategias implementó la Universidad durante la pandemia del COVID-19 para apoyar a la comunidad universitaria?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,249,¿Cuál fue el porcentaje de estudiantes que calificó la calidad y pertinencia de los programas de bienestar como 'Excelente' o 'Bueno' según las encuestas de la DACA?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,251,"Según la Figura 9.3, ¿qué porcentaje de estudiantes está 'Totalmente de acuerdo' en que la infraestructura y espacios del programa contribuyen a su bienestar?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,252,"Según la Figura 9.4, ¿cómo calificaron los profesores los espacios académicos del programa (salones, salas y auditorios)?",0.8,0.1,1.0,0.6333333333333333,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,254,¿Qué acciones se implementaron para la inclusión de estudiantes con discapacidad visual en la Universidad?,0.75,1.0,1.0,0.9166666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,256,¿Qué comités apoyan la toma de decisiones en la Vicerrectoría de Bienestar Universitario?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,257,¿Cuál fue el aumento porcentual en prácticas y pasantías en el semestre 2023-1 en comparación con 2020-2 y 2021-1?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,258,¿Qué oportunidades de mejoramiento se identificaron para el Factor 9 en el proceso de autoevaluación actual?,1.0,0.6,0.6,0.7333333333333334,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,259,¿Cuál fue la calificación y el grado de cumplimiento del Factor 12 'Recursos físicos y tecnológicos' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,263,¿Qué dependencia de la Universidad es responsable de la administración de los recursos informáticos y de telecomunicaciones?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,264,"Según la Tabla 12.3, ¿cuál fue el ancho de banda internacional en el año 2023?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,268,"Según la Tabla 12.6, ¿cuántas cuentas activas de estudiantes de pregrado había en el año 2023?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,269,¿Qué sistemas de información ha desarrollado la OITEL para la Universidad?,0.6666666666666666,0.6428571428571429,0.6666666666666666,0.6587301587301587,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,271,¿Cuál fue el valor aproximado de los computadores asignados por la DACA para la Sala 5 en el período 2024-I?,1.0,0.0,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,275,¿Cuántos servidores virtualizados con tecnología Vmware Vsphere tiene la Universidad?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,276,¿Qué servicios de videoconferencia ofrece la Universidad a la comunidad académica?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,277,¿Qué capacidad de almacenamiento centralizado (SAN) tiene la Universidad?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,279,¿Cuál fue la Resolución del Ministerio de Educación Nacional que otorgó la cuarta renovación de la acreditación en alta calidad al programa de Ingeniería en Sistemas en 2018?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,280,¿Cuántas Sedes Regionales conforman actualmente el Sistema de Regionalización de la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,281,¿Cuál es la función principal de la Dirección de Autoevaluación y Calidad Académica (DACA) dentro del SIAC?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,282,"Según el documento, ¿cuáles son las primeras tres fases del modelo de autoevaluación que se mencionan específicamente para el caso de renovación de la acreditación en alta calidad?",0.0,0.0,0.0,0.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,283,"Según el documento, ¿cuáles son las fuentes de información documental consideradas en el proceso de autoevaluación?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,284,¿Cómo se califican las fuentes de información documental y de opinión en el modelo de autoevaluación?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,285,¿Cuál es el intervalo de calificación para el grado de cumplimiento 'Plenamente' según la escala de valoración cualitativa?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,286,¿Qué estamentos participan como fuentes de información de opinión en el proceso de autoevaluación?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,287,¿Cuál es el propósito de la Fase 5 'Formulación del plan de mejoramiento' en el modelo de autoevaluación?,1.0,0.6666666666666666,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,288,¿Qué aspectos se definen en la Herramienta de seguimiento al cumplimiento al plan de mejoramiento (HSCPM)?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,290,¿Qué acciones se llevan a cabo en la Fase 12 'Rediseño y seguimiento al cumplimiento al plan de mejoramiento'?,0.0,1.0,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,291,¿Cuál fue el nombre original de la Universidad del Valle y por qué fue creada?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,292,"Según el documento, ¿el programa de Ingeniería en Sistemas ha obtenido una acreditación internacional y, de ser así, cuál es?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,293,¿Cuáles son los campos clave que se mencionan como fundamentales y se integran en el programa de Ingeniería en Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__estructurado,estructurado,296,Compare los intervalos de calificación para los niveles de cumplimiento 'Alto Grado' e 'Insatisfactorio' según la Tabla 2.,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,1,¿Cuántas escuelas conforman la Facultad de Ingeniería de la Universidad del Valle?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__directo,directo,2,¿Mediante qué Resolución se creó la Escuela de Ingeniería de Sistemas y Computación (EISC)?,1.0,0.6666666666666666,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__directo,directo,3,¿En qué año se creó el programa académico de Ingeniería de Sistemas de la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,4,¿Cuál es el título que otorga el programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,5,¿Cuál es la duración estimada del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,6,¿Cuántos créditos académicos tiene el programa de Ingeniería de Sistemas?,1.0,1.0,0.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,7,¿Cuál es el código SNIES del programa de Ingeniería de Sistemas en la sede Cali?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,9,¿Cuál fue la primera Resolución de Acreditación en Alta Calidad del programa de Ingeniería de Sistemas y en qué año se otorgó?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,10,¿Cuál fue la Resolución que renovó la acreditación en alta calidad por 8 años en el año 2018?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,11,¿Qué acreditación internacional obtuvo el programa en el año 2018?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,13,¿En qué sedes se desarrolla el programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,14,¿Cuántos programas de posgrado tiene la Facultad de Ingeniería según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,15,¿Cuál es la misión de la Escuela de Ingeniería de Sistemas y Computación (EISC)?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,16,¿Cuál es la visión de la Escuela de Ingeniería de Sistemas y Computación (EISC)?,1.0,0.5555555555555556,1.0,0.8518518518518517,3
+openai_cs800__raft-llama3.1-8b__directo,directo,18,¿Cuántos docentes tiene el programa de Ingeniería de Sistemas a la fecha según la Tabla 3?,0.9,0.75,0.6666666666666666,0.7722222222222221,3
+openai_cs800__raft-llama3.1-8b__directo,directo,19,¿En qué año se modificó el nombre del programa a Ingeniería de Sistemas?,0.75,1.0,0.8,0.85,3
+openai_cs800__raft-llama3.1-8b__directo,directo,20,¿Qué resolución renovó por ocho años el registro calificado del programa de Ingeniería de Sistemas?,1.0,1.0,0.5,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__directo,directo,23,"Según la Tabla 4, ¿cuál fue la calificación del Factor 8 'Investigación, desarrollo tecnológico e innovación'?",0.5,1.0,0.0,0.5,3
+openai_cs800__raft-llama3.1-8b__directo,directo,24,¿Qué factores se acercan al óptimo definido como ideal según la Figura 5?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,25,"Según la Tabla 4, ¿cuál fue la calificación de la Característica 14 'Remuneración por méritos'?",0.5,0.5,0.5,0.5,3
+openai_cs800__raft-llama3.1-8b__directo,directo,26,¿Cuál fue la calificación del Factor 4 'Egresados' según la Tabla 4?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,31,"Según el documento, ¿cuántos años lleva el programa académico Ingeniería en Sistemas en la región?",0.9565217391304348,0.8,,0.8782608695652174,2
+openai_cs800__raft-llama3.1-8b__directo,directo,34,¿Qué aspectos se mencionan como razones del éxito del programa académico Ingeniería en Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,36,¿Cuál es el objetivo de los Planes de Mejoramiento según el documento?,1.0,0.0,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,38,¿Qué anexos contiene el documento para la visita de pares académicos?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,39,"Según el documento, ¿qué factores necesitan mayor fortalecimiento según la Figura 5?",,,,,0
+openai_cs800__raft-llama3.1-8b__directo,directo,40,¿Qué calificación y grado de cumplimiento obtuvo el Factor 1 'Proyecto Educativo del Programa e Identidad Institucional' en el proceso de autoevaluación actual?,1.0,1.0,0.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,41,¿Qué entidades o estándares internacionales se tomaron como referencia para la reforma curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,42,Describa las fases del proceso de rediseño curricular del programa de Ingeniería de Sistemas.,1.0,0.8888888888888888,,0.9444444444444444,2
+openai_cs800__raft-llama3.1-8b__directo,directo,43,¿Cuáles son los objetivos específicos del programa académico de Ingeniería de Sistemas?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,44,¿Cuáles son las 5 competencias genéricas definidas por la Facultad de Ingeniería?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,45,¿Qué competencias específicas se definen para el egresado en el ámbito de la gestión inteligente de datos?,1.0,0.6666666666666666,0.8571428571428571,0.8412698412698413,3
+openai_cs800__raft-llama3.1-8b__directo,directo,46,¿Cuál fue la Resolución del Consejo Académico que modificó el programa académico de Ingeniería de Sistemas en 2020?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,48,Compare la duración en semestres y el total de créditos de los programas de Ingeniería de Sistemas de la Universidad de Antioquia y la Universidad Nacional de Colombia según la Tabla 1.3.,0.7142857142857143,0.8333333333333334,0.7142857142857143,0.753968253968254,3
+openai_cs800__raft-llama3.1-8b__directo,directo,49,"Según la evaluación de los empleadores (Tabla 1.4), ¿cuáles son las dos competencias con la calificación más baja?",0.6666666666666666,0.6666666666666666,0.6363636363636364,0.6565656565656566,3
+openai_cs800__raft-llama3.1-8b__directo,directo,50,¿Cuál es la tasa de enganche de los egresados del programa de Ingeniería de Sistemas y qué porcentaje se vincula a medianas y grandes empresas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,51,¿En qué porcentaje crecieron las prácticas y pasantías en el período 2023-1 en comparación con períodos como 2020-2 y 2021-1?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,52,¿Qué evidencia se menciona en el documento sobre el impacto social de los trabajos de grado del programa?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,53,¿Se detectaron recomendaciones en el proceso de autoevaluación anterior que se asociaran al Factor 1 y se incluyeran en el plan de mejoramiento?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,54,¿Cuál es la misión del Programa Académico de Ingeniería de Sistemas?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,55,"Según el documento, ¿qué principios metodológicos esenciales se destacan en la nueva estructura curricular planteada en el PEP?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,57,¿Qué contextos se tuvieron en cuenta para la actualización curricular del programa de Ingeniería de Sistemas y qué elementos se consideraron en cada uno?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,58,¿Cuál es el porcentaje de ponderación de la característica 'Proyecto Educativo del Programa' dentro del Factor 1 según el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,60,¿Cuál fue la calificación y el grado de cumplimiento del Factor 10 'Medios educativos y ambientes de aprendizaje' en el proceso de autoevaluación actual?,0.2,0.6,0.0,0.26666666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,61,¿Cuáles son los métodos pedagógicos que aplica el programa de Ingeniería de Sistemas para mejorar los ambientes de aprendizaje?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,62,¿Qué cursos virtuales desarrollados por profesores de la EISC están consolidados y pueden ser usados en el pregrado?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,65,¿Qué instalaciones y espacios conforman el Edificio B13 (Escuela de Ingeniería de Sistemas y Computación)?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,66,¿Cuántas adquisiciones tiene la Biblioteca Mario Carvajal y cuál fue la inversión en recursos bibliográficos en el año 2021?,1.0,1.0,0.9166666666666666,0.9722222222222222,3
+openai_cs800__raft-llama3.1-8b__directo,directo,67,"Según la Tabla 10.3, ¿cuántos metros cuadrados de aulas se intervinieron en el año 2017?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,69,¿Qué recursos y servicios ofrece la Biblioteca Mario Carvajal a los usuarios?,1.0,1.0,0.9411764705882353,0.9803921568627452,3
+openai_cs800__raft-llama3.1-8b__directo,directo,73,"Según la Tabla 10.7, ¿cuántas actividades de promoción de lectura se realizaron en 2019 y cuántos asistentes tuvieron?",0.0,1.0,0.0,0.3333333333333333,3
+openai_cs800__raft-llama3.1-8b__directo,directo,74,¿Qué estrategias implementó la División de Bibliotecas durante la pandemia para promover la lectura?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,75,"Según la Tabla 10.9, ¿cuántos trabajos de grado se reportaron en el repositorio en el año 2023?",1.0,0.6666666666666666,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__directo,directo,76,"Según la Tabla 10.10, ¿cuál fue la calificación de los estudiantes sobre la actualización del material bibliográfico?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,77,"Según la Tabla 10.11, ¿cuál fue la calificación de los profesores sobre la suficiencia del material bibliográfico?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,80,"¿Cuál fue la calificación y el grado de cumplimiento del Factor 11 'Organización, administración y financiación del programa académico' en el proceso de autoevaluación actual?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,81,"Según la Tabla 11.1, ¿cuál es el tiempo promedio de dedicación de los profesores nombrados a las actividades de docencia?",1.0,0.75,1.0,0.9166666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,82,¿Qué mecanismos de participación tienen los estudiantes en los órganos de dirección de la Universidad del Valle?,0.8333333333333334,0.8571428571428571,,0.8452380952380952,2
+openai_cs800__raft-llama3.1-8b__directo,directo,83,¿Quiénes integran el Consejo de Escuela 2024 de la Escuela de Ingeniería de Sistemas y Computación?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,85,¿Cuáles son los sistemas de información académicos que utiliza la Universidad del Valle para la gestión administrativa?,0.5,0.6666666666666666,1.0,0.7222222222222222,3
+openai_cs800__raft-llama3.1-8b__directo,directo,86,"Según la Tabla 11.3, ¿cuántos correos se enviaron/recibieron a través de direccion.pais@correounivalle.edu.co en el año 2023?",0.6666666666666666,0.3333333333333333,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,89,¿Cómo se regula la oferta académica y la definición de cupos para los programas de la Universidad del Valle?,1.0,1.0,0.9285714285714286,0.9761904761904763,3
+openai_cs800__raft-llama3.1-8b__directo,directo,90,"Según la Tabla 11.6, ¿cuál fue la calificación de los estudiantes sobre los recursos financieros?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,91,¿Cuáles son los fondos presupuestales de la Universidad del Valle según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,92,¿Qué inversiones se realizaron con el presupuesto del Fondo Especial de la Unidad Académica entre 2022 y 2024?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,93,¿Qué objetivos tiene el Programa Institucional de Autoevaluación de la Calidad establecido por la Resolución 031 de 2002?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,98,¿Qué normativa regula la elección de representantes estudiantiles en los comités de planes de estudio?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,99,"Según las conclusiones del Factor 11, ¿cuáles son las fortalezas del programa en relación con la organización, administración y financiación?",1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,100,¿Cuál fue la calificación y el grado de cumplimiento del Factor 2 'Estudiantes' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,101,¿Cuál es el porcentaje total de Formación General en la estructura curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,102,¿Qué es el Grupo de Apoyo a la Cultura Académica (GRACA) y cuál es su objetivo?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,103,¿Cuántos estudiantes del programa de Ingeniería de Sistemas participaron en tutorías de GRACA en el periodo 2018-2?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,104,¿Qué estrategias se implementaron para mejorar los resultados en la prueba Saber Pro según el plan de mejoramiento?,1.0,0.6666666666666666,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__directo,directo,105,¿Qué porcentaje de estudiantes participan en actividades de desarrollo tecnológico según la Tabla 2.2?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,107,¿Cuántos estudiantes fueron admitidos por Transferencia y Traslado en el periodo 2024-I según la Tabla 2.6?,0.25,0.3333333333333333,0.3333333333333333,0.3055555555555555,3
+openai_cs800__raft-llama3.1-8b__directo,directo,108,¿Qué herramientas y estrategias utiliza la Universidad del Valle para fomentar el trabajo autónomo de los estudiantes?,1.0,0.8571428571428571,,0.9285714285714286,2
+openai_cs800__raft-llama3.1-8b__directo,directo,109,"Según el Acuerdo 009 de 1997, ¿qué estímulos académicos se otorgan a los estudiantes?",1.0,0.3333333333333333,1.0,0.7777777777777777,3
+openai_cs800__raft-llama3.1-8b__directo,directo,111,"Según las encuestas (Tabla 2.8), ¿cómo calificaron los estudiantes la pertinencia del reglamento estudiantil y las políticas académicas?",1.0,0.0,0.5,0.5,3
+openai_cs800__raft-llama3.1-8b__directo,directo,112,¿Qué oportunidades de mejora se identificaron para el Factor 2 en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,113,¿Qué modificaciones se realizaron al Reglamento Estudiantil (Acuerdo 009 de 1997) para reducir la deserción y el rezago académico?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,115,¿Qué acciones de apoyo socioeconómico ofrece la Vicerrectoría de Bienestar Universitario para los estudiantes?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,116,¿Qué porcentaje de estudiantes participa en actividades de extensión según la Tabla 2.2 y qué oportunidad de mejora se identifica?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,117,¿Qué cambios se realizaron en los nombres de las asignaturas con la Resolución No. 106 de 2021?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,119,"Según las encuestas (Tabla 2.8), ¿cuál fue la percepción de estudiantes y profesores sobre la aplicación del reglamento estudiantil?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,122,Describa el proceso de selección y vinculación de profesores en la Universidad del Valle.,1.0,0.9,1.0,0.9666666666666667,3
+openai_cs800__raft-llama3.1-8b__directo,directo,123,¿Qué áreas de conocimiento se priorizaron en la convocatoria de profesores de tiempo completo de 2024 para la Escuela de Ingeniería de Sistemas y Computación?,1.0,0.6666666666666666,,0.8333333333333333,2
+openai_cs800__raft-llama3.1-8b__directo,directo,125,¿Cuáles son las categorías del escalafón docente establecidas en el Decreto 1279 de 2002?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,126,¿Qué percepción tienen los profesores sobre la aplicación y pertinencia del Estatuto Profesoral según la Tabla 3.8?,0.75,1.0,0.6666666666666666,0.8055555555555555,3
+openai_cs800__raft-llama3.1-8b__directo,directo,127,¿Cuáles son los mecanismos de estímulo académico para el desarrollo profesoral establecidos por la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,131,¿Qué estímulos académicos se ofrecen a los profesores según la Resolución 031 de 2004 del Consejo Superior?,1.0,0.8,1.0,0.9333333333333332,3
+openai_cs800__raft-llama3.1-8b__directo,directo,132,¿Cuál es la percepción de los estudiantes sobre la pertinencia y calidad del material académico producido por los profesores?,0.3333333333333333,0.75,0.5,0.5277777777777778,3
+openai_cs800__raft-llama3.1-8b__directo,directo,133,¿Qué cursos virtuales han sido desarrollados por los profesores de la Escuela de Ingeniería de Sistemas y Computación según la Tabla 3.17?,0.2222222222222222,0.125,0.1111111111111111,0.15277777777777776,3
+openai_cs800__raft-llama3.1-8b__directo,directo,134,¿Qué libros fueron escritos por profesores de la Escuela de Ingeniería de Sistemas y Computación y publicados por la Editorial Universidad del Valle?,1.0,0.8333333333333334,1.0,0.9444444444444445,3
+openai_cs800__raft-llama3.1-8b__directo,directo,139,¿Qué aspectos de la evaluación de profesores son valorados con calificaciones más bajas según la Tabla 3.22 y qué explicación se sugiere para ello?,0.6666666666666666,0.6,0.3333333333333333,0.5333333333333333,3
+openai_cs800__raft-llama3.1-8b__directo,directo,140,¿Cuál fue la calificación y el grado de cumplimiento del Factor 4 'Egresados' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,141,¿Cuál es la tasa de empleabilidad de los egresados del programa de Ingeniería de Sistemas según la encuesta de la DACA?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,142,¿Qué porcentaje de los egresados del programa de Ingeniería de Sistemas se vincula a medianas y grandes empresas?,0.0,1.0,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,143,Describa los cuatro pilares fundamentales en los que la Coordinación de Egresados ha enfocado su trabajo.,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,144,¿Cuántos microperfiles de egresados se elaboraron y compartieron a través de los canales institucionales en 2023?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__directo,directo,145,¿Qué eventos organizó la Vicerrectoría de Extensión y Proyección Social para los egresados en 2023 y cuántos participantes tuvieron?,1.0,0.4,0.6,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,146,¿Cuáles son los beneficios que la Coordinación de Egresados ha establecido para los egresados a través de nuevas alianzas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,148,¿Qué iniciativas se han implementado para fortalecer la asociatividad de los egresados?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,150,¿Qué porcentaje de egresados se vincula al sector de 'Información y comunicaciones' según la Tabla 4.2?,0.0,0.0,0.5,0.16666666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,151,¿Cuál fue la calificación otorgada por los egresados al programa en relación con la formación para el desarrollo profesional según las encuestas de la DACA?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,153,¿Qué porcentaje de egresados participa en contextos tecnológicos y financieros según la Tabla 4.6?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,154,"Según la Tabla 4.7, ¿cuál es la calificación de los empleadores sobre el desempeño de los egresados en la solución de problemas tecnológicos?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,155,¿Qué áreas de mejora identificaron los egresados y empleadores según las encuestas realizadas?,0.8,1.0,0.7142857142857143,0.8380952380952381,3
+openai_cs800__raft-llama3.1-8b__directo,directo,156,¿Qué acciones concretas se tomaron en la reforma curricular para atender las sugerencias de egresados y empleadores sobre áreas de mejora?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,157,¿Qué oportunidades de mejoramiento se identificaron para el Factor 4 en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,158,¿Cuántas charlas técnicas se realizaron entre 2020 y principios de 2024 y cuál fue el propósito de estas actividades?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__directo,directo,159,¿Qué porcentaje de los empleadores encuestados reconoce la relevancia del aporte de los egresados en sus organizaciones y qué porcentaje ha observado mejoras significativas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,160,¿Cuál fue la calificación y el grado de cumplimiento del Factor 5 'Aspectos Académicos y Resultados de Aprendizaje' en el proceso de autoevaluación actual?,1.0,1.0,0.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,161,¿Cuáles son los cinco componentes de la Formación General definidos en la Resolución 136 del Consejo Académico?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,162,¿Qué porcentaje de créditos corresponde al Ciclo Básico y al Ciclo Profesional en la estructura curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,163,¿Qué principios metodológicos se destacan en el Acuerdo 025 de 2015 para la formación integral?,1.0,,1.0,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,165,¿Cuáles son las estrategias pedagógicas que promueve el programa de Ingeniería de Sistemas para mejorar el aprendizaje activo?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,167,¿Qué porcentaje de estudiantes y profesores considera que los mecanismos de interdisciplinariedad curricular son excelentes o buenos según la Tabla 5.7?,0.8,0.8,,0.8,2
+openai_cs800__raft-llama3.1-8b__directo,directo,168,¿Qué resolución del Consejo Académico aprobó la modificación curricular del programa de Ingeniería de Sistemas y en qué año?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,169,¿Qué tipo de software se está implementando para apoyar la evaluación y gestión curricular basada en competencias?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,170,"Según la Tabla 5.3, ¿cuáles son los campos de aplicación asociados al grupo de investigación AVISPA?",0.5,0.5,0.5,0.5,3
+openai_cs800__raft-llama3.1-8b__directo,directo,171,¿Qué asignaturas del ciclo profesional se identifican como interdisciplinarias en la Tabla 5.6?,0.4,,0.4,0.4,2
+openai_cs800__raft-llama3.1-8b__directo,directo,172,¿Cuál fue el porcentaje de avance de la acción 'Terminar el diseño de la reforma curricular del programa e implantarla' según el plan de mejoramiento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,173,¿En qué contextos se abordan los procesos de flexibilización curricular mencionados en el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,175,¿Cuáles son los tres niveles de diseño curricular que articula la reforma curricular del programa de Ingeniería de Sistemas?,0.6470588235294118,0.5833333333333334,,0.6151960784313726,2
+openai_cs800__raft-llama3.1-8b__directo,directo,176,¿Cuántos créditos totales tiene la estructura curricular del programa de Ingeniería de Sistemas según la Resolución 180 de 2024?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,178,¿Cuál es la percepción de los estudiantes y profesores sobre la calidad y pertinencia del proceso de evaluación y autorregulación del programa según la Tabla 5.12?,0.4285714285714285,0.3333333333333333,0.0,0.25396825396825395,3
+openai_cs800__raft-llama3.1-8b__directo,directo,179,¿Cuál fue la calificación y el grado de cumplimiento del Factor 6 'Permanencia y graduación' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,182,¿Cuál fue el porcentaje de deserción promedio del programa de Ingeniería de Sistemas en el período observado según SPADIES?,1.0,0.75,1.0,0.9166666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,183,¿Cuáles son las cinco dimensiones que analiza el sistema de alertas tempranas (Semáforo de Alertas) de la estrategia ASES?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,188,¿Cuáles son las ponderaciones establecidas para la admisión al programa de Ingeniería de Sistemas según la Tabla 6.8?,0.6666666666666666,0.6,1.0,0.7555555555555555,3
+openai_cs800__raft-llama3.1-8b__directo,directo,190,¿Qué estrategias de apoyo socioeconómico ofrece la Universidad del Valle para apoyar la permanencia de los estudiantes?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,195,¿Qué oportunidades de mejoramiento se identificaron para el Factor 6 en el proceso de autoevaluación actual?,0.6666666666666666,0.0,0.0,0.2222222222222222,3
+openai_cs800__raft-llama3.1-8b__directo,directo,196,"Según la Tabla 6.2, ¿cuál fue la tasa de duración del programa para la cohorte de ingreso 2018?",0.6,0.5,,0.55,2
+openai_cs800__raft-llama3.1-8b__directo,directo,198,¿Cuál es el Sistema de Registro Académico (SIRA) y qué información documenta?,1.0,1.0,0.875,0.9583333333333334,3
+openai_cs800__raft-llama3.1-8b__directo,directo,200,¿Cuántos convenios activos tiene el programa de Ingeniería de Sistemas y en cuántos países se distribuyen?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,202,¿Cuáles son los referentes internacionales utilizados para la reforma curricular del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,203,"Según la Tabla 7.2, ¿cuántos estudiantes de movilidad saliente tuvo el programa en 2023 y cuáles fueron sus destinos y modalidades?",0.6666666666666666,1.0,1.0,0.8888888888888888,3
+openai_cs800__raft-llama3.1-8b__directo,directo,205,¿Qué estrategias se implementaron para fortalecer la movilidad saliente de estudiantes según el plan de mejoramiento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,206,¿Qué convenios específicos se firmaron para la movilidad saliente de estudiantes del programa de Ingeniería de Sistemas?,1.0,0.5,,0.75,2
+openai_cs800__raft-llama3.1-8b__directo,directo,208,¿Qué evidencia se menciona sobre la participación de profesores de la Escuela en eventos académicos internacionales?,1.0,1.0,0.8,0.9333333333333332,3
+openai_cs800__raft-llama3.1-8b__directo,directo,209,¿Qué participación tuvo la profesora Beatriz Florián en el desarrollo del CC2020?,1.0,,1.0,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,210,¿Qué nivel de dominio de una segunda lengua se requiere para la graduación en el programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,212,¿Qué porcentaje de estudiantes del programa ha expresado haber realizado formación en segunda lengua durante su proceso educativo?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,215,¿Qué acciones se realizaron para promover el desarrollo de actividades de extensión según el plan de mejoramiento?,1.0,0.8571428571428571,0.8571428571428571,0.9047619047619048,3
+openai_cs800__raft-llama3.1-8b__directo,directo,217,¿Qué programas de movilidad internacional se mencionan en el documento en relación con estudiantes del programa de Ingeniería de Sistemas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,218,¿Qué porcentaje de avance tuvo la acción 'Vincular la Escuela a actividades de extensión' según el plan de mejoramiento y por qué?,1.0,1.0,0.7142857142857143,0.9047619047619048,3
+openai_cs800__raft-llama3.1-8b__directo,directo,219,"¿Cuál fue la calificación y el grado de cumplimiento del Factor 8 'Investigación, desarrollo tecnológico e innovación' en el proceso de autoevaluación actual?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,220,¿Cuáles son las asignaturas del programa de Ingeniería de Sistemas que fortalecen las prácticas investigativas?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,221,"¿Qué políticas institucionales de la Universidad del Valle respaldan la formación en investigación, desarrollo tecnológico e innovación?",1.0,0.8333333333333334,,0.9166666666666667,2
+openai_cs800__raft-llama3.1-8b__directo,directo,224,¿Cuál fue la calificación de los estudiantes sobre la formación en investigación según la Tabla 8.1?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,227,¿Qué papel desempeña el Seminario de Trabajo de Grado en la formación investigativa de los estudiantes?,1.0,1.0,0.8888888888888888,0.9629629629629629,3
+openai_cs800__raft-llama3.1-8b__directo,directo,228,¿Qué porcentaje de estudiantes califica como excelente o buena la cooperación académica y científica a nivel nacional e internacional?,0.5,0.7142857142857143,0.0,0.4047619047619048,3
+openai_cs800__raft-llama3.1-8b__directo,directo,229,¿Qué sugerencias hicieron los estudiantes para mejorar la participación en investigación según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,233,¿Qué resolución crea las modalidades de común interés en el marco del programa de semilleros de investigación?,1.0,0.5,1.0,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__directo,directo,235,¿Qué aspectos relacionados con el compromiso con la investigación se evidencian en los trabajos de grado de los estudiantes?,1.0,0.75,1.0,0.9166666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,236,¿Qué porcentaje de estudiantes ha participado en actividades que contribuyen a su formación investigativa según el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,237,¿Cuáles son las líneas de investigación del grupo AVISPA según la Tabla 8.2?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,240,¿Qué servicios y programas de la Vicerrectoría de Bienestar Universitario se mencionan en el documento?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,241,"Según la Tabla 9.1, ¿cuántos estudiantes del programa de Ingeniería de Sistemas utilizaron el servicio de atención psicológica en 2018?",1.0,0.0,1.0,0.6666666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,242,¿Cuántos almuerzos diarios se suministran actualmente en el Restaurante Universitario?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,243,¿Qué servicios ofrece el Servicio Médico Estudiantil?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,244,¿Cuál es el área del Centro Deportivo Universitario en el Campus de Meléndez?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,245,¿Qué política adoptó el Consejo Superior para la inclusión de personas con discapacidad?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,246,¿Cuáles son los principios que guían la Política de Discapacidad e Inclusión?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,247,¿Qué estrategias implementó la Universidad durante la pandemia del COVID-19 para apoyar a la comunidad universitaria?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,249,¿Cuál fue el porcentaje de estudiantes que calificó la calidad y pertinencia de los programas de bienestar como 'Excelente' o 'Bueno' según las encuestas de la DACA?,1.0,1.0,,1.0,2
+openai_cs800__raft-llama3.1-8b__directo,directo,251,"Según la Figura 9.3, ¿qué porcentaje de estudiantes está 'Totalmente de acuerdo' en que la infraestructura y espacios del programa contribuyen a su bienestar?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,252,"Según la Figura 9.4, ¿cómo calificaron los profesores los espacios académicos del programa (salones, salas y auditorios)?",1.0,0.875,1.0,0.9583333333333334,3
+openai_cs800__raft-llama3.1-8b__directo,directo,254,¿Qué acciones se implementaron para la inclusión de estudiantes con discapacidad visual en la Universidad?,0.8,1.0,0.8571428571428571,0.8857142857142857,3
+openai_cs800__raft-llama3.1-8b__directo,directo,256,¿Qué comités apoyan la toma de decisiones en la Vicerrectoría de Bienestar Universitario?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,257,¿Cuál fue el aumento porcentual en prácticas y pasantías en el semestre 2023-1 en comparación con 2020-2 y 2021-1?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,258,¿Qué oportunidades de mejoramiento se identificaron para el Factor 9 en el proceso de autoevaluación actual?,0.4,0.75,0.4,0.5166666666666666,3
+openai_cs800__raft-llama3.1-8b__directo,directo,259,¿Cuál fue la calificación y el grado de cumplimiento del Factor 12 'Recursos físicos y tecnológicos' en el proceso de autoevaluación actual?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,263,¿Qué dependencia de la Universidad es responsable de la administración de los recursos informáticos y de telecomunicaciones?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,264,"Según la Tabla 12.3, ¿cuál fue el ancho de banda internacional en el año 2023?",1.0,0.3333333333333333,1.0,0.7777777777777777,3
+openai_cs800__raft-llama3.1-8b__directo,directo,268,"Según la Tabla 12.6, ¿cuántas cuentas activas de estudiantes de pregrado había en el año 2023?",1.0,0.3333333333333333,,0.6666666666666666,2
+openai_cs800__raft-llama3.1-8b__directo,directo,269,¿Qué sistemas de información ha desarrollado la OITEL para la Universidad?,0.9166666666666666,0.9090909090909091,0.9166666666666666,0.914141414141414,3
+openai_cs800__raft-llama3.1-8b__directo,directo,271,¿Cuál fue el valor aproximado de los computadores asignados por la DACA para la Sala 5 en el período 2024-I?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,275,¿Cuántos servidores virtualizados con tecnología Vmware Vsphere tiene la Universidad?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,276,¿Qué servicios de videoconferencia ofrece la Universidad a la comunidad académica?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,277,¿Qué capacidad de almacenamiento centralizado (SAN) tiene la Universidad?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,279,¿Cuál fue la Resolución del Ministerio de Educación Nacional que otorgó la cuarta renovación de la acreditación en alta calidad al programa de Ingeniería en Sistemas en 2018?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,280,¿Cuántas Sedes Regionales conforman actualmente el Sistema de Regionalización de la Universidad del Valle?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,281,¿Cuál es la función principal de la Dirección de Autoevaluación y Calidad Académica (DACA) dentro del SIAC?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,282,"Según el documento, ¿cuáles son las primeras tres fases del modelo de autoevaluación que se mencionan específicamente para el caso de renovación de la acreditación en alta calidad?",1.0,0.75,,0.875,2
+openai_cs800__raft-llama3.1-8b__directo,directo,283,"Según el documento, ¿cuáles son las fuentes de información documental consideradas en el proceso de autoevaluación?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,284,¿Cómo se califican las fuentes de información documental y de opinión en el modelo de autoevaluación?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,285,¿Cuál es el intervalo de calificación para el grado de cumplimiento 'Plenamente' según la escala de valoración cualitativa?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,286,¿Qué estamentos participan como fuentes de información de opinión en el proceso de autoevaluación?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,287,¿Cuál es el propósito de la Fase 5 'Formulación del plan de mejoramiento' en el modelo de autoevaluación?,1.0,0.75,0.75,0.8333333333333334,3
+openai_cs800__raft-llama3.1-8b__directo,directo,288,¿Qué aspectos se definen en la Herramienta de seguimiento al cumplimiento al plan de mejoramiento (HSCPM)?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,290,¿Qué acciones se llevan a cabo en la Fase 12 'Rediseño y seguimiento al cumplimiento al plan de mejoramiento'?,0.1666666666666666,0.16666666666666666,0.2,0.17777777777777773,3
+openai_cs800__raft-llama3.1-8b__directo,directo,291,¿Cuál fue el nombre original de la Universidad del Valle y por qué fue creada?,1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,292,"Según el documento, ¿el programa de Ingeniería en Sistemas ha obtenido una acreditación internacional y, de ser así, cuál es?",1.0,1.0,1.0,1.0,3
+openai_cs800__raft-llama3.1-8b__directo,directo,293,¿Cuáles son los campos clave que se mencionan como fundamentales y se integran en el programa de Ingeniería en Sistemas?,0.8,1.0,,0.9,2
+openai_cs800__raft-llama3.1-8b__directo,directo,296,Compare los intervalos de calificación para los niveles de cumplimiento 'Alto Grado' e 'Insatisfactorio' según la Tabla 2.,1.0,1.0,0.8,0.9333333333333332,3

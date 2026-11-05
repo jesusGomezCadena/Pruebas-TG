@@ -1,0 +1,6 @@
+﻿Configuración,Fallos completos (total),"de ellos, preguntas de tabla",% de las preguntas de tabla
+OpenAI (cs800),44,31,24.409448818897637
+embeddinggemma (cs800),70,50,39.37007874015748
+bge-m3 denso (cs800),82,57,44.881889763779526
+"bge-m3 híbrido (cs800, k=5)",71,60,47.24409448818898
+"bge-m3 híbrido (cs800, k=10)",50,45,35.43307086614173

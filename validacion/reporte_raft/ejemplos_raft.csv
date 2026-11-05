@@ -1,0 +1,4 @@
+﻿Partición,Ejemplos,Con documento dorado,Sin documento dorado,Proporción con dorado (P),Documento dorado de texto,Documento dorado de tabla,Documentos por ejemplo,"Tokens por ejemplo, mediana","Tokens por ejemplo, p95","Tokens por ejemplo, máximo"
+Entrenamiento,3898,3089,809,0.792,3303,595,5,1227,1585,2594
+Evaluación,194,149,45,0.768,155,39,5,1219,1737,2134
+Total,4092,3238,854,0.791,3458,634,5,1227,1591,2594

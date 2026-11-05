@@ -1,0 +1,35 @@
+﻿Estado,Grupo,Chequeo,Detalle
+OK,A. Archivos,"Existen todas las fuentes, tablas y figuras","30 fuentes, 11 tablas, 2 figuras"
+OK,B. Generaciones,Estan las 10 combinaciones openai_cs800 (4 Claude + 3 RAFT + 3 base),
+OK,B. Generaciones,Claude tiene 196 preguntas,196
+OK,B. Generaciones,Las 10 combinaciones tienen exactamente las mismas preguntas,
+OK,B. Generaciones,Contextos y respuesta esperada identicos en todos los modelos (por pregunta),1960 respuestas comparadas
+OK,B. Generaciones,Llama 3.1 8B + RAFT: sin respuestas vacias ni contexto truncado,"vacias=0, truncadas=0"
+OK,B. Generaciones,Llama 3.1 8B + RAFT: datos reales de Ollama (no simulados),"latencia mediana 9.6 s, tokens de entrada min 925, textos 'simulado' 0"
+OK,B. Generaciones,Llama 3.1 8B (base): sin respuestas vacias ni contexto truncado,"vacias=0, truncadas=0"
+OK,B. Generaciones,Llama 3.1 8B (base): datos reales de Ollama (no simulados),"latencia mediana 11.1 s, tokens de entrada min 900, textos 'simulado' 0"
+OK,B. Generaciones,RAFT y base generados con los mismos parametros y el modelo declarado correcto,"num_ctx=8192, temperature=0, seed=42"
+OK,C. RAGAS,Cada checkpoint de RAGAS evaluo exactamente las respuestas guardadas (10 combinaciones),196 filas unicas por combinacion; texto evaluado = respuesta_generada
+OK,C. RAGAS,evaluacion_generacion_detalle_raft.csv = checkpoints de RAGAS,diferencia maxima 0.0e+00
+OK,C. RAGAS,evaluacion_generacion_detalle_base.csv = checkpoints de RAGAS,diferencia maxima 0.0e+00
+OK,C. RAGAS,evaluacion_generacion_detalle.csv = checkpoints de RAGAS,diferencia maxima 0.0e+00
+OK,C. RAGAS,evaluacion_generacion_resumen_raft.csv = promedio de los checkpoints,diferencia maxima 1.1e-16
+OK,C. RAGAS,evaluacion_generacion_resumen_base.csv = promedio de los checkpoints,diferencia maxima 2.2e-16
+OK,C. RAGAS,"Metricas sin puntaje del juez (se reportan, no se imputan)","7 de 7840: {'Haiku 4.5/directo': 1, 'Llama 3.1 8B + RAFT/raft': 4, 'Llama 3.1 8B + RAFT/directo': 2}"
+OK,D. Corpus y entrenamiento,corpus_fuente.csv coincide con los JSON del corpus,"5087 pares, 1750 chunks"
+OK,D. Corpus y entrenamiento,corpus_embudo.csv cuadra de punta a punta (corpus → cache → ejemplos → jsonl),5087 → 4397 → 4092 (3898 + 194)
+OK,D. Corpus y entrenamiento,Sin fuga: ninguna pregunta de validacion en el entrenamiento; train/eval sin chunk dorado comun,"preguntas identicas=0, chunks compartidos=0"
+OK,D. Corpus y entrenamiento,ejemplos_raft.csv coincide con raft_completo.jsonl,P real = 0.791
+OK,D. Corpus y entrenamiento,entrenamiento.csv coincide con config y log de Kaggle,"429.5 min en Tesla T4, 488 pasos"
+OK,D. Corpus y entrenamiento,Kaggle entreno con los mismos archivos del corpus (conteos),config 3898/194 vs jsonl 3898/194
+OK,D. Corpus y entrenamiento,perdida.csv contiene todos los puntos del log,"48 de entrenamiento, 5 de evaluacion"
+OK,E. Tablas de resultados,metricas_generacion.csv = promedios recalculados de los checkpoints (10 filas),10 combinaciones
+OK,E. Tablas de resultados,wilcoxon_raft.csv = Wilcoxon + Holm recalculados (8 comparaciones × 5 pruebas),"40 pruebas, incluidas las 3 de RAFT frente a base"
+OK,E. Tablas de resultados,"comportamiento.csv = recalculo desde las respuestas (abstenciones, fallas, citas, latencia)",10 combinaciones
+OK,E. Tablas de resultados,por_tipo_evidencia.csv = recalculo por tipo de evidencia,10 combinaciones
+OK,E. Tablas de resultados,reporte_raft.xlsx tiene las mismas tablas que los CSV,10 hojas
+OK,F. Figuras y vigencia,promedio_compuesto_raft_vs_claude.png es una imagen valida,1600×1020 px
+OK,F. Figuras y vigencia,perdida_entrenamiento.png es una imagen valida,1400×680 px
+OK,F. Figuras y vigencia,Tablas y figuras son posteriores a la fuente mas reciente,fuente mas reciente: evaluacion_generacion_resumen_base.csv (2026-10-28 10:01)
+OK,F. Figuras y vigencia,La figura del promedio compuesto incluye al modelo base (generada despues de su evaluacion),
+AVISO,G. Orden,Archivos de versiones anteriores que ningun reporte usa (se pueden borrar),"reporte_raft_v2, validacion_respuestas_con_raft.csv, resultados_generacion_llm_con_raft.json"

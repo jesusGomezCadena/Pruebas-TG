@@ -1,0 +1,17 @@
+﻿Concepto,Valor
+Páginas del documento,330
+Fragmentos PDF (de hasta 15 páginas),22
+Modelo generador de pares,meta-llama/llama-3.3-70b-instruct
+Pares solicitados por chunk,3
+Chunks con al menos un par,1750
+Chunks de texto,1484
+Chunks de tabla,266
+"Tokens por chunk (mediana, cl100k)",165.0
+Tokens por chunk (máximo),739
+Pares tras la revisión manual,5087
+Pares de texto,4303
+Pares de tabla,784
+Pares con nota del revisor,65
+Chunks con 3 pares,1523
+Chunks con menos de 3 pares,185
+Chunks con más de 3 pares,42

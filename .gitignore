@@ -1,0 +1,30 @@
+# Credenciales: nunca se suben
+.env
+.env.*
+datasets/
+
+# Entornos y archivos generados por Python / Jupyter
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Bases vectoriales locales de Qdrant (se regeneran con los notebooks)
+qdrant_data*/
+
+# Modelos locales pesados (RAFT en Ollama)
+*.gguf
+modelos/
+
+# Datos y carpetas de trabajo que no hacen parte del repositorio
+Claude outputs/
+
+# Archivos parciales de corridas interrumpidas
+*.parcial.json
+
+# Archivos del sistema y temporales de Office
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

@@ -1,0 +1,14 @@
+﻿Configuración,n preguntas,n esperado,Mismos ids que las demás,Ids duplicados,Tiempos faltantes,Tiempos negativos,Contextos idénticos a la evaluación,Archivo
+OpenAI 3-large | cs300 | Denso (base),296,296,True,0,0,0,282,resultados_retrieval_2_latencia.json
+OpenAI 3-large | cs500 | Denso (base),296,296,True,0,0,0,287,resultados_retrieval_2_latencia.json
+OpenAI 3-large | cs800 | Denso (base),296,296,True,0,0,0,284,resultados_retrieval_2_latencia.json
+OpenAI 3-large | cs800 | Híbrido sin rerank,296,296,True,0,0,0,295,resultados_retrieval_openai_mejorado_latencia.json
+OpenAI 3-large | cs800 | Híbrido + rerank,296,296,True,0,0,0,295,resultados_retrieval_openai_mejorado_latencia.json
+BGE-m3 | cs300 | Denso (base),296,296,True,0,0,0,296,resultados_retrieval_2_latencia.json
+BGE-m3 | cs500 | Denso (base),296,296,True,0,0,0,296,resultados_retrieval_2_latencia.json
+BGE-m3 | cs800 | Denso (base),296,296,True,0,0,0,296,resultados_retrieval_2_latencia.json
+BGE-m3 | cs800 | Híbrido sin rerank,296,296,True,0,0,0,296,resultados_retrieval_bge_m3_mejorado_latencia.json
+BGE-m3 | cs800 | Híbrido + rerank,296,296,True,0,0,0,296,resultados_retrieval_bge_m3_mejorado_latencia.json
+EmbeddingGemma-300m | cs300 | Denso (base),296,296,True,0,0,0,296,resultados_retrieval_2_latencia.json
+EmbeddingGemma-300m | cs500 | Denso (base),296,296,True,0,0,0,296,resultados_retrieval_2_latencia.json
+EmbeddingGemma-300m | cs800 | Denso (base),296,296,True,0,0,0,296,resultados_retrieval_2_latencia.json

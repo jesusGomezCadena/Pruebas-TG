@@ -1,0 +1,3 @@
+﻿Métrica sin LLM,% de filas en cero,Correlación de Pearson con la versión LLM,Correlación de Spearman con la versión LLM
+non_llm_context_precision_with_reference,95.39092664092664,0.10607526721986556,0.0869133610089396
+non_llm_context_recall,95.39092664092664,0.1151950243676771,0.10489047414396475

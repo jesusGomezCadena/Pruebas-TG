@@ -1,0 +1,13 @@
+﻿Etapa,Pares,Tipo de filtro
+Pares del corpus fuente (revisados a mano),5087,
+Duplicados dentro del mismo chunk,-2,Limpieza
+Pregunta idéntica a una de validación,-5,Exclusión de validación (léxica)
+Pregunta similar a una de validación (Jaccard ≥ 0.6),-64,Exclusión de validación (léxica)
+Mismo hecho que una evidencia de validación,-619,Exclusión de validación (por evidencia)
+Pares enviados al LLM,4397,Subtotal
+Descartados por el LLM (control de calidad),-73,Control de calidad
+Fallidos (citas no literales tras 3 intentos),-82,Verificación de citas
+Marcados por el LLM como mismo hecho que validación,-150,Exclusión de validación (semántica)
+Ejemplos RAFT finales,4092,Total
+  de entrenamiento,3898,
+  de evaluación (monitoreo de la pérdida),194,

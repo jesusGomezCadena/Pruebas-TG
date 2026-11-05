@@ -1,0 +1,4 @@
+combinacion,pipeline_retrieve,modelo_llm,estilo_prompt,faithfulness,answer_relevancy,answer_correctness,semantic_similarity,n_preguntas,metricas_nulas,promedio_4_metricas,fallas_modelo,abstenciones,pct_citas_literales
+openai_cs800__llama3.1-8b-base__directo,openai_cs800,llama3.1-8b-base,directo,0.8443958535795271,0.6122718649148648,0.6336562350983765,0.720385748424707,196,0,0.7026774255043688,0,9,
+openai_cs800__llama3.1-8b-base__estructurado,openai_cs800,llama3.1-8b-base,estructurado,0.8859815354713314,0.6519247121238563,0.6592721452147127,0.7390644370246743,196,0,0.7340607074586436,2,4,
+openai_cs800__llama3.1-8b-base__raft,openai_cs800,llama3.1-8b-base,raft,0.919930388489062,0.6872475073328999,0.6481023556308956,0.7075023220198678,196,0,0.7406956433681814,34,3,72.9

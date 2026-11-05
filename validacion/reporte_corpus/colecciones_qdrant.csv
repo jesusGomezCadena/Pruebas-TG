@@ -1,0 +1,16 @@
+﻿Carpeta,Colección,Fragmentos,De texto,De tabla,Texto: largo medio (car.),Tabla: largo medio (car.),Tablas > 3000 car.,Tabla más larga (car.)
+base (9 configuraciones),rag_openai_text_embedding_3_large_cs300,973,751,222,861.7137150466045,764.527027027027,5,6795.0
+base (9 configuraciones),rag_openai_text_embedding_3_large_cs500,638,416,222,1558.5216346153845,764.527027027027,5,6795.0
+base (9 configuraciones),rag_openai_text_embedding_3_large_cs800,467,245,222,2649.069387755102,764.527027027027,5,6795.0
+base (9 configuraciones),rag_baai_bge_m3_cs300,831,609,222,1063.3858784893268,764.527027027027,5,6795.0
+base (9 configuraciones),rag_baai_bge_m3_cs500,560,338,222,1919.103550295858,764.527027027027,5,6795.0
+base (9 configuraciones),rag_baai_bge_m3_cs800,422,200,222,3245.82,764.527027027027,5,6795.0
+base (9 configuraciones),rag_google_embeddinggemma_300m_cs300,844,622,222,1041.1382636655949,764.527027027027,5,6795.0
+base (9 configuraciones),rag_google_embeddinggemma_300m_cs500,572,350,222,1853.162857142857,764.527027027027,5,6795.0
+base (9 configuraciones),rag_google_embeddinggemma_300m_cs800,430,208,222,3120.783653846154,764.527027027027,5,6795.0
+híbrido BGE-m3,rag_baai_bge_m3_hibrido_cs500,0,0,0,,,0,
+híbrido BGE-m3,rag_baai_bge_m3_hibrido_cs800,422,200,222,3245.82,764.527027027027,5,6795.0
+BGE-m3 híbrido (tamaño 800),rag_bge_m3_hibrido_cs800,422,200,222,3245.82,764.527027027027,5,6795.0
+pipeline mejorado,rag_mejorado_bge_m3_cs800,427,204,223,3243.921568627451,705.219730941704,1,3116.0
+pipeline mejorado,rag_mejorado_openai_cs800,472,249,223,2657.0321285140562,705.219730941704,1,3116.0
+producción (configuraciones finales),rag_openai_cs800,467,245,222,2649.069387755102,764.527027027027,5,6795.0

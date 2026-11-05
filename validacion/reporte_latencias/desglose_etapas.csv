@@ -1,0 +1,27 @@
+﻿Configuración,Modelo,Chunk size,Variante,Etapa,Media (ms),Mediana (ms),P95 (ms),% de la media total
+OpenAI 3-large | cs300 | Denso (base),OpenAI 3-large,300,Denso (base),Embedding de la consulta,649.5775239865809,614.1783999919426,822.899624981801,95.93999306651548
+OpenAI 3-large | cs300 | Denso (base),OpenAI 3-large,300,Denso (base),Búsqueda densa,27.48894560991667,29.692499985685572,35.927350050769746,4.060006933484521
+OpenAI 3-large | cs500 | Denso (base),OpenAI 3-large,500,Denso (base),Embedding de la consulta,649.5775239865809,614.1783999919426,822.899624981801,97.16102030182428
+OpenAI 3-large | cs500 | Denso (base),OpenAI 3-large,500,Denso (base),Búsqueda densa,18.980218582107007,20.55054999073036,24.59519998228643,2.8389796981757294
+OpenAI 3-large | cs800 | Denso (base),OpenAI 3-large,800,Denso (base),Embedding de la consulta,649.5775239865809,614.1783999919426,822.899624981801,97.78856342677541
+OpenAI 3-large | cs800 | Denso (base),OpenAI 3-large,800,Denso (base),Búsqueda densa,14.689851689704605,15.781300025992095,18.521125020924956,2.2114365732245966
+OpenAI 3-large | cs800 | Híbrido + rerank,OpenAI 3-large,800,Híbrido + rerank,Embedding de la consulta,999.7407969591173,1000.6575499937753,1440.211224995437,2.083754906337088
+OpenAI 3-large | cs800 | Híbrido + rerank,OpenAI 3-large,800,Híbrido + rerank,Búsqueda dispersa,2.207364190080379,2.1741000018664636,2.928524998424109,0.0046007985021150185
+OpenAI 3-large | cs800 | Híbrido + rerank,OpenAI 3-large,800,Híbrido + rerank,Búsqueda densa + RRF,7.616229390682625,7.583000005979557,8.252924999396782,0.015874470071538593
+OpenAI 3-large | cs800 | Híbrido + rerank,OpenAI 3-large,800,Híbrido + rerank,Rerank (cross-encoder),46968.285303717304,47080.271500009985,48545.99362500085,97.89576982508927
+BGE-m3 | cs300 | Denso (base),BGE-m3,300,Denso (base),Embedding de la consulta,254.7012260138463,263.2129499979783,339.86392499355134,97.57959397824067
+BGE-m3 | cs300 | Denso (base),BGE-m3,300,Denso (base),Búsqueda densa,6.317718244768125,6.086949986638501,9.48572502238676,2.420406021759327
+BGE-m3 | cs500 | Denso (base),BGE-m3,500,Denso (base),Embedding de la consulta,254.7012260138463,263.2129499979783,339.86392499355134,98.46549777011951
+BGE-m3 | cs500 | Denso (base),BGE-m3,500,Denso (base),Búsqueda densa,3.969305067486759,3.83289999444969,5.677724984707311,1.5345022298804887
+BGE-m3 | cs800 | Denso (base),BGE-m3,800,Denso (base),Embedding de la consulta,254.7012260138463,263.2129499979783,339.86392499355134,98.52960119235017
+BGE-m3 | cs800 | Denso (base),BGE-m3,800,Denso (base),Búsqueda densa,3.801013852746503,3.6046500026714057,5.81154998508282,1.4703988076498373
+BGE-m3 | cs800 | Híbrido + rerank,BGE-m3,800,Híbrido + rerank,Embedding de la consulta,288.6553864874578,286.59535000042524,329.83570000578766,0.6223888716073418
+BGE-m3 | cs800 | Híbrido + rerank,BGE-m3,800,Híbrido + rerank,Búsqueda dispersa,2.634841553682801,2.534949999244418,3.625399993325118,0.005681155239872956
+BGE-m3 | cs800 | Híbrido + rerank,BGE-m3,800,Híbrido + rerank,Búsqueda densa + RRF,2.723103715922932,2.703700003621634,3.3493750015622936,0.005871463095308198
+BGE-m3 | cs800 | Híbrido + rerank,BGE-m3,800,Híbrido + rerank,Rerank (cross-encoder),46084.60936790574,46753.58504999895,48032.239824999124,99.36605851005747
+EmbeddingGemma-300m | cs300 | Denso (base),EmbeddingGemma-300m,300,Denso (base),Embedding de la consulta,113.85236993432832,109.98100001597777,171.64797498844564,96.23826383032707
+EmbeddingGemma-300m | cs300 | Denso (base),EmbeddingGemma-300m,300,Denso (base),Búsqueda densa,4.450231757505822,4.110100009711459,7.174999976996332,3.7617361696729277
+EmbeddingGemma-300m | cs500 | Denso (base),EmbeddingGemma-300m,500,Denso (base),Embedding de la consulta,113.85236993432832,109.98100001597777,171.64797498844564,97.10270452557454
+EmbeddingGemma-300m | cs500 | Denso (base),EmbeddingGemma-300m,500,Denso (base),Búsqueda densa,3.3970624997006804,3.095799998845905,5.488275026436895,2.8972954744254777
+EmbeddingGemma-300m | cs800 | Denso (base),EmbeddingGemma-300m,800,Denso (base),Embedding de la consulta,113.85236993432832,109.98100001597777,171.64797498844564,98.09377555890272
+EmbeddingGemma-300m | cs800 | Denso (base),EmbeddingGemma-300m,800,Denso (base),Búsqueda densa,2.2124560810216525,2.1173999994061887,3.279450029367581,1.9062244410972948

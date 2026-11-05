@@ -1,0 +1,2726 @@
+{
+  "modelo_embedding": "BAAI/bge-m3",
+  "chunk_size": 800,
+  "tipo_busqueda": "hibrida_dense_sparse_rrf_rerank",
+  "coleccion": "rag_mejorado_bge_m3_cs800",
+  "k": 5,
+  "total_preguntas": 296,
+  "metodo": "una consulta a la vez; calentamiento de 5 consultas; pipelines intercalados con orden alternado; rerank medido envolviendo reranker.compute_score",
+  "contextos_identicos_a_evaluacion": 296,
+  "resumen_latencias_ms": {
+    "embedding_consulta": {
+      "media_ms": 288.6553864874578,
+      "mediana_ms": 286.59535000042524,
+      "p95_ms": 329.83570000578766,
+      "min_ms": 242.1494000009261,
+      "max_ms": 374.433200006024,
+      "desv_std_ms": 21.963238396578916
+    },
+    "busqueda_dispersa": {
+      "media_ms": 2.634841553682801,
+      "mediana_ms": 2.534949999244418,
+      "p95_ms": 3.625399993325118,
+      "min_ms": 1.3172000035410747,
+      "max_ms": 4.302500004996546,
+      "desv_std_ms": 0.5842962390469549
+    },
+    "busqueda_densa_y_rrf": {
+      "media_ms": 2.723103715922932,
+      "mediana_ms": 2.703700003621634,
+      "p95_ms": 3.3493750015622936,
+      "min_ms": 2.050700000836514,
+      "max_ms": 3.983300004620105,
+      "desv_std_ms": 0.3865089797231893
+    },
+    "rerank": {
+      "media_ms": 46084.60936790574,
+      "mediana_ms": 46753.58504999895,
+      "p95_ms": 48032.239824999124,
+      "min_ms": 36551.39199999394,
+      "max_ms": 50789.69010000583,
+      "desv_std_ms": 2075.3535516343077
+    },
+    "total_sin_rerank": {
+      "media_ms": 294.01333175706355,
+      "mediana_ms": 291.78655000578146,
+      "p95_ms": 335.7897749992844,
+      "min_ms": 246.06130000029225,
+      "max_ms": 379.144600010477,
+      "desv_std_ms": 22.325324783623447
+    },
+    "total": {
+      "media_ms": 46378.6226996628,
+      "mediana_ms": 47049.75184999785,
+      "p95_ms": 48316.14159999663,
+      "min_ms": 36834.35449999524,
+      "max_ms": 51118.83619999571,
+      "desv_std_ms": 2076.661526979299
+    }
+  },
+  "latencias_por_pregunta_ms": [
+    {
+      "id": 1,
+      "embedding_consulta": 270.06249999976717,
+      "busqueda_dispersa": 2.499599999282509,
+      "busqueda_densa_y_rrf": 3.3583000040380284,
+      "rerank": 42013.57719999214,
+      "total_sin_rerank": 275.9204000030877,
+      "total": 42289.49759999523
+    },
+    {
+      "id": 2,
+      "embedding_consulta": 283.1082999909995,
+      "busqueda_dispersa": 3.5733000113395974,
+      "busqueda_densa_y_rrf": 2.8719999827444553,
+      "rerank": 46736.91570000665,
+      "total_sin_rerank": 289.55359998508357,
+      "total": 47026.46929999173
+    },
+    {
+      "id": 3,
+      "embedding_consulta": 262.3182999959681,
+      "busqueda_dispersa": 2.0663000032072887,
+      "busqueda_densa_y_rrf": 2.3699000012129545,
+      "rerank": 42276.97469999839,
+      "total_sin_rerank": 266.75450000038836,
+      "total": 42543.72919999878
+    },
+    {
+      "id": 4,
+      "embedding_consulta": 262.8926999896066,
+      "busqueda_dispersa": 2.0957000087946653,
+      "busqueda_densa_y_rrf": 2.639899990754202,
+      "rerank": 47113.36660000961,
+      "total_sin_rerank": 267.6282999891555,
+      "total": 47380.99489999877
+    },
+    {
+      "id": 5,
+      "embedding_consulta": 249.98600000981241,
+      "busqueda_dispersa": 2.316599988262169,
+      "busqueda_densa_y_rrf": 2.5680999970063567,
+      "rerank": 46740.01490000228,
+      "total_sin_rerank": 254.87069999508094,
+      "total": 46994.88559999736
+    },
+    {
+      "id": 6,
+      "embedding_consulta": 302.2999999957392,
+      "busqueda_dispersa": 1.9868999952450395,
+      "busqueda_densa_y_rrf": 3.12990001111757,
+      "rerank": 45305.32269999094,
+      "total_sin_rerank": 307.4168000021018,
+      "total": 45612.73949999304
+    },
+    {
+      "id": 7,
+      "embedding_consulta": 313.58619999082293,
+      "busqueda_dispersa": 2.5327000039396808,
+      "busqueda_densa_y_rrf": 2.782600000500679,
+      "rerank": 46763.9513000031,
+      "total_sin_rerank": 318.9014999952633,
+      "total": 47082.85279999836
+    },
+    {
+      "id": 8,
+      "embedding_consulta": 271.3008999999147,
+      "busqueda_dispersa": 3.0867000023135915,
+      "busqueda_densa_y_rrf": 2.856399994925596,
+      "rerank": 47311.057800005074,
+      "total_sin_rerank": 277.2439999971539,
+      "total": 47588.30180000223
+    },
+    {
+      "id": 9,
+      "embedding_consulta": 281.91590000642464,
+      "busqueda_dispersa": 2.389400004176423,
+      "busqueda_densa_y_rrf": 2.1062000014353544,
+      "rerank": 47963.99609999207,
+      "total_sin_rerank": 286.4115000120364,
+      "total": 48250.40760000411
+    },
+    {
+      "id": 10,
+      "embedding_consulta": 272.4961999920197,
+      "busqueda_dispersa": 3.3700000058161095,
+      "busqueda_densa_y_rrf": 3.252000009524636,
+      "rerank": 47771.35179999459,
+      "total_sin_rerank": 279.11820000736043,
+      "total": 48050.47000000195
+    },
+    {
+      "id": 11,
+      "embedding_consulta": 249.6155999979237,
+      "busqueda_dispersa": 1.778499994543381,
+      "busqueda_densa_y_rrf": 2.4437999963993207,
+      "rerank": 47316.10989999899,
+      "total_sin_rerank": 253.8378999888664,
+      "total": 47569.94779998786
+    },
+    {
+      "id": 12,
+      "embedding_consulta": 301.57369999506045,
+      "busqueda_dispersa": 3.8526999996975064,
+      "busqueda_densa_y_rrf": 2.906900001107715,
+      "rerank": 48758.275400003185,
+      "total_sin_rerank": 308.3332999958657,
+      "total": 49066.60869999905
+    },
+    {
+      "id": 13,
+      "embedding_consulta": 286.64479999861214,
+      "busqueda_dispersa": 2.488500002073124,
+      "busqueda_densa_y_rrf": 2.9211999935796484,
+      "rerank": 47860.487300000386,
+      "total_sin_rerank": 292.0544999942649,
+      "total": 48152.54179999465
+    },
+    {
+      "id": 14,
+      "embedding_consulta": 260.3491999907419,
+      "busqueda_dispersa": 2.226700002211146,
+      "busqueda_densa_y_rrf": 2.5806999910855666,
+      "rerank": 42229.722600008245,
+      "total_sin_rerank": 265.1565999840386,
+      "total": 42494.87919999228
+    },
+    {
+      "id": 15,
+      "embedding_consulta": 264.9119000125211,
+      "busqueda_dispersa": 3.6201999901095405,
+      "busqueda_densa_y_rrf": 3.1054999999469146,
+      "rerank": 47058.94930000068,
+      "total_sin_rerank": 271.6376000025775,
+      "total": 47330.586900003254
+    },
+    {
+      "id": 16,
+      "embedding_consulta": 277.86819999164436,
+      "busqueda_dispersa": 2.4258000048575923,
+      "busqueda_densa_y_rrf": 2.628200003528036,
+      "rerank": 46097.638799998094,
+      "total_sin_rerank": 282.92220000003,
+      "total": 46380.560999998124
+    },
+    {
+      "id": 17,
+      "embedding_consulta": 266.1872000026051,
+      "busqueda_dispersa": 2.1540000016102567,
+      "busqueda_densa_y_rrf": 2.388800014159642,
+      "rerank": 46363.2840999926,
+      "total_sin_rerank": 270.730000018375,
+      "total": 46634.01410001097
+    },
+    {
+      "id": 18,
+      "embedding_consulta": 308.4897000080673,
+      "busqueda_dispersa": 2.716100003453903,
+      "busqueda_densa_y_rrf": 3.0150999955367297,
+      "rerank": 47819.12079999165,
+      "total_sin_rerank": 314.22090000705793,
+      "total": 48133.34169999871
+    },
+    {
+      "id": 19,
+      "embedding_consulta": 281.9657000072766,
+      "busqueda_dispersa": 3.001399993081577,
+      "busqueda_densa_y_rrf": 2.949900008388795,
+      "rerank": 47539.701899993815,
+      "total_sin_rerank": 287.917000008747,
+      "total": 47827.61890000256
+    },
+    {
+      "id": 20,
+      "embedding_consulta": 284.8916999937501,
+      "busqueda_dispersa": 3.5128000017721206,
+      "busqueda_densa_y_rrf": 2.7698999911081046,
+      "rerank": 47464.40660000371,
+      "total_sin_rerank": 291.1743999866303,
+      "total": 47755.58099999034
+    },
+    {
+      "id": 21,
+      "embedding_consulta": 307.34870000742376,
+      "busqueda_dispersa": 3.5872000007657334,
+      "busqueda_densa_y_rrf": 2.7979000005871058,
+      "rerank": 47574.9622000003,
+      "total_sin_rerank": 313.7338000087766,
+      "total": 47888.69600000908
+    },
+    {
+      "id": 22,
+      "embedding_consulta": 287.5461999938125,
+      "busqueda_dispersa": 1.6297999973176047,
+      "busqueda_densa_y_rrf": 2.096199998049997,
+      "rerank": 46295.507000002544,
+      "total_sin_rerank": 291.2721999891801,
+      "total": 46586.779199991724
+    },
+    {
+      "id": 23,
+      "embedding_consulta": 311.036500002956,
+      "busqueda_dispersa": 2.420700009679422,
+      "busqueda_densa_y_rrf": 2.690900000743568,
+      "rerank": 46212.67809999699,
+      "total_sin_rerank": 316.148100013379,
+      "total": 46528.82620001037
+    },
+    {
+      "id": 24,
+      "embedding_consulta": 260.5829999956768,
+      "busqueda_dispersa": 1.9456000009085983,
+      "busqueda_densa_y_rrf": 2.260900000692345,
+      "rerank": 47345.5008000019,
+      "total_sin_rerank": 264.78949999727774,
+      "total": 47610.29029999918
+    },
+    {
+      "id": 25,
+      "embedding_consulta": 324.413900001673,
+      "busqueda_dispersa": 2.5889000098686665,
+      "busqueda_densa_y_rrf": 2.98389999079518,
+      "rerank": 47768.43569999619,
+      "total_sin_rerank": 329.9867000023369,
+      "total": 48098.422399998526
+    },
+    {
+      "id": 26,
+      "embedding_consulta": 267.32840000477154,
+      "busqueda_dispersa": 2.1484999888343737,
+      "busqueda_densa_y_rrf": 2.9808000108459964,
+      "rerank": 46437.438199995086,
+      "total_sin_rerank": 272.4577000044519,
+      "total": 46709.89589999954
+    },
+    {
+      "id": 27,
+      "embedding_consulta": 258.70380000560544,
+      "busqueda_dispersa": 1.9657999946502969,
+      "busqueda_densa_y_rrf": 2.1502999879885465,
+      "rerank": 46569.26080000994,
+      "total_sin_rerank": 262.8198999882443,
+      "total": 46832.08069999819
+    },
+    {
+      "id": 28,
+      "embedding_consulta": 290.62829999020323,
+      "busqueda_dispersa": 2.2976000036578625,
+      "busqueda_densa_y_rrf": 2.1117000142112374,
+      "rerank": 47346.743599991896,
+      "total_sin_rerank": 295.03760000807233,
+      "total": 47641.78119999997
+    },
+    {
+      "id": 29,
+      "embedding_consulta": 268.2972000038717,
+      "busqueda_dispersa": 2.1681999933207408,
+      "busqueda_densa_y_rrf": 2.21280001278501,
+      "rerank": 47241.94819999684,
+      "total_sin_rerank": 272.67820000997745,
+      "total": 47514.62640000682
+    },
+    {
+      "id": 30,
+      "embedding_consulta": 309.12559998978395,
+      "busqueda_dispersa": 2.0973000064259395,
+      "busqueda_densa_y_rrf": 2.7341000095475465,
+      "rerank": 48567.27289999253,
+      "total_sin_rerank": 313.95700000575744,
+      "total": 48881.22989999829
+    },
+    {
+      "id": 31,
+      "embedding_consulta": 269.64320000843145,
+      "busqueda_dispersa": 2.4179999891202897,
+      "busqueda_densa_y_rrf": 2.2065000084694475,
+      "rerank": 48635.60110000253,
+      "total_sin_rerank": 274.2677000060212,
+      "total": 48909.86880000855
+    },
+    {
+      "id": 32,
+      "embedding_consulta": 292.25440000300296,
+      "busqueda_dispersa": 2.2108999983174726,
+      "busqueda_densa_y_rrf": 2.398999989964068,
+      "rerank": 46868.90190000122,
+      "total_sin_rerank": 296.8642999912845,
+      "total": 47165.766199992504
+    },
+    {
+      "id": 33,
+      "embedding_consulta": 307.1102000103565,
+      "busqueda_dispersa": 3.187499998603016,
+      "busqueda_densa_y_rrf": 3.0078999989200383,
+      "rerank": 46596.846400003415,
+      "total_sin_rerank": 313.30560000787955,
+      "total": 46910.152000011294
+    },
+    {
+      "id": 34,
+      "embedding_consulta": 283.7721999967471,
+      "busqueda_dispersa": 2.0598000119207427,
+      "busqueda_densa_y_rrf": 2.703599995584227,
+      "rerank": 47037.6777999918,
+      "total_sin_rerank": 288.53560000425205,
+      "total": 47326.21339999605
+    },
+    {
+      "id": 35,
+      "embedding_consulta": 282.87249999993946,
+      "busqueda_dispersa": 2.720499993301928,
+      "busqueda_densa_y_rrf": 2.1770000021206215,
+      "rerank": 47063.283199997386,
+      "total_sin_rerank": 287.769999995362,
+      "total": 47351.05319999275
+    },
+    {
+      "id": 36,
+      "embedding_consulta": 256.439800010412,
+      "busqueda_dispersa": 2.125599989085458,
+      "busqueda_densa_y_rrf": 2.6704000047175214,
+      "rerank": 46875.95119999605,
+      "total_sin_rerank": 261.235800004215,
+      "total": 47137.18700000027
+    },
+    {
+      "id": 37,
+      "embedding_consulta": 286.7291999864392,
+      "busqueda_dispersa": 2.334900011192076,
+      "busqueda_densa_y_rrf": 2.201799987233244,
+      "rerank": 47217.64410000469,
+      "total_sin_rerank": 291.2658999848645,
+      "total": 47508.909999989555
+    },
+    {
+      "id": 38,
+      "embedding_consulta": 281.14540000387933,
+      "busqueda_dispersa": 2.0850000000791624,
+      "busqueda_densa_y_rrf": 2.844100003130734,
+      "rerank": 48009.955899993656,
+      "total_sin_rerank": 286.0745000070892,
+      "total": 48296.030400000745
+    },
+    {
+      "id": 39,
+      "embedding_consulta": 275.28760000132024,
+      "busqueda_dispersa": 1.9940999918617308,
+      "busqueda_densa_y_rrf": 3.426800001761876,
+      "rerank": 47815.67179999547,
+      "total_sin_rerank": 280.70849999494385,
+      "total": 48096.380299990415
+    },
+    {
+      "id": 40,
+      "embedding_consulta": 313.2863999926485,
+      "busqueda_dispersa": 3.343700009281747,
+      "busqueda_densa_y_rrf": 2.833799982909113,
+      "rerank": 47409.72920000786,
+      "total_sin_rerank": 319.4638999848394,
+      "total": 47729.1930999927
+    },
+    {
+      "id": 41,
+      "embedding_consulta": 282.3016999900574,
+      "busqueda_dispersa": 2.2022000048309565,
+      "busqueda_densa_y_rrf": 2.1826000011060387,
+      "rerank": 40078.295899991645,
+      "total_sin_rerank": 286.6864999959944,
+      "total": 40364.98239998764
+    },
+    {
+      "id": 42,
+      "embedding_consulta": 306.8608000030508,
+      "busqueda_dispersa": 3.04619999951683,
+      "busqueda_densa_y_rrf": 3.2510000019101426,
+      "rerank": 45864.134799994645,
+      "total_sin_rerank": 313.1580000044778,
+      "total": 46177.29279999912
+    },
+    {
+      "id": 43,
+      "embedding_consulta": 285.07769999851007,
+      "busqueda_dispersa": 2.5535000022500753,
+      "busqueda_densa_y_rrf": 2.868199997465126,
+      "rerank": 46762.937799998326,
+      "total_sin_rerank": 290.4993999982253,
+      "total": 47053.43719999655
+    },
+    {
+      "id": 44,
+      "embedding_consulta": 306.9744999957038,
+      "busqueda_dispersa": 3.3573999971849844,
+      "busqueda_densa_y_rrf": 3.013699999428354,
+      "rerank": 47963.40969999437,
+      "total_sin_rerank": 313.34559999231715,
+      "total": 48276.75529998669
+    },
+    {
+      "id": 45,
+      "embedding_consulta": 271.0382000077516,
+      "busqueda_dispersa": 2.418699994450435,
+      "busqueda_densa_y_rrf": 2.7513000095495954,
+      "rerank": 46253.36509999761,
+      "total_sin_rerank": 276.2082000117516,
+      "total": 46529.57330000936
+    },
+    {
+      "id": 46,
+      "embedding_consulta": 275.5914000008488,
+      "busqueda_dispersa": 3.3069000055547804,
+      "busqueda_densa_y_rrf": 2.9052000027149916,
+      "rerank": 48208.72419999796,
+      "total_sin_rerank": 281.8035000091186,
+      "total": 48490.52770000708
+    },
+    {
+      "id": 47,
+      "embedding_consulta": 293.8838999980362,
+      "busqueda_dispersa": 2.9762000049231574,
+      "busqueda_densa_y_rrf": 2.6953000196954235,
+      "rerank": 47862.379699989106,
+      "total_sin_rerank": 299.5554000226548,
+      "total": 48161.93510001176
+    },
+    {
+      "id": 48,
+      "embedding_consulta": 330.0688000017544,
+      "busqueda_dispersa": 4.058100006659515,
+      "busqueda_densa_y_rrf": 3.376000007847324,
+      "rerank": 46535.70879998733,
+      "total_sin_rerank": 337.50290001626126,
+      "total": 46873.211700003594
+    },
+    {
+      "id": 49,
+      "embedding_consulta": 286.54590000223834,
+      "busqueda_dispersa": 2.1542000031331554,
+      "busqueda_densa_y_rrf": 2.7426000160630792,
+      "rerank": 46519.86069999111,
+      "total_sin_rerank": 291.4427000214346,
+      "total": 46811.30340001255
+    },
+    {
+      "id": 50,
+      "embedding_consulta": 353.94230000383686,
+      "busqueda_dispersa": 4.107400003704242,
+      "busqueda_densa_y_rrf": 3.913799999281764,
+      "rerank": 39984.7596000036,
+      "total_sin_rerank": 361.96350000682287,
+      "total": 40346.72310001042
+    },
+    {
+      "id": 51,
+      "embedding_consulta": 295.92080001020804,
+      "busqueda_dispersa": 3.496399993309751,
+      "busqueda_densa_y_rrf": 3.339700007927604,
+      "rerank": 45468.477699992945,
+      "total_sin_rerank": 302.7569000114454,
+      "total": 45771.23460000439
+    },
+    {
+      "id": 52,
+      "embedding_consulta": 276.63720000418834,
+      "busqueda_dispersa": 1.7073999915737659,
+      "busqueda_densa_y_rrf": 2.3963999992702156,
+      "rerank": 46562.160800007405,
+      "total_sin_rerank": 280.7409999950323,
+      "total": 46842.90180000244
+    },
+    {
+      "id": 53,
+      "embedding_consulta": 286.8891999969492,
+      "busqueda_dispersa": 2.442400000290945,
+      "busqueda_densa_y_rrf": 2.635800003190525,
+      "rerank": 46841.21969999978,
+      "total_sin_rerank": 291.96740000043064,
+      "total": 47133.187100000214
+    },
+    {
+      "id": 54,
+      "embedding_consulta": 316.6348999948241,
+      "busqueda_dispersa": 2.7898000116692856,
+      "busqueda_densa_y_rrf": 2.794699990772642,
+      "rerank": 46327.29770000151,
+      "total_sin_rerank": 322.219399997266,
+      "total": 46649.517099998775
+    },
+    {
+      "id": 55,
+      "embedding_consulta": 299.7719000122743,
+      "busqueda_dispersa": 1.9131999870296568,
+      "busqueda_densa_y_rrf": 2.576700004283339,
+      "rerank": 40558.892100001685,
+      "total_sin_rerank": 304.26180000358727,
+      "total": 40863.15390000527
+    },
+    {
+      "id": 56,
+      "embedding_consulta": 259.8465000046417,
+      "busqueda_dispersa": 2.900499996030703,
+      "busqueda_densa_y_rrf": 3.2581000123173,
+      "rerank": 47656.042799993884,
+      "total_sin_rerank": 266.0051000129897,
+      "total": 47922.04790000687
+    },
+    {
+      "id": 57,
+      "embedding_consulta": 313.20610000693705,
+      "busqueda_dispersa": 2.6664000033633783,
+      "busqueda_densa_y_rrf": 2.5505000085104257,
+      "rerank": 42766.27519998874,
+      "total_sin_rerank": 318.42300001881085,
+      "total": 43084.69820000755
+    },
+    {
+      "id": 58,
+      "embedding_consulta": 309.2068000114523,
+      "busqueda_dispersa": 3.2226999901467934,
+      "busqueda_densa_y_rrf": 3.340700000990182,
+      "rerank": 47386.31260000693,
+      "total_sin_rerank": 315.77020000258926,
+      "total": 47702.08280000952
+    },
+    {
+      "id": 59,
+      "embedding_consulta": 283.4899999870686,
+      "busqueda_dispersa": 2.3102000122889876,
+      "busqueda_densa_y_rrf": 2.2247999877436087,
+      "rerank": 47401.28380000533,
+      "total_sin_rerank": 288.0249999871012,
+      "total": 47689.30879999243
+    },
+    {
+      "id": 60,
+      "embedding_consulta": 309.75349999789614,
+      "busqueda_dispersa": 2.781999995931983,
+      "busqueda_densa_y_rrf": 2.5979000056395307,
+      "rerank": 48645.56619999348,
+      "total_sin_rerank": 315.13339999946766,
+      "total": 48960.69959999295
+    },
+    {
+      "id": 61,
+      "embedding_consulta": 315.85340001038276,
+      "busqueda_dispersa": 3.3900999987963587,
+      "busqueda_densa_y_rrf": 2.870299998903647,
+      "rerank": 48520.32650000183,
+      "total_sin_rerank": 322.11380000808276,
+      "total": 48842.44030000991
+    },
+    {
+      "id": 62,
+      "embedding_consulta": 280.93199999420904,
+      "busqueda_dispersa": 2.4121000024024397,
+      "busqueda_densa_y_rrf": 2.81730001734104,
+      "rerank": 47365.122099989094,
+      "total_sin_rerank": 286.1614000139525,
+      "total": 47651.283500003046
+    },
+    {
+      "id": 63,
+      "embedding_consulta": 332.35070000228006,
+      "busqueda_dispersa": 3.190899995388463,
+      "busqueda_densa_y_rrf": 3.2759000023361295,
+      "rerank": 47877.615300007164,
+      "total_sin_rerank": 338.81750000000466,
+      "total": 48216.43280000717
+    },
+    {
+      "id": 64,
+      "embedding_consulta": 304.7087000013562,
+      "busqueda_dispersa": 2.0668999932240695,
+      "busqueda_densa_y_rrf": 2.439600008074194,
+      "rerank": 45601.410100003704,
+      "total_sin_rerank": 309.21520000265446,
+      "total": 45910.62530000636
+    },
+    {
+      "id": 65,
+      "embedding_consulta": 302.30090000259224,
+      "busqueda_dispersa": 3.4451999963494018,
+      "busqueda_densa_y_rrf": 2.8406999917933717,
+      "rerank": 39900.18940001028,
+      "total_sin_rerank": 308.586799990735,
+      "total": 40208.77620000101
+    },
+    {
+      "id": 66,
+      "embedding_consulta": 301.6760000027716,
+      "busqueda_dispersa": 3.2460999937029555,
+      "busqueda_densa_y_rrf": 2.9115999932400882,
+      "rerank": 47729.27750000963,
+      "total_sin_rerank": 307.83369998971466,
+      "total": 48037.111199999345
+    },
+    {
+      "id": 67,
+      "embedding_consulta": 287.7543000067817,
+      "busqueda_dispersa": 3.1433999974979088,
+      "busqueda_densa_y_rrf": 3.0261999927461147,
+      "rerank": 47839.68960000493,
+      "total_sin_rerank": 293.9238999970257,
+      "total": 48133.61350000196
+    },
+    {
+      "id": 68,
+      "embedding_consulta": 278.410899991286,
+      "busqueda_dispersa": 2.0994000078644603,
+      "busqueda_densa_y_rrf": 2.818699984345585,
+      "rerank": 44902.904500006116,
+      "total_sin_rerank": 283.32899998349603,
+      "total": 45186.23349998961
+    },
+    {
+      "id": 69,
+      "embedding_consulta": 243.78069999511354,
+      "busqueda_dispersa": 2.0403000089572743,
+      "busqueda_densa_y_rrf": 2.9084999987389892,
+      "rerank": 46939.067300001625,
+      "total_sin_rerank": 248.7295000028098,
+      "total": 47187.796800004435
+    },
+    {
+      "id": 70,
+      "embedding_consulta": 318.7944000092102,
+      "busqueda_dispersa": 2.8008999943267554,
+      "busqueda_densa_y_rrf": 2.8731000056723133,
+      "rerank": 47622.729199996684,
+      "total_sin_rerank": 324.4684000092093,
+      "total": 47947.19760000589
+    },
+    {
+      "id": 71,
+      "embedding_consulta": 304.34419999073725,
+      "busqueda_dispersa": 2.473700005793944,
+      "busqueda_densa_y_rrf": 2.5526999961584806,
+      "rerank": 47585.072700007004,
+      "total_sin_rerank": 309.3705999926897,
+      "total": 47894.44329999969
+    },
+    {
+      "id": 72,
+      "embedding_consulta": 272.2474000038346,
+      "busqueda_dispersa": 3.350200000568293,
+      "busqueda_densa_y_rrf": 2.85950000397861,
+      "rerank": 47413.32669999974,
+      "total_sin_rerank": 278.45710000838153,
+      "total": 47691.783800008125
+    },
+    {
+      "id": 73,
+      "embedding_consulta": 283.5841000051005,
+      "busqueda_dispersa": 2.5705000007292256,
+      "busqueda_densa_y_rrf": 2.6151999918511137,
+      "rerank": 47538.09830000682,
+      "total_sin_rerank": 288.7697999976808,
+      "total": 47826.8681000045
+    },
+    {
+      "id": 74,
+      "embedding_consulta": 274.48559999174904,
+      "busqueda_dispersa": 1.8214000010630116,
+      "busqueda_densa_y_rrf": 2.1240000060060993,
+      "rerank": 41881.32790000236,
+      "total_sin_rerank": 278.43099999881815,
+      "total": 42159.75890000118
+    },
+    {
+      "id": 75,
+      "embedding_consulta": 287.4677000072552,
+      "busqueda_dispersa": 2.5882999907480553,
+      "busqueda_densa_y_rrf": 2.666300002601929,
+      "rerank": 47750.971300003584,
+      "total_sin_rerank": 292.7223000006052,
+      "total": 48043.69360000419
+    },
+    {
+      "id": 76,
+      "embedding_consulta": 277.9265999997733,
+      "busqueda_dispersa": 2.3467999999411404,
+      "busqueda_densa_y_rrf": 2.251600002637133,
+      "rerank": 47774.57460000005,
+      "total_sin_rerank": 282.5250000023516,
+      "total": 48057.0996000024
+    },
+    {
+      "id": 77,
+      "embedding_consulta": 291.36770000332035,
+      "busqueda_dispersa": 2.2296999959507957,
+      "busqueda_densa_y_rrf": 2.4502000160282478,
+      "rerank": 47766.57359999081,
+      "total_sin_rerank": 296.0476000152994,
+      "total": 48062.621200006106
+    },
+    {
+      "id": 78,
+      "embedding_consulta": 301.5241999964928,
+      "busqueda_dispersa": 2.4009000044316053,
+      "busqueda_densa_y_rrf": 2.6227999915136024,
+      "rerank": 46751.46250000398,
+      "total_sin_rerank": 306.54789999243803,
+      "total": 47058.01039999642
+    },
+    {
+      "id": 79,
+      "embedding_consulta": 305.4005999874789,
+      "busqueda_dispersa": 2.1940000005997717,
+      "busqueda_densa_y_rrf": 2.1320999949239194,
+      "rerank": 41986.77860001044,
+      "total_sin_rerank": 309.7266999830026,
+      "total": 42296.50529999344
+    },
+    {
+      "id": 80,
+      "embedding_consulta": 291.7587999982061,
+      "busqueda_dispersa": 3.297599992947653,
+      "busqueda_densa_y_rrf": 2.5901000044541433,
+      "rerank": 46192.00439999986,
+      "total_sin_rerank": 297.6464999956079,
+      "total": 46489.65089999547
+    },
+    {
+      "id": 81,
+      "embedding_consulta": 291.85370000777766,
+      "busqueda_dispersa": 2.2003000049153343,
+      "busqueda_densa_y_rrf": 2.629399998113513,
+      "rerank": 45857.32019999705,
+      "total_sin_rerank": 296.6834000108065,
+      "total": 46154.003600007854
+    },
+    {
+      "id": 82,
+      "embedding_consulta": 272.4744000006467,
+      "busqueda_dispersa": 1.5424000011989847,
+      "busqueda_densa_y_rrf": 2.068600006168708,
+      "rerank": 41848.00030000042,
+      "total_sin_rerank": 276.0854000080144,
+      "total": 42124.085700008436
+    },
+    {
+      "id": 83,
+      "embedding_consulta": 288.5002999973949,
+      "busqueda_dispersa": 2.5745000020833686,
+      "busqueda_densa_y_rrf": 2.2987999982433394,
+      "rerank": 43497.86400000448,
+      "total_sin_rerank": 293.3735999977216,
+      "total": 43791.237600002205
+    },
+    {
+      "id": 84,
+      "embedding_consulta": 276.8957000080263,
+      "busqueda_dispersa": 2.2357999987434596,
+      "busqueda_densa_y_rrf": 2.7501000149641186,
+      "rerank": 45005.90389998979,
+      "total_sin_rerank": 281.8816000217339,
+      "total": 45287.78550001152
+    },
+    {
+      "id": 85,
+      "embedding_consulta": 283.8065999967512,
+      "busqueda_dispersa": 1.6770000074757263,
+      "busqueda_densa_y_rrf": 3.31509999523405,
+      "rerank": 43077.996499996516,
+      "total_sin_rerank": 288.79869999946095,
+      "total": 43366.79519999598
+    },
+    {
+      "id": 86,
+      "embedding_consulta": 318.6239999922691,
+      "busqueda_dispersa": 3.409299999475479,
+      "busqueda_densa_y_rrf": 2.557699990575202,
+      "rerank": 46660.66560000763,
+      "total_sin_rerank": 324.5909999823198,
+      "total": 46985.25659998995
+    },
+    {
+      "id": 87,
+      "embedding_consulta": 282.65680000185966,
+      "busqueda_dispersa": 2.789699996355921,
+      "busqueda_densa_y_rrf": 2.2719999979017302,
+      "rerank": 47372.27360000543,
+      "total_sin_rerank": 287.7184999961173,
+      "total": 47659.992100001546
+    },
+    {
+      "id": 88,
+      "embedding_consulta": 296.6923000058159,
+      "busqueda_dispersa": 2.6228000060655177,
+      "busqueda_densa_y_rrf": 2.6325999933760613,
+      "rerank": 47897.63859999948,
+      "total_sin_rerank": 301.9477000052575,
+      "total": 48199.58630000474
+    },
+    {
+      "id": 89,
+      "embedding_consulta": 271.6534000064712,
+      "busqueda_dispersa": 2.387599990470335,
+      "busqueda_densa_y_rrf": 3.309000006993301,
+      "rerank": 44577.70090000122,
+      "total_sin_rerank": 277.35000000393484,
+      "total": 44855.05090000515
+    },
+    {
+      "id": 90,
+      "embedding_consulta": 281.90230000473093,
+      "busqueda_dispersa": 2.6808999973582104,
+      "busqueda_densa_y_rrf": 2.7612999983830377,
+      "rerank": 47556.36360000062,
+      "total_sin_rerank": 287.3445000004722,
+      "total": 47843.708100001095
+    },
+    {
+      "id": 91,
+      "embedding_consulta": 250.05900001269765,
+      "busqueda_dispersa": 1.8894999957410619,
+      "busqueda_densa_y_rrf": 2.2351999941747636,
+      "rerank": 47827.100900001824,
+      "total_sin_rerank": 254.18370000261348,
+      "total": 48081.28460000444
+    },
+    {
+      "id": 92,
+      "embedding_consulta": 275.8328999916557,
+      "busqueda_dispersa": 3.320300005725585,
+      "busqueda_densa_y_rrf": 2.855800004908815,
+      "rerank": 47451.32439999725,
+      "total_sin_rerank": 282.0090000022901,
+      "total": 47733.33339999954
+    },
+    {
+      "id": 93,
+      "embedding_consulta": 296.14639999635983,
+      "busqueda_dispersa": 3.068100006203167,
+      "busqueda_densa_y_rrf": 2.98839999595657,
+      "rerank": 41392.83959999739,
+      "total_sin_rerank": 302.20289999851957,
+      "total": 41695.04249999591
+    },
+    {
+      "id": 94,
+      "embedding_consulta": 286.4636000012979,
+      "busqueda_dispersa": 2.3246999917319044,
+      "busqueda_densa_y_rrf": 2.162099990528077,
+      "rerank": 48284.304800006794,
+      "total_sin_rerank": 290.9503999835579,
+      "total": 48575.25519999035
+    },
+    {
+      "id": 95,
+      "embedding_consulta": 374.433200006024,
+      "busqueda_dispersa": 2.482700001564808,
+      "busqueda_densa_y_rrf": 2.2287000028882176,
+      "rerank": 47825.38080000086,
+      "total_sin_rerank": 379.144600010477,
+      "total": 48204.525400011335
+    },
+    {
+      "id": 96,
+      "embedding_consulta": 276.9616000005044,
+      "busqueda_dispersa": 2.632499992614612,
+      "busqueda_densa_y_rrf": 2.145700011169538,
+      "rerank": 46777.04869999434,
+      "total_sin_rerank": 281.73980000428855,
+      "total": 47058.78849999863
+    },
+    {
+      "id": 97,
+      "embedding_consulta": 258.50090000312775,
+      "busqueda_dispersa": 2.3791999992681667,
+      "busqueda_densa_y_rrf": 2.13649999932386,
+      "rerank": 46873.368299988215,
+      "total_sin_rerank": 263.0166000017198,
+      "total": 47136.384899989935
+    },
+    {
+      "id": 98,
+      "embedding_consulta": 273.74540000164416,
+      "busqueda_dispersa": 1.842799989390187,
+      "busqueda_densa_y_rrf": 2.735200003371574,
+      "rerank": 46558.43710000045,
+      "total_sin_rerank": 278.3233999944059,
+      "total": 46836.76049999485
+    },
+    {
+      "id": 99,
+      "embedding_consulta": 274.3436000018846,
+      "busqueda_dispersa": 3.25660000089556,
+      "busqueda_densa_y_rrf": 3.052400003070943,
+      "rerank": 40290.869100004784,
+      "total_sin_rerank": 280.6526000058511,
+      "total": 40571.521700010635
+    },
+    {
+      "id": 100,
+      "embedding_consulta": 278.98760000243783,
+      "busqueda_dispersa": 3.3462999999755993,
+      "busqueda_densa_y_rrf": 2.9845000099157915,
+      "rerank": 46383.22039999184,
+      "total_sin_rerank": 285.3184000123292,
+      "total": 46668.53880000417
+    },
+    {
+      "id": 101,
+      "embedding_consulta": 267.1375999925658,
+      "busqueda_dispersa": 2.282600005855784,
+      "busqueda_densa_y_rrf": 2.631199997267686,
+      "rerank": 43867.14669999492,
+      "total_sin_rerank": 272.0513999956893,
+      "total": 44139.19809999061
+    },
+    {
+      "id": 102,
+      "embedding_consulta": 309.18240000028163,
+      "busqueda_dispersa": 2.180900002713315,
+      "busqueda_densa_y_rrf": 2.07129999762401,
+      "rerank": 46967.165699999896,
+      "total_sin_rerank": 313.43460000061896,
+      "total": 47280.600300000515
+    },
+    {
+      "id": 103,
+      "embedding_consulta": 291.3308999995934,
+      "busqueda_dispersa": 2.6471000019228086,
+      "busqueda_densa_y_rrf": 3.612599990447052,
+      "rerank": 47554.46740001207,
+      "total_sin_rerank": 297.59059999196324,
+      "total": 47852.058000004035
+    },
+    {
+      "id": 104,
+      "embedding_consulta": 276.5166000026511,
+      "busqueda_dispersa": 2.357799996389076,
+      "busqueda_densa_y_rrf": 2.9950000025564805,
+      "rerank": 46861.923799995566,
+      "total_sin_rerank": 281.86940000159666,
+      "total": 47143.79319999716
+    },
+    {
+      "id": 105,
+      "embedding_consulta": 257.1555000031367,
+      "busqueda_dispersa": 2.159600000595674,
+      "busqueda_densa_y_rrf": 2.1500000002561137,
+      "rerank": 46561.01109999872,
+      "total_sin_rerank": 261.4651000039885,
+      "total": 46822.47620000271
+    },
+    {
+      "id": 106,
+      "embedding_consulta": 342.188199996599,
+      "busqueda_dispersa": 3.008999992744066,
+      "busqueda_densa_y_rrf": 2.6508000009926036,
+      "rerank": 45857.698799998616,
+      "total_sin_rerank": 347.84799999033567,
+      "total": 46205.54679998895
+    },
+    {
+      "id": 107,
+      "embedding_consulta": 300.4551000049105,
+      "busqueda_dispersa": 2.7793999906862155,
+      "busqueda_densa_y_rrf": 2.29280001076404,
+      "rerank": 46948.70379999338,
+      "total_sin_rerank": 305.52730000636075,
+      "total": 47254.23109999974
+    },
+    {
+      "id": 108,
+      "embedding_consulta": 270.8370000036666,
+      "busqueda_dispersa": 2.1720000077039003,
+      "busqueda_densa_y_rrf": 3.19360000139568,
+      "rerank": 45154.4991999981,
+      "total_sin_rerank": 276.2026000127662,
+      "total": 45430.701800010866
+    },
+    {
+      "id": 109,
+      "embedding_consulta": 289.2541000037454,
+      "busqueda_dispersa": 2.6568999892333522,
+      "busqueda_densa_y_rrf": 2.2342000011121854,
+      "rerank": 47251.41430000076,
+      "total_sin_rerank": 294.14519999409094,
+      "total": 47545.55949999485
+    },
+    {
+      "id": 110,
+      "embedding_consulta": 304.92819999926724,
+      "busqueda_dispersa": 2.515300002414733,
+      "busqueda_densa_y_rrf": 3.167799994116649,
+      "rerank": 47726.42710000218,
+      "total_sin_rerank": 310.6112999957986,
+      "total": 48037.03839999798
+    },
+    {
+      "id": 111,
+      "embedding_consulta": 304.4776000024285,
+      "busqueda_dispersa": 3.322200005641207,
+      "busqueda_densa_y_rrf": 3.3376999926986173,
+      "rerank": 41479.3428999983,
+      "total_sin_rerank": 311.13750000076834,
+      "total": 41790.48039999907
+    },
+    {
+      "id": 112,
+      "embedding_consulta": 292.3460000019986,
+      "busqueda_dispersa": 2.176199996029027,
+      "busqueda_densa_y_rrf": 2.2422000038204715,
+      "rerank": 47337.47670000594,
+      "total_sin_rerank": 296.7644000018481,
+      "total": 47634.241100007785
+    },
+    {
+      "id": 113,
+      "embedding_consulta": 305.9509999875445,
+      "busqueda_dispersa": 3.5734000121010467,
+      "busqueda_densa_y_rrf": 3.2872999872779474,
+      "rerank": 47172.95500000182,
+      "total_sin_rerank": 312.8116999869235,
+      "total": 47485.766699988744
+    },
+    {
+      "id": 114,
+      "embedding_consulta": 266.6738000116311,
+      "busqueda_dispersa": 2.6654999965103343,
+      "busqueda_densa_y_rrf": 2.940100006526336,
+      "rerank": 47281.17869999551,
+      "total_sin_rerank": 272.2794000146678,
+      "total": 47553.458100010175
+    },
+    {
+      "id": 115,
+      "embedding_consulta": 276.5833000012208,
+      "busqueda_dispersa": 2.1672000002581626,
+      "busqueda_densa_y_rrf": 2.2976000036578625,
+      "rerank": 42647.997599997325,
+      "total_sin_rerank": 281.0481000051368,
+      "total": 42929.04570000246
+    },
+    {
+      "id": 116,
+      "embedding_consulta": 263.34489999862853,
+      "busqueda_dispersa": 2.4932999949669465,
+      "busqueda_densa_y_rrf": 2.943200001027435,
+      "rerank": 46624.13400001242,
+      "total_sin_rerank": 268.7813999946229,
+      "total": 46892.91540000704
+    },
+    {
+      "id": 117,
+      "embedding_consulta": 260.7740000094054,
+      "busqueda_dispersa": 2.7378999948268756,
+      "busqueda_densa_y_rrf": 2.2907999955350533,
+      "rerank": 47165.56270000001,
+      "total_sin_rerank": 265.80269999976736,
+      "total": 47431.36539999978
+    },
+    {
+      "id": 118,
+      "embedding_consulta": 280.5780000053346,
+      "busqueda_dispersa": 2.129700005752966,
+      "busqueda_densa_y_rrf": 2.174000008380972,
+      "rerank": 47009.49659998878,
+      "total_sin_rerank": 284.88170001946855,
+      "total": 47294.37830000825
+    },
+    {
+      "id": 119,
+      "embedding_consulta": 300.4237999994075,
+      "busqueda_dispersa": 2.6753999991342425,
+      "busqueda_densa_y_rrf": 2.1267999982228503,
+      "rerank": 47011.831700001494,
+      "total_sin_rerank": 305.2259999967646,
+      "total": 47317.05769999826
+    },
+    {
+      "id": 120,
+      "embedding_consulta": 270.47220000531524,
+      "busqueda_dispersa": 3.1306000018958002,
+      "busqueda_densa_y_rrf": 2.8061999910278246,
+      "rerank": 47454.69250000315,
+      "total_sin_rerank": 276.40899999823887,
+      "total": 47731.10150000139
+    },
+    {
+      "id": 121,
+      "embedding_consulta": 285.48040000896435,
+      "busqueda_dispersa": 4.06769999244716,
+      "busqueda_densa_y_rrf": 3.67440000991337,
+      "rerank": 46913.88339998957,
+      "total_sin_rerank": 293.2225000113249,
+      "total": 47207.1059000009
+    },
+    {
+      "id": 122,
+      "embedding_consulta": 242.1494000009261,
+      "busqueda_dispersa": 1.8419999978505075,
+      "busqueda_densa_y_rrf": 2.0699000015156344,
+      "rerank": 43743.07229999977,
+      "total_sin_rerank": 246.06130000029225,
+      "total": 43989.13360000006
+    },
+    {
+      "id": 123,
+      "embedding_consulta": 303.8875999918673,
+      "busqueda_dispersa": 2.5796999980229884,
+      "busqueda_densa_y_rrf": 2.660700003616512,
+      "rerank": 47572.928599998704,
+      "total_sin_rerank": 309.1279999935068,
+      "total": 47882.05659999221
+    },
+    {
+      "id": 124,
+      "embedding_consulta": 304.5781000109855,
+      "busqueda_dispersa": 2.5371999945491552,
+      "busqueda_densa_y_rrf": 3.1750000052852556,
+      "rerank": 47597.123799991095,
+      "total_sin_rerank": 310.2903000108199,
+      "total": 47907.414100001915
+    },
+    {
+      "id": 125,
+      "embedding_consulta": 269.2576999979792,
+      "busqueda_dispersa": 2.015099991695024,
+      "busqueda_densa_y_rrf": 2.6618999982019886,
+      "rerank": 47577.77440000791,
+      "total_sin_rerank": 273.93469998787623,
+      "total": 47851.70909999579
+    },
+    {
+      "id": 126,
+      "embedding_consulta": 283.3849000016926,
+      "busqueda_dispersa": 1.9331000075908378,
+      "busqueda_densa_y_rrf": 2.15869999374263,
+      "rerank": 46190.484599996125,
+      "total_sin_rerank": 287.47670000302605,
+      "total": 46477.96129999915
+    },
+    {
+      "id": 127,
+      "embedding_consulta": 269.81440000236034,
+      "busqueda_dispersa": 1.9643999985419214,
+      "busqueda_densa_y_rrf": 2.93360001523979,
+      "rerank": 42372.9566999973,
+      "total_sin_rerank": 274.71240001614206,
+      "total": 42647.669100013445
+    },
+    {
+      "id": 128,
+      "embedding_consulta": 277.4868999986211,
+      "busqueda_dispersa": 2.5136000040220097,
+      "busqueda_densa_y_rrf": 2.6716999855125323,
+      "rerank": 47906.52060000866,
+      "total_sin_rerank": 282.6721999881556,
+      "total": 48189.19279999682
+    },
+    {
+      "id": 129,
+      "embedding_consulta": 319.3308000045363,
+      "busqueda_dispersa": 2.3936000070534647,
+      "busqueda_densa_y_rrf": 2.590099989902228,
+      "rerank": 46238.08650000137,
+      "total_sin_rerank": 324.314500001492,
+      "total": 46562.401000002865
+    },
+    {
+      "id": 130,
+      "embedding_consulta": 323.1651999958558,
+      "busqueda_dispersa": 3.0624000064563006,
+      "busqueda_densa_y_rrf": 2.6602999860187992,
+      "rerank": 45560.632400010945,
+      "total_sin_rerank": 328.8878999883309,
+      "total": 45889.520299999276
+    },
+    {
+      "id": 131,
+      "embedding_consulta": 269.54079999995884,
+      "busqueda_dispersa": 1.9230000034440309,
+      "busqueda_densa_y_rrf": 2.71799998881761,
+      "rerank": 41506.198400005815,
+      "total_sin_rerank": 274.1817999922205,
+      "total": 41780.380199998035
+    },
+    {
+      "id": 132,
+      "embedding_consulta": 270.6400000024587,
+      "busqueda_dispersa": 3.1864999909885228,
+      "busqueda_densa_y_rrf": 2.9042000096524134,
+      "rerank": 48172.324699989986,
+      "total_sin_rerank": 276.7307000030996,
+      "total": 48449.055399993085
+    },
+    {
+      "id": 133,
+      "embedding_consulta": 291.1880000028759,
+      "busqueda_dispersa": 3.260900004534051,
+      "busqueda_densa_y_rrf": 2.348800000618212,
+      "rerank": 45489.227400001255,
+      "total_sin_rerank": 296.7977000080282,
+      "total": 45786.02510000928
+    },
+    {
+      "id": 134,
+      "embedding_consulta": 301.9732999964617,
+      "busqueda_dispersa": 1.9900000042980537,
+      "busqueda_densa_y_rrf": 2.2912999993423,
+      "rerank": 47217.26189999026,
+      "total_sin_rerank": 306.2546000001021,
+      "total": 47523.516499990365
+    },
+    {
+      "id": 135,
+      "embedding_consulta": 290.3163000009954,
+      "busqueda_dispersa": 2.2335999965434894,
+      "busqueda_densa_y_rrf": 2.207000012276694,
+      "rerank": 46042.75549999147,
+      "total_sin_rerank": 294.7569000098156,
+      "total": 46337.51240000129
+    },
+    {
+      "id": 136,
+      "embedding_consulta": 270.42030000302475,
+      "busqueda_dispersa": 2.1760999952675775,
+      "busqueda_densa_y_rrf": 2.651200004038401,
+      "rerank": 45063.4485000046,
+      "total_sin_rerank": 275.2476000023307,
+      "total": 45338.69610000693
+    },
+    {
+      "id": 137,
+      "embedding_consulta": 304.28460000257473,
+      "busqueda_dispersa": 3.1713000062154606,
+      "busqueda_densa_y_rrf": 3.3950000070035458,
+      "rerank": 41234.28039999271,
+      "total_sin_rerank": 310.85090001579374,
+      "total": 41545.13130000851
+    },
+    {
+      "id": 138,
+      "embedding_consulta": 314.34309999167453,
+      "busqueda_dispersa": 2.695500006666407,
+      "busqueda_densa_y_rrf": 2.309799994691275,
+      "rerank": 46930.0818000047,
+      "total_sin_rerank": 319.3483999930322,
+      "total": 47249.43019999773
+    },
+    {
+      "id": 139,
+      "embedding_consulta": 294.0286999946693,
+      "busqueda_dispersa": 3.219100006390363,
+      "busqueda_densa_y_rrf": 2.9664000030606985,
+      "rerank": 47573.844799990184,
+      "total_sin_rerank": 300.21420000412036,
+      "total": 47874.058999994304
+    },
+    {
+      "id": 140,
+      "embedding_consulta": 333.7127000122564,
+      "busqueda_dispersa": 3.2478999928571284,
+      "busqueda_densa_y_rrf": 2.3317000013776124,
+      "rerank": 46868.57340000279,
+      "total_sin_rerank": 339.29230000649113,
+      "total": 47207.86570000928
+    },
+    {
+      "id": 141,
+      "embedding_consulta": 296.1658999993233,
+      "busqueda_dispersa": 2.645100001245737,
+      "busqueda_densa_y_rrf": 2.0865000115009025,
+      "rerank": 42039.50559999794,
+      "total_sin_rerank": 300.89750001206994,
+      "total": 42340.40310001001
+    },
+    {
+      "id": 142,
+      "embedding_consulta": 277.4814000003971,
+      "busqueda_dispersa": 2.723800003877841,
+      "busqueda_densa_y_rrf": 2.7572999970288947,
+      "rerank": 36551.39199999394,
+      "total_sin_rerank": 282.96250000130385,
+      "total": 36834.35449999524
+    },
+    {
+      "id": 143,
+      "embedding_consulta": 292.8163000033237,
+      "busqueda_dispersa": 2.9261000017868355,
+      "busqueda_densa_y_rrf": 2.1588999952655286,
+      "rerank": 46311.072099997546,
+      "total_sin_rerank": 297.90130000037607,
+      "total": 46608.97339999792
+    },
+    {
+      "id": 144,
+      "embedding_consulta": 294.5648000022629,
+      "busqueda_dispersa": 2.9850999999325722,
+      "busqueda_densa_y_rrf": 3.3464000007370487,
+      "rerank": 46886.31750000059,
+      "total_sin_rerank": 300.89630000293255,
+      "total": 47187.21380000352
+    },
+    {
+      "id": 145,
+      "embedding_consulta": 310.9964999894146,
+      "busqueda_dispersa": 2.758600006927736,
+      "busqueda_densa_y_rrf": 2.5640999956522137,
+      "rerank": 47154.85510000144,
+      "total_sin_rerank": 316.31919999199454,
+      "total": 47471.174299993436
+    },
+    {
+      "id": 146,
+      "embedding_consulta": 329.75800000713207,
+      "busqueda_dispersa": 3.0408000020543113,
+      "busqueda_densa_y_rrf": 2.906999987317249,
+      "rerank": 47219.605600010254,
+      "total_sin_rerank": 335.70579999650363,
+      "total": 47555.31140000676
+    },
+    {
+      "id": 147,
+      "embedding_consulta": 278.5095999861369,
+      "busqueda_dispersa": 2.5280000118073076,
+      "busqueda_densa_y_rrf": 2.7303999959258363,
+      "rerank": 48023.36320000177,
+      "total_sin_rerank": 283.76799999387003,
+      "total": 48307.13119999564
+    },
+    {
+      "id": 148,
+      "embedding_consulta": 295.1829999947222,
+      "busqueda_dispersa": 2.094000010401942,
+      "busqueda_densa_y_rrf": 2.7354999911040068,
+      "rerank": 48434.71370000043,
+      "total_sin_rerank": 300.01249999622814,
+      "total": 48734.72619999666
+    },
+    {
+      "id": 149,
+      "embedding_consulta": 283.6438999947859,
+      "busqueda_dispersa": 3.295700007583946,
+      "busqueda_densa_y_rrf": 2.939199985121377,
+      "rerank": 47558.424300004845,
+      "total_sin_rerank": 289.8787999874912,
+      "total": 47848.303099992336
+    },
+    {
+      "id": 150,
+      "embedding_consulta": 285.17280000960454,
+      "busqueda_dispersa": 2.4412999919150025,
+      "busqueda_densa_y_rrf": 2.860100008547306,
+      "rerank": 47153.18589999515,
+      "total_sin_rerank": 290.47420001006685,
+      "total": 47443.66010000522
+    },
+    {
+      "id": 151,
+      "embedding_consulta": 296.10879998654127,
+      "busqueda_dispersa": 2.594300007331185,
+      "busqueda_densa_y_rrf": 2.8842000028816983,
+      "rerank": 46662.147600000026,
+      "total_sin_rerank": 301.58729999675415,
+      "total": 46963.73489999678
+    },
+    {
+      "id": 152,
+      "embedding_consulta": 274.9735999968834,
+      "busqueda_dispersa": 1.8502000020816922,
+      "busqueda_densa_y_rrf": 2.715599999646656,
+      "rerank": 47134.34950000374,
+      "total_sin_rerank": 279.53939999861177,
+      "total": 47413.88890000235
+    },
+    {
+      "id": 153,
+      "embedding_consulta": 269.87660001032054,
+      "busqueda_dispersa": 2.157899987651035,
+      "busqueda_densa_y_rrf": 2.5110999995376915,
+      "rerank": 43646.71570000064,
+      "total_sin_rerank": 274.54559999750927,
+      "total": 43921.26129999815
+    },
+    {
+      "id": 154,
+      "embedding_consulta": 300.1961999980267,
+      "busqueda_dispersa": 2.85730000177864,
+      "busqueda_densa_y_rrf": 3.301300006569363,
+      "rerank": 42239.899099993636,
+      "total_sin_rerank": 306.3548000063747,
+      "total": 42546.25390000001
+    },
+    {
+      "id": 155,
+      "embedding_consulta": 266.3685000006808,
+      "busqueda_dispersa": 2.7171999972779304,
+      "busqueda_densa_y_rrf": 2.9285000055097044,
+      "rerank": 42749.062799994135,
+      "total_sin_rerank": 272.01420000346843,
+      "total": 43021.076999997604
+    },
+    {
+      "id": 156,
+      "embedding_consulta": 290.9406999970088,
+      "busqueda_dispersa": 2.4382000119658187,
+      "busqueda_densa_y_rrf": 2.1850000048289075,
+      "rerank": 46723.3128999942,
+      "total_sin_rerank": 295.5639000138035,
+      "total": 47018.876800008
+    },
+    {
+      "id": 157,
+      "embedding_consulta": 258.72420000087004,
+      "busqueda_dispersa": 2.8888999950140715,
+      "busqueda_densa_y_rrf": 2.7695000026142225,
+      "rerank": 46436.06659999932,
+      "total_sin_rerank": 264.38259999849834,
+      "total": 46700.44919999782
+    },
+    {
+      "id": 158,
+      "embedding_consulta": 290.5090999993263,
+      "busqueda_dispersa": 2.7669999981299043,
+      "busqueda_densa_y_rrf": 2.9999999969732016,
+      "rerank": 48338.520299992524,
+      "total_sin_rerank": 296.2760999944294,
+      "total": 48634.79639998695
+    },
+    {
+      "id": 159,
+      "embedding_consulta": 306.675500003621,
+      "busqueda_dispersa": 2.7966999914497137,
+      "busqueda_densa_y_rrf": 2.2806000197306275,
+      "rerank": 41523.02759999293,
+      "total_sin_rerank": 311.7528000148013,
+      "total": 41834.78040000773
+    },
+    {
+      "id": 160,
+      "embedding_consulta": 340.21260000008624,
+      "busqueda_dispersa": 3.63439999637194,
+      "busqueda_densa_y_rrf": 2.546300005633384,
+      "rerank": 47583.06299999822,
+      "total_sin_rerank": 346.39330000209156,
+      "total": 47929.45630000031
+    },
+    {
+      "id": 161,
+      "embedding_consulta": 275.004800001625,
+      "busqueda_dispersa": 2.322900007129647,
+      "busqueda_densa_y_rrf": 2.586300004622899,
+      "rerank": 42001.02909999259,
+      "total_sin_rerank": 279.9140000133775,
+      "total": 42280.94310000597
+    },
+    {
+      "id": 162,
+      "embedding_consulta": 297.2205000114627,
+      "busqueda_dispersa": 2.490300001227297,
+      "busqueda_densa_y_rrf": 2.1668999979738146,
+      "rerank": 47124.31739999738,
+      "total_sin_rerank": 301.87770001066383,
+      "total": 47426.195100008044
+    },
+    {
+      "id": 163,
+      "embedding_consulta": 305.5594000034034,
+      "busqueda_dispersa": 1.8068000063067302,
+      "busqueda_densa_y_rrf": 3.0821999826002866,
+      "rerank": 40937.41710000904,
+      "total_sin_rerank": 310.44839999231044,
+      "total": 41247.86550000135
+    },
+    {
+      "id": 164,
+      "embedding_consulta": 293.43669999798294,
+      "busqueda_dispersa": 2.6433999883010983,
+      "busqueda_densa_y_rrf": 2.6451000157976523,
+      "rerank": 44888.73949999106,
+      "total_sin_rerank": 298.7252000020817,
+      "total": 45187.46469999314
+    },
+    {
+      "id": 165,
+      "embedding_consulta": 288.80899999057874,
+      "busqueda_dispersa": 2.238300003227778,
+      "busqueda_densa_y_rrf": 2.5931000127457082,
+      "rerank": 46794.86179999367,
+      "total_sin_rerank": 293.6404000065522,
+      "total": 47088.50220000022
+    },
+    {
+      "id": 166,
+      "embedding_consulta": 275.84300001035444,
+      "busqueda_dispersa": 2.4356999929295853,
+      "busqueda_densa_y_rrf": 2.748800005065277,
+      "rerank": 46436.739099997794,
+      "total_sin_rerank": 281.0275000083493,
+      "total": 46717.76660000614
+    },
+    {
+      "id": 167,
+      "embedding_consulta": 300.09960000461433,
+      "busqueda_dispersa": 4.123799997614697,
+      "busqueda_densa_y_rrf": 2.9538999951910228,
+      "rerank": 47364.88009999448,
+      "total_sin_rerank": 307.17729999742005,
+      "total": 47672.0573999919
+    },
+    {
+      "id": 168,
+      "embedding_consulta": 292.49849999905564,
+      "busqueda_dispersa": 3.2171999919228256,
+      "busqueda_densa_y_rrf": 3.150799995637499,
+      "rerank": 43952.8263000102,
+      "total_sin_rerank": 298.86649998661596,
+      "total": 44251.69279999682
+    },
+    {
+      "id": 169,
+      "embedding_consulta": 268.38280000083614,
+      "busqueda_dispersa": 3.2916000054683536,
+      "busqueda_densa_y_rrf": 3.6643999919760972,
+      "rerank": 47412.879099996644,
+      "total_sin_rerank": 275.3387999982806,
+      "total": 47688.217899994925
+    },
+    {
+      "id": 170,
+      "embedding_consulta": 279.198100004578,
+      "busqueda_dispersa": 1.8428999901516363,
+      "busqueda_densa_y_rrf": 3.262100013671443,
+      "rerank": 48058.86969999119,
+      "total_sin_rerank": 284.3031000084011,
+      "total": 48343.17279999959
+    },
+    {
+      "id": 171,
+      "embedding_consulta": 305.19359999743756,
+      "busqueda_dispersa": 2.224800002295524,
+      "busqueda_densa_y_rrf": 2.5077999889617786,
+      "rerank": 45653.364700003294,
+      "total_sin_rerank": 309.92619998869486,
+      "total": 45963.29089999199
+    },
+    {
+      "id": 172,
+      "embedding_consulta": 283.75520001281984,
+      "busqueda_dispersa": 2.2615999914705753,
+      "busqueda_densa_y_rrf": 2.642800012836233,
+      "rerank": 46844.27469999355,
+      "total_sin_rerank": 288.65960001712665,
+      "total": 47132.934300010675
+    },
+    {
+      "id": 173,
+      "embedding_consulta": 248.75179999799002,
+      "busqueda_dispersa": 1.3172000035410747,
+      "busqueda_densa_y_rrf": 2.5839999871095642,
+      "rerank": 45910.2331000031,
+      "total_sin_rerank": 252.65299998864066,
+      "total": 46162.88609999174
+    },
+    {
+      "id": 174,
+      "embedding_consulta": 303.079199991771,
+      "busqueda_dispersa": 3.2155000080820173,
+      "busqueda_densa_y_rrf": 2.9377999890130013,
+      "rerank": 47048.67030000605,
+      "total_sin_rerank": 309.23249998886604,
+      "total": 47357.90279999492
+    },
+    {
+      "id": 175,
+      "embedding_consulta": 277.47030000318773,
+      "busqueda_dispersa": 2.009700008784421,
+      "busqueda_densa_y_rrf": 2.56759999319911,
+      "rerank": 46655.25290000369,
+      "total_sin_rerank": 282.04760000517126,
+      "total": 46937.30050000886
+    },
+    {
+      "id": 176,
+      "embedding_consulta": 307.32770000759047,
+      "busqueda_dispersa": 3.096499989624135,
+      "busqueda_densa_y_rrf": 2.9076000064378604,
+      "rerank": 40684.84519999765,
+      "total_sin_rerank": 313.33180000365246,
+      "total": 40998.177000001306
+    },
+    {
+      "id": 177,
+      "embedding_consulta": 280.63510000356473,
+      "busqueda_dispersa": 3.691699996124953,
+      "busqueda_densa_y_rrf": 3.2762000046204776,
+      "rerank": 46163.06540000369,
+      "total_sin_rerank": 287.60300000431016,
+      "total": 46450.668400008
+    },
+    {
+      "id": 178,
+      "embedding_consulta": 286.800800007768,
+      "busqueda_dispersa": 2.6923999976133928,
+      "busqueda_densa_y_rrf": 3.426799987209961,
+      "rerank": 46136.01680001011,
+      "total_sin_rerank": 292.91999999259133,
+      "total": 46428.9368000027
+    },
+    {
+      "id": 179,
+      "embedding_consulta": 296.0917000018526,
+      "busqueda_dispersa": 3.5921999951824546,
+      "busqueda_densa_y_rrf": 2.985399987665005,
+      "rerank": 45604.26000000734,
+      "total_sin_rerank": 302.66929998470005,
+      "total": 45906.92929999204
+    },
+    {
+      "id": 180,
+      "embedding_consulta": 303.9007000043057,
+      "busqueda_dispersa": 2.880400003050454,
+      "busqueda_densa_y_rrf": 2.635599987115711,
+      "rerank": 46229.66730000917,
+      "total_sin_rerank": 309.41669999447186,
+      "total": 46539.08400000364
+    },
+    {
+      "id": 181,
+      "embedding_consulta": 347.2347999922931,
+      "busqueda_dispersa": 4.302500004996546,
+      "busqueda_densa_y_rrf": 3.9136999985203147,
+      "rerank": 46690.61550000333,
+      "total_sin_rerank": 355.45099999581,
+      "total": 47046.06649999914
+    },
+    {
+      "id": 182,
+      "embedding_consulta": 291.8426000105683,
+      "busqueda_dispersa": 2.397499993094243,
+      "busqueda_densa_y_rrf": 2.6455999905010685,
+      "rerank": 44855.11220000626,
+      "total_sin_rerank": 296.8856999941636,
+      "total": 45151.997900000424
+    },
+    {
+      "id": 183,
+      "embedding_consulta": 323.22540000313893,
+      "busqueda_dispersa": 3.0529000068781897,
+      "busqueda_densa_y_rrf": 2.9704000044148415,
+      "rerank": 48390.07409999613,
+      "total_sin_rerank": 329.24870001443196,
+      "total": 48719.32280001056
+    },
+    {
+      "id": 184,
+      "embedding_consulta": 317.4148999969475,
+      "busqueda_dispersa": 3.0442999996012077,
+      "busqueda_densa_y_rrf": 3.08690000383649,
+      "rerank": 43126.55010000162,
+      "total_sin_rerank": 323.5461000003852,
+      "total": 43450.09620000201
+    },
+    {
+      "id": 185,
+      "embedding_consulta": 272.9450999904657,
+      "busqueda_dispersa": 2.0450000010896474,
+      "busqueda_densa_y_rrf": 2.2407000069506466,
+      "rerank": 45417.244299998856,
+      "total_sin_rerank": 277.230799998506,
+      "total": 45694.47509999736
+    },
+    {
+      "id": 186,
+      "embedding_consulta": 288.50330000568647,
+      "busqueda_dispersa": 2.907499991124496,
+      "busqueda_densa_y_rrf": 2.1631000126944855,
+      "rerank": 46802.4868999928,
+      "total_sin_rerank": 293.57390000950545,
+      "total": 47096.060800002306
+    },
+    {
+      "id": 187,
+      "embedding_consulta": 300.04940000071656,
+      "busqueda_dispersa": 2.9847999976482242,
+      "busqueda_densa_y_rrf": 2.453100009006448,
+      "rerank": 45869.81469999591,
+      "total_sin_rerank": 305.48730000737123,
+      "total": 46175.302000003285
+    },
+    {
+      "id": 188,
+      "embedding_consulta": 297.7963000012096,
+      "busqueda_dispersa": 3.4709999890765175,
+      "busqueda_densa_y_rrf": 3.2503999973414466,
+      "rerank": 46882.545900007244,
+      "total_sin_rerank": 304.51769998762757,
+      "total": 47187.06359999487
+    },
+    {
+      "id": 189,
+      "embedding_consulta": 319.838700001128,
+      "busqueda_dispersa": 3.920800008927472,
+      "busqueda_densa_y_rrf": 2.9559999820776284,
+      "rerank": 45729.48410001118,
+      "total_sin_rerank": 326.7154999921331,
+      "total": 46056.19960000331
+    },
+    {
+      "id": 190,
+      "embedding_consulta": 274.0964999975404,
+      "busqueda_dispersa": 2.0268999942345545,
+      "busqueda_densa_y_rrf": 2.5501000054646283,
+      "rerank": 45535.64750000078,
+      "total_sin_rerank": 278.67349999723956,
+      "total": 45814.32099999802
+    },
+    {
+      "id": 191,
+      "embedding_consulta": 292.70189999078866,
+      "busqueda_dispersa": 2.980100005515851,
+      "busqueda_densa_y_rrf": 2.221200003987178,
+      "rerank": 45032.46139999828,
+      "total_sin_rerank": 297.9032000002917,
+      "total": 45330.364599998575
+    },
+    {
+      "id": 192,
+      "embedding_consulta": 269.1666000027908,
+      "busqueda_dispersa": 2.726599996094592,
+      "busqueda_densa_y_rrf": 2.5064999936148524,
+      "rerank": 47681.760200008284,
+      "total_sin_rerank": 274.39969999250025,
+      "total": 47956.159900000785
+    },
+    {
+      "id": 193,
+      "embedding_consulta": 294.2516000039177,
+      "busqueda_dispersa": 3.6223999923095107,
+      "busqueda_densa_y_rrf": 2.821100002620369,
+      "rerank": 47799.654100002954,
+      "total_sin_rerank": 300.6950999988476,
+      "total": 48100.3492000018
+    },
+    {
+      "id": 194,
+      "embedding_consulta": 274.52020000782795,
+      "busqueda_dispersa": 2.525199990486726,
+      "busqueda_densa_y_rrf": 2.3606000177096575,
+      "rerank": 46751.628899990465,
+      "total_sin_rerank": 279.40600001602434,
+      "total": 47031.03490000649
+    },
+    {
+      "id": 195,
+      "embedding_consulta": 281.57069999724627,
+      "busqueda_dispersa": 2.4696000036783516,
+      "busqueda_densa_y_rrf": 2.6018999924417585,
+      "rerank": 46813.40570001339,
+      "total_sin_rerank": 286.6421999933664,
+      "total": 47100.04790000676
+    },
+    {
+      "id": 196,
+      "embedding_consulta": 267.3357000021497,
+      "busqueda_dispersa": 2.0985000010114163,
+      "busqueda_densa_y_rrf": 2.892999997129664,
+      "rerank": 45642.887599999085,
+      "total_sin_rerank": 272.32720000029076,
+      "total": 45915.214799999376
+    },
+    {
+      "id": 197,
+      "embedding_consulta": 336.08700000331737,
+      "busqueda_dispersa": 2.1182999917073175,
+      "busqueda_densa_y_rrf": 2.770000006421469,
+      "rerank": 43044.57899999397,
+      "total_sin_rerank": 340.97530000144616,
+      "total": 43385.55429999542
+    },
+    {
+      "id": 198,
+      "embedding_consulta": 307.14950000401586,
+      "busqueda_dispersa": 3.3238000032724813,
+      "busqueda_densa_y_rrf": 3.2439999922644347,
+      "rerank": 46800.239000003785,
+      "total_sin_rerank": 313.7172999995528,
+      "total": 47113.95630000334
+    },
+    {
+      "id": 199,
+      "embedding_consulta": 322.5381000083871,
+      "busqueda_dispersa": 3.3500999998068437,
+      "busqueda_densa_y_rrf": 2.9840000061085448,
+      "rerank": 47227.47189999791,
+      "total_sin_rerank": 328.8722000143025,
+      "total": 47556.34410001221
+    },
+    {
+      "id": 200,
+      "embedding_consulta": 291.905099991709,
+      "busqueda_dispersa": 2.3492000036640093,
+      "busqueda_densa_y_rrf": 2.753000007942319,
+      "rerank": 42020.065999997314,
+      "total_sin_rerank": 297.0073000033153,
+      "total": 42317.07330000063
+    },
+    {
+      "id": 201,
+      "embedding_consulta": 322.8311999992002,
+      "busqueda_dispersa": 3.3613999985391274,
+      "busqueda_densa_y_rrf": 2.9043000104138628,
+      "rerank": 45893.760699997074,
+      "total_sin_rerank": 329.09690000815317,
+      "total": 46222.85760000523
+    },
+    {
+      "id": 202,
+      "embedding_consulta": 269.44419999199454,
+      "busqueda_dispersa": 2.0007000130135566,
+      "busqueda_densa_y_rrf": 2.6177999970968813,
+      "rerank": 40374.16320000193,
+      "total_sin_rerank": 274.062700002105,
+      "total": 40648.225900004036
+    },
+    {
+      "id": 203,
+      "embedding_consulta": 306.5340000030119,
+      "busqueda_dispersa": 4.081499995663762,
+      "busqueda_densa_y_rrf": 3.7288000021362677,
+      "rerank": 45790.08089999843,
+      "total_sin_rerank": 314.3443000008119,
+      "total": 46104.42519999924
+    },
+    {
+      "id": 204,
+      "embedding_consulta": 308.0659000115702,
+      "busqueda_dispersa": 2.6768999960040674,
+      "busqueda_densa_y_rrf": 2.9771999979857355,
+      "rerank": 46446.97380000434,
+      "total_sin_rerank": 313.72000000556,
+      "total": 46760.6938000099
+    },
+    {
+      "id": 205,
+      "embedding_consulta": 275.51049999601673,
+      "busqueda_dispersa": 2.300799998920411,
+      "busqueda_densa_y_rrf": 2.050700000836514,
+      "rerank": 47030.8667000063,
+      "total_sin_rerank": 279.86199999577366,
+      "total": 47310.72870000207
+    },
+    {
+      "id": 206,
+      "embedding_consulta": 264.3778000056045,
+      "busqueda_dispersa": 3.126499999780208,
+      "busqueda_densa_y_rrf": 2.979800003231503,
+      "rerank": 45262.6661999966,
+      "total_sin_rerank": 270.4841000086162,
+      "total": 45533.15030000522
+    },
+    {
+      "id": 207,
+      "embedding_consulta": 282.0941999962088,
+      "busqueda_dispersa": 2.558099993620999,
+      "busqueda_densa_y_rrf": 3.1058000022312626,
+      "rerank": 47875.550400000066,
+      "total_sin_rerank": 287.75809999206103,
+      "total": 48163.30849999213
+    },
+    {
+      "id": 208,
+      "embedding_consulta": 259.14010000997223,
+      "busqueda_dispersa": 1.9016000005649403,
+      "busqueda_densa_y_rrf": 2.0730999967781827,
+      "rerank": 47796.08430000371,
+      "total_sin_rerank": 263.11480000731535,
+      "total": 48059.19910001103
+    },
+    {
+      "id": 209,
+      "embedding_consulta": 274.452099998598,
+      "busqueda_dispersa": 2.1973999973852187,
+      "busqueda_densa_y_rrf": 2.2394999978132546,
+      "rerank": 47978.72179999831,
+      "total_sin_rerank": 278.88899999379646,
+      "total": 48257.61079999211
+    },
+    {
+      "id": 210,
+      "embedding_consulta": 287.93629999563564,
+      "busqueda_dispersa": 2.419600001303479,
+      "busqueda_densa_y_rrf": 2.8705000004265457,
+      "rerank": 47018.31610000227,
+      "total_sin_rerank": 293.22639999736566,
+      "total": 47311.54249999963
+    },
+    {
+      "id": 211,
+      "embedding_consulta": 278.049500004272,
+      "busqueda_dispersa": 3.2217999978456646,
+      "busqueda_densa_y_rrf": 2.922200001194142,
+      "rerank": 47228.93319999275,
+      "total_sin_rerank": 284.1935000033118,
+      "total": 47513.126699996064
+    },
+    {
+      "id": 212,
+      "embedding_consulta": 298.5056000034092,
+      "busqueda_dispersa": 2.3729999957140535,
+      "busqueda_densa_y_rrf": 2.748500002780929,
+      "rerank": 47686.14609999349,
+      "total_sin_rerank": 303.6271000019042,
+      "total": 47989.7731999954
+    },
+    {
+      "id": 213,
+      "embedding_consulta": 292.34110000834335,
+      "busqueda_dispersa": 2.677399999811314,
+      "busqueda_densa_y_rrf": 2.626899993629195,
+      "rerank": 47811.169199994765,
+      "total_sin_rerank": 297.64540000178386,
+      "total": 48108.81459999655
+    },
+    {
+      "id": 214,
+      "embedding_consulta": 270.4793000011705,
+      "busqueda_dispersa": 3.73879999096971,
+      "busqueda_densa_y_rrf": 2.936499993666075,
+      "rerank": 47330.030100012664,
+      "total_sin_rerank": 277.15459998580627,
+      "total": 47607.18469999847
+    },
+    {
+      "id": 215,
+      "embedding_consulta": 272.64979999745265,
+      "busqueda_dispersa": 2.420299992081709,
+      "busqueda_densa_y_rrf": 2.8654000052483752,
+      "rerank": 46255.4034999921,
+      "total_sin_rerank": 277.93549999478273,
+      "total": 46533.33899998688
+    },
+    {
+      "id": 216,
+      "embedding_consulta": 287.48530001030304,
+      "busqueda_dispersa": 3.6170999956084415,
+      "busqueda_densa_y_rrf": 2.7310000004945323,
+      "rerank": 46375.13630000467,
+      "total_sin_rerank": 293.833400006406,
+      "total": 46668.969700011075
+    },
+    {
+      "id": 217,
+      "embedding_consulta": 271.12180000403896,
+      "busqueda_dispersa": 2.2407000069506466,
+      "busqueda_densa_y_rrf": 2.695899995160289,
+      "rerank": 46019.07629999914,
+      "total_sin_rerank": 276.0584000061499,
+      "total": 46295.13470000529
+    },
+    {
+      "id": 218,
+      "embedding_consulta": 302.8736999985995,
+      "busqueda_dispersa": 2.3287000076379627,
+      "busqueda_densa_y_rrf": 2.760499992291443,
+      "rerank": 46865.58939999668,
+      "total_sin_rerank": 307.9628999985289,
+      "total": 47173.55229999521
+    },
+    {
+      "id": 219,
+      "embedding_consulta": 306.35899999469984,
+      "busqueda_dispersa": 3.5091000027023256,
+      "busqueda_densa_y_rrf": 2.2415999992517754,
+      "rerank": 47579.48640000541,
+      "total_sin_rerank": 312.10969999665394,
+      "total": 47891.59610000206
+    },
+    {
+      "id": 220,
+      "embedding_consulta": 274.3814999994356,
+      "busqueda_dispersa": 2.3927000002004206,
+      "busqueda_densa_y_rrf": 2.1111999813001603,
+      "rerank": 43281.505300008575,
+      "total_sin_rerank": 278.8853999809362,
+      "total": 43560.39069998951
+    },
+    {
+      "id": 221,
+      "embedding_consulta": 264.2224000010174,
+      "busqueda_dispersa": 2.0290999964345247,
+      "busqueda_densa_y_rrf": 2.6458000065758824,
+      "rerank": 44165.51740000432,
+      "total_sin_rerank": 268.8973000040278,
+      "total": 44434.41470000835
+    },
+    {
+      "id": 222,
+      "embedding_consulta": 351.8737999984296,
+      "busqueda_dispersa": 3.2815000013215467,
+      "busqueda_densa_y_rrf": 3.043800010345876,
+      "rerank": 45525.27189999819,
+      "total_sin_rerank": 358.199100010097,
+      "total": 45883.471000008285
+    },
+    {
+      "id": 223,
+      "embedding_consulta": 302.76750000484753,
+      "busqueda_dispersa": 2.481999996234663,
+      "busqueda_densa_y_rrf": 2.1383999846875668,
+      "rerank": 46755.54120000743,
+      "total_sin_rerank": 307.38789998576976,
+      "total": 47062.9290999932
+    },
+    {
+      "id": 224,
+      "embedding_consulta": 260.7161000050837,
+      "busqueda_dispersa": 2.8775999962817878,
+      "busqueda_densa_y_rrf": 2.8045000071870163,
+      "rerank": 46584.84769999632,
+      "total_sin_rerank": 266.3982000085525,
+      "total": 46851.24590000487
+    },
+    {
+      "id": 225,
+      "embedding_consulta": 281.7868999991333,
+      "busqueda_dispersa": 2.106400002958253,
+      "busqueda_densa_y_rrf": 2.6562999992165715,
+      "rerank": 45316.800100001274,
+      "total_sin_rerank": 286.54960000130814,
+      "total": 45603.34970000258
+    },
+    {
+      "id": 226,
+      "embedding_consulta": 256.1325999995461,
+      "busqueda_dispersa": 2.566399998613633,
+      "busqueda_densa_y_rrf": 2.1869000047445297,
+      "rerank": 47453.82179999433,
+      "total_sin_rerank": 260.88590000290424,
+      "total": 47714.707699997234
+    },
+    {
+      "id": 227,
+      "embedding_consulta": 269.7291999938898,
+      "busqueda_dispersa": 1.7722000047797337,
+      "busqueda_densa_y_rrf": 2.1394999930635095,
+      "rerank": 47463.84310000576,
+      "total_sin_rerank": 273.640899991733,
+      "total": 47737.483999997494
+    },
+    {
+      "id": 228,
+      "embedding_consulta": 279.37000000383705,
+      "busqueda_dispersa": 2.369699999690056,
+      "busqueda_densa_y_rrf": 2.785699995001778,
+      "rerank": 49592.59610000299,
+      "total_sin_rerank": 284.5253999985289,
+      "total": 49877.12150000152
+    },
+    {
+      "id": 229,
+      "embedding_consulta": 312.79550000908785,
+      "busqueda_dispersa": 2.5394999975105748,
+      "busqueda_densa_y_rrf": 2.611599993542768,
+      "rerank": 47719.2434000026,
+      "total_sin_rerank": 317.9466000001412,
+      "total": 48037.19000000274
+    },
+    {
+      "id": 230,
+      "embedding_consulta": 288.58959999342915,
+      "busqueda_dispersa": 2.418300005956553,
+      "busqueda_densa_y_rrf": 2.837699998053722,
+      "rerank": 46589.87280000292,
+      "total_sin_rerank": 293.8455999974394,
+      "total": 46883.71840000036
+    },
+    {
+      "id": 231,
+      "embedding_consulta": 249.15180000243708,
+      "busqueda_dispersa": 1.7497999942861497,
+      "busqueda_densa_y_rrf": 2.1822999988216907,
+      "rerank": 47015.595000004396,
+      "total_sin_rerank": 253.08389999554493,
+      "total": 47268.67889999994
+    },
+    {
+      "id": 232,
+      "embedding_consulta": 289.52099999878556,
+      "busqueda_dispersa": 2.2751000069547445,
+      "busqueda_densa_y_rrf": 2.636499993968755,
+      "rerank": 45060.510199997225,
+      "total_sin_rerank": 294.43259999970905,
+      "total": 45354.942799996934
+    },
+    {
+      "id": 233,
+      "embedding_consulta": 287.00099998968653,
+      "busqueda_dispersa": 2.1456000104080886,
+      "busqueda_densa_y_rrf": 2.8292999922996387,
+      "rerank": 46602.65080000681,
+      "total_sin_rerank": 291.97589999239426,
+      "total": 46894.62669999921
+    },
+    {
+      "id": 234,
+      "embedding_consulta": 315.72709999454673,
+      "busqueda_dispersa": 2.2268000029725954,
+      "busqueda_densa_y_rrf": 2.540400004363619,
+      "rerank": 46911.885199995595,
+      "total_sin_rerank": 320.49430000188295,
+      "total": 47232.37949999748
+    },
+    {
+      "id": 235,
+      "embedding_consulta": 298.3198000001721,
+      "busqueda_dispersa": 1.9815999985439703,
+      "busqueda_densa_y_rrf": 2.764400007436052,
+      "rerank": 45971.944299992174,
+      "total_sin_rerank": 303.06580000615213,
+      "total": 46275.010099998326
+    },
+    {
+      "id": 236,
+      "embedding_consulta": 323.68220000353176,
+      "busqueda_dispersa": 2.6077999937115237,
+      "busqueda_densa_y_rrf": 2.856099992641248,
+      "rerank": 50789.69010000583,
+      "total_sin_rerank": 329.14609998988453,
+      "total": 51118.83619999571
+    },
+    {
+      "id": 237,
+      "embedding_consulta": 267.729800005327,
+      "busqueda_dispersa": 2.3450999869965017,
+      "busqueda_densa_y_rrf": 3.2887000124901533,
+      "rerank": 46546.843499992974,
+      "total_sin_rerank": 273.36360000481363,
+      "total": 46820.20709999779
+    },
+    {
+      "id": 238,
+      "embedding_consulta": 250.34400000004098,
+      "busqueda_dispersa": 2.405799998086877,
+      "busqueda_densa_y_rrf": 2.87430000025779,
+      "rerank": 43518.22820000234,
+      "total_sin_rerank": 255.62409999838565,
+      "total": 43773.852300000726
+    },
+    {
+      "id": 239,
+      "embedding_consulta": 303.64250000275206,
+      "busqueda_dispersa": 3.136700004688464,
+      "busqueda_densa_y_rrf": 2.573999998276122,
+      "rerank": 47585.57219999784,
+      "total_sin_rerank": 309.35320000571664,
+      "total": 47894.92540000356
+    },
+    {
+      "id": 240,
+      "embedding_consulta": 265.17720000992995,
+      "busqueda_dispersa": 1.9355999975232407,
+      "busqueda_densa_y_rrf": 2.6953000051435083,
+      "rerank": 39851.68239999621,
+      "total_sin_rerank": 269.8081000125967,
+      "total": 40121.490500008804
+    },
+    {
+      "id": 241,
+      "embedding_consulta": 295.5349000112619,
+      "busqueda_dispersa": 2.6224999892292544,
+      "busqueda_densa_y_rrf": 2.6264000043738633,
+      "rerank": 46965.395599996555,
+      "total_sin_rerank": 300.78380000486504,
+      "total": 47266.17940000142
+    },
+    {
+      "id": 242,
+      "embedding_consulta": 282.8606000111904,
+      "busqueda_dispersa": 2.1261999936541542,
+      "busqueda_densa_y_rrf": 2.7348000003257766,
+      "rerank": 46867.10619999212,
+      "total_sin_rerank": 287.72160000517033,
+      "total": 47154.82779999729
+    },
+    {
+      "id": 243,
+      "embedding_consulta": 246.79679999826476,
+      "busqueda_dispersa": 1.6187000001082197,
+      "busqueda_densa_y_rrf": 2.684199978830293,
+      "rerank": 46777.4660000141,
+      "total_sin_rerank": 251.09969997720327,
+      "total": 47028.565699991304
+    },
+    {
+      "id": 244,
+      "embedding_consulta": 280.9352000185754,
+      "busqueda_dispersa": 2.1526000055018812,
+      "busqueda_densa_y_rrf": 2.628899965202436,
+      "rerank": 45630.963500007056,
+      "total_sin_rerank": 285.71669998927973,
+      "total": 45916.680199996335
+    },
+    {
+      "id": 245,
+      "embedding_consulta": 242.91940001421608,
+      "busqueda_dispersa": 1.832399982959032,
+      "busqueda_densa_y_rrf": 3.0605000210925937,
+      "rerank": 44111.94939998677,
+      "total_sin_rerank": 247.8123000182677,
+      "total": 44359.76170000504
+    },
+    {
+      "id": 246,
+      "embedding_consulta": 283.90460001537576,
+      "busqueda_dispersa": 1.5298999787773937,
+      "busqueda_densa_y_rrf": 3.0181999900378287,
+      "rerank": 43952.488500013715,
+      "total_sin_rerank": 288.452699984191,
+      "total": 44240.941199997906
+    },
+    {
+      "id": 247,
+      "embedding_consulta": 266.2319000228308,
+      "busqueda_dispersa": 2.0407999982126057,
+      "busqueda_densa_y_rrf": 2.6480999949853867,
+      "rerank": 42043.25560000143,
+      "total_sin_rerank": 270.9208000160288,
+      "total": 42314.17640001746
+    },
+    {
+      "id": 248,
+      "embedding_consulta": 327.3619999818038,
+      "busqueda_dispersa": 2.960900019388646,
+      "busqueda_densa_y_rrf": 2.644199994392693,
+      "rerank": 47026.14020000328,
+      "total_sin_rerank": 332.96709999558516,
+      "total": 47359.10729999887
+    },
+    {
+      "id": 249,
+      "embedding_consulta": 335.4066000028979,
+      "busqueda_dispersa": 3.03140000323765,
+      "busqueda_densa_y_rrf": 2.602900000056252,
+      "rerank": 45166.83339999872,
+      "total_sin_rerank": 341.0409000061918,
+      "total": 45507.874300004914
+    },
+    {
+      "id": 250,
+      "embedding_consulta": 266.7299000022467,
+      "busqueda_dispersa": 1.9396999850869179,
+      "busqueda_densa_y_rrf": 2.695200004382059,
+      "rerank": 45826.24439999927,
+      "total_sin_rerank": 271.3647999917157,
+      "total": 46097.609199990984
+    },
+    {
+      "id": 251,
+      "embedding_consulta": 353.22579997591674,
+      "busqueda_dispersa": 3.3623000199440867,
+      "busqueda_densa_y_rrf": 2.8770999633707106,
+      "rerank": 44158.11340001528,
+      "total_sin_rerank": 359.46519995923154,
+      "total": 44517.57859997451
+    },
+    {
+      "id": 252,
+      "embedding_consulta": 314.59819999872707,
+      "busqueda_dispersa": 3.24469999759458,
+      "busqueda_densa_y_rrf": 2.810699981637299,
+      "rerank": 45603.14990000916,
+      "total_sin_rerank": 320.65359997795895,
+      "total": 45923.803499987116
+    },
+    {
+      "id": 253,
+      "embedding_consulta": 308.638400019845,
+      "busqueda_dispersa": 2.8128999983891845,
+      "busqueda_densa_y_rrf": 2.6806000096257776,
+      "rerank": 45601.619199995184,
+      "total_sin_rerank": 314.13190002785996,
+      "total": 45915.751100023044
+    },
+    {
+      "id": 254,
+      "embedding_consulta": 266.70600002398714,
+      "busqueda_dispersa": 2.263699978357181,
+      "busqueda_densa_y_rrf": 2.599300001747906,
+      "rerank": 46072.113900008844,
+      "total_sin_rerank": 271.56900000409223,
+      "total": 46343.68290001294
+    },
+    {
+      "id": 255,
+      "embedding_consulta": 265.49079999676906,
+      "busqueda_dispersa": 1.9336999976076186,
+      "busqueda_densa_y_rrf": 2.6224000030197203,
+      "rerank": 47966.55179999652,
+      "total_sin_rerank": 270.0468999973964,
+      "total": 48236.59869999392
+    },
+    {
+      "id": 256,
+      "embedding_consulta": 287.70740001345985,
+      "busqueda_dispersa": 2.0272999827284366,
+      "busqueda_densa_y_rrf": 2.5511000130791217,
+      "rerank": 46784.14309999789,
+      "total_sin_rerank": 292.2858000092674,
+      "total": 47076.42890000716
+    },
+    {
+      "id": 257,
+      "embedding_consulta": 285.0828999944497,
+      "busqueda_dispersa": 2.5553999876137823,
+      "busqueda_densa_y_rrf": 2.716700022574514,
+      "rerank": 47144.7702999867,
+      "total_sin_rerank": 290.355000004638,
+      "total": 47435.12529999134
+    },
+    {
+      "id": 258,
+      "embedding_consulta": 270.26250000926666,
+      "busqueda_dispersa": 2.5068999966606498,
+      "busqueda_densa_y_rrf": 2.6507999864406884,
+      "rerank": 46536.11360001378,
+      "total_sin_rerank": 275.420199992368,
+      "total": 46811.533800006146
+    },
+    {
+      "id": 259,
+      "embedding_consulta": 295.67319998750463,
+      "busqueda_dispersa": 3.031800006283447,
+      "busqueda_densa_y_rrf": 2.8525000088848174,
+      "rerank": 46577.15379999718,
+      "total_sin_rerank": 301.5575000026729,
+      "total": 46878.71129999985
+    },
+    {
+      "id": 260,
+      "embedding_consulta": 265.4720999998972,
+      "busqueda_dispersa": 3.1447999936062843,
+      "busqueda_densa_y_rrf": 3.2029000285547227,
+      "rerank": 44797.89939997136,
+      "total_sin_rerank": 271.8198000220582,
+      "total": 45069.719199993415
+    },
+    {
+      "id": 261,
+      "embedding_consulta": 274.7444999986328,
+      "busqueda_dispersa": 1.7368000117130578,
+      "busqueda_densa_y_rrf": 2.5862999900709838,
+      "rerank": 42150.299700006144,
+      "total_sin_rerank": 279.06760000041686,
+      "total": 42429.36730000656
+    },
+    {
+      "id": 262,
+      "embedding_consulta": 289.6057000034489,
+      "busqueda_dispersa": 2.832700003637001,
+      "busqueda_densa_y_rrf": 2.667100023245439,
+      "rerank": 45578.56669998728,
+      "total_sin_rerank": 295.1055000303313,
+      "total": 45873.67220001761
+    },
+    {
+      "id": 263,
+      "embedding_consulta": 288.28259999863803,
+      "busqueda_dispersa": 3.0566000204999,
+      "busqueda_densa_y_rrf": 3.015499998582527,
+      "rerank": 47069.427999987965,
+      "total_sin_rerank": 294.35470001772046,
+      "total": 47363.782700005686
+    },
+    {
+      "id": 264,
+      "embedding_consulta": 265.7830999814905,
+      "busqueda_dispersa": 3.1426000059582293,
+      "busqueda_densa_y_rrf": 3.3320999646093696,
+      "rerank": 46524.5340000256,
+      "total_sin_rerank": 272.2577999520581,
+      "total": 46796.791799977655
+    },
+    {
+      "id": 265,
+      "embedding_consulta": 269.0407000191044,
+      "busqueda_dispersa": 2.5847999786492437,
+      "busqueda_densa_y_rrf": 2.480700029991567,
+      "rerank": 47173.0226999789,
+      "total_sin_rerank": 274.1062000277452,
+      "total": 47447.128900006646
+    },
+    {
+      "id": 266,
+      "embedding_consulta": 275.9551999915857,
+      "busqueda_dispersa": 3.4706000005826354,
+      "busqueda_densa_y_rrf": 3.366799996001646,
+      "rerank": 48018.56610001414,
+      "total_sin_rerank": 282.79259998816997,
+      "total": 48301.35870000231
+    },
+    {
+      "id": 267,
+      "embedding_consulta": 286.25440000905655,
+      "busqueda_dispersa": 3.860600001644343,
+      "busqueda_densa_y_rrf": 3.3596999710425735,
+      "rerank": 47853.26630002237,
+      "total_sin_rerank": 293.47469998174347,
+      "total": 48146.74100000411
+    },
+    {
+      "id": 268,
+      "embedding_consulta": 307.59380001109093,
+      "busqueda_dispersa": 3.3919000125024468,
+      "busqueda_densa_y_rrf": 3.3233999565709382,
+      "rerank": 46110.807900025975,
+      "total_sin_rerank": 314.3090999801643,
+      "total": 46425.11700000614
+    },
+    {
+      "id": 269,
+      "embedding_consulta": 264.91209998494014,
+      "busqueda_dispersa": 3.046800004085526,
+      "busqueda_densa_y_rrf": 3.983300004620105,
+      "rerank": 45947.18340001418,
+      "total_sin_rerank": 271.9421999936458,
+      "total": 46219.12560000783
+    },
+    {
+      "id": 270,
+      "embedding_consulta": 255.88240000070073,
+      "busqueda_dispersa": 1.8419999978505075,
+      "busqueda_densa_y_rrf": 2.6234000106342137,
+      "rerank": 47461.53850000701,
+      "total_sin_rerank": 260.34780000918545,
+      "total": 47721.886300016195
+    },
+    {
+      "id": 271,
+      "embedding_consulta": 294.2715999961365,
+      "busqueda_dispersa": 4.056699981447309,
+      "busqueda_densa_y_rrf": 2.6249000220559537,
+      "rerank": 47879.62799999514,
+      "total_sin_rerank": 300.95319999963976,
+      "total": 48180.58119999478
+    },
+    {
+      "id": 272,
+      "embedding_consulta": 296.4268999930937,
+      "busqueda_dispersa": 3.7455999990925193,
+      "busqueda_densa_y_rrf": 2.753999986452982,
+      "rerank": 46740.302700025495,
+      "total_sin_rerank": 302.9264999786392,
+      "total": 47043.229200004134
+    },
+    {
+      "id": 273,
+      "embedding_consulta": 313.00959998043254,
+      "busqueda_dispersa": 2.790900005493313,
+      "busqueda_densa_y_rrf": 2.732600027229637,
+      "rerank": 46769.092299975455,
+      "total_sin_rerank": 318.5331000131555,
+      "total": 47087.62539998861
+    },
+    {
+      "id": 274,
+      "embedding_consulta": 278.78490000148304,
+      "busqueda_dispersa": 2.4370999890379608,
+      "busqueda_densa_y_rrf": 2.395299990894273,
+      "rerank": 46723.720800015144,
+      "total_sin_rerank": 283.6172999814153,
+      "total": 47007.33809999656
+    },
+    {
+      "id": 275,
+      "embedding_consulta": 259.6186000155285,
+      "busqueda_dispersa": 2.447899983962998,
+      "busqueda_densa_y_rrf": 2.1013999939896166,
+      "rerank": 46262.58460001554,
+      "total_sin_rerank": 264.1678999934811,
+      "total": 46526.752500009025
+    },
+    {
+      "id": 276,
+      "embedding_consulta": 274.5254999899771,
+      "busqueda_dispersa": 2.220299997134134,
+      "busqueda_densa_y_rrf": 2.7992000395897776,
+      "rerank": 46948.115599981975,
+      "total_sin_rerank": 279.545000026701,
+      "total": 47227.660600008676
+    },
+    {
+      "id": 277,
+      "embedding_consulta": 318.09750001411885,
+      "busqueda_dispersa": 2.51719998777844,
+      "busqueda_densa_y_rrf": 3.2256000267807394,
+      "rerank": 46935.39209998562,
+      "total_sin_rerank": 323.84030002867803,
+      "total": 47259.2324000143
+    },
+    {
+      "id": 278,
+      "embedding_consulta": 288.0656000052113,
+      "busqueda_dispersa": 2.918099984526634,
+      "busqueda_densa_y_rrf": 2.665000007255003,
+      "rerank": 45580.77830000548,
+      "total_sin_rerank": 293.64869999699295,
+      "total": 45874.42700000247
+    },
+    {
+      "id": 279,
+      "embedding_consulta": 333.76209999551065,
+      "busqueda_dispersa": 3.104400006122887,
+      "busqueda_densa_y_rrf": 2.703800011659041,
+      "rerank": 45614.97860000236,
+      "total_sin_rerank": 339.5703000132926,
+      "total": 45954.54890001565
+    },
+    {
+      "id": 280,
+      "embedding_consulta": 265.92320000054315,
+      "busqueda_dispersa": 1.7349999980069697,
+      "busqueda_densa_y_rrf": 2.5972999865189195,
+      "rerank": 45834.99400000437,
+      "total_sin_rerank": 270.25549998506904,
+      "total": 46105.24949998944
+    },
+    {
+      "id": 281,
+      "embedding_consulta": 286.1622000054922,
+      "busqueda_dispersa": 2.6585999876260757,
+      "busqueda_densa_y_rrf": 2.7849000180140138,
+      "rerank": 41074.53479999094,
+      "total_sin_rerank": 291.6057000111323,
+      "total": 41366.140500002075
+    },
+    {
+      "id": 282,
+      "embedding_consulta": 330.9214999899268,
+      "busqueda_dispersa": 2.1727000130340457,
+      "busqueda_densa_y_rrf": 2.947500004665926,
+      "rerank": 46755.78449998284,
+      "total_sin_rerank": 336.0417000076268,
+      "total": 47091.826199990464
+    },
+    {
+      "id": 283,
+      "embedding_consulta": 272.2912000026554,
+      "busqueda_dispersa": 2.709000022150576,
+      "busqueda_densa_y_rrf": 2.6831999712157995,
+      "rerank": 45219.11910001654,
+      "total_sin_rerank": 277.68339999602176,
+      "total": 45496.80250001256
+    },
+    {
+      "id": 284,
+      "embedding_consulta": 300.6139000062831,
+      "busqueda_dispersa": 2.6157000102102757,
+      "busqueda_densa_y_rrf": 2.7939999708905816,
+      "rerank": 46713.875900022686,
+      "total_sin_rerank": 306.02359998738393,
+      "total": 47019.89950001007
+    },
+    {
+      "id": 285,
+      "embedding_consulta": 284.88809999544173,
+      "busqueda_dispersa": 2.13199999416247,
+      "busqueda_densa_y_rrf": 2.6687999779824167,
+      "rerank": 46688.140600017505,
+      "total_sin_rerank": 289.6888999675866,
+      "total": 46977.82949998509
+    },
+    {
+      "id": 286,
+      "embedding_consulta": 271.4642000210006,
+      "busqueda_dispersa": 2.0813999872189015,
+      "busqueda_densa_y_rrf": 2.597799990326166,
+      "rerank": 46871.02620000951,
+      "total_sin_rerank": 276.14339999854565,
+      "total": 47147.169600008056
+    },
+    {
+      "id": 287,
+      "embedding_consulta": 276.7656999931205,
+      "busqueda_dispersa": 2.2732000215910375,
+      "busqueda_densa_y_rrf": 2.644299966050312,
+      "rerank": 41223.19300001254,
+      "total_sin_rerank": 281.68319998076186,
+      "total": 41504.876199993305
+    },
+    {
+      "id": 288,
+      "embedding_consulta": 279.9439000082202,
+      "busqueda_dispersa": 2.3367999820038676,
+      "busqueda_densa_y_rrf": 2.139999996870756,
+      "rerank": 42369.02949999785,
+      "total_sin_rerank": 284.42069998709485,
+      "total": 42653.450199984945
+    },
+    {
+      "id": 289,
+      "embedding_consulta": 299.64849998941645,
+      "busqueda_dispersa": 2.54100002348423,
+      "busqueda_densa_y_rrf": 2.580800006398931,
+      "rerank": 46914.96409999672,
+      "total_sin_rerank": 304.7703000192996,
+      "total": 47219.73440001602
+    },
+    {
+      "id": 290,
+      "embedding_consulta": 302.0690000266768,
+      "busqueda_dispersa": 3.5727999929804355,
+      "busqueda_densa_y_rrf": 3.269699984230101,
+      "rerank": 42221.202100015944,
+      "total_sin_rerank": 308.91150000388734,
+      "total": 42530.11360001983
+    },
+    {
+      "id": 291,
+      "embedding_consulta": 258.6847000056878,
+      "busqueda_dispersa": 1.937199995154515,
+      "busqueda_densa_y_rrf": 2.087900007609278,
+      "rerank": 46894.47980001569,
+      "total_sin_rerank": 262.70980000845157,
+      "total": 47157.18960002414
+    },
+    {
+      "id": 292,
+      "embedding_consulta": 349.2182000190951,
+      "busqueda_dispersa": 3.6017999809700996,
+      "busqueda_densa_y_rrf": 3.91440000385046,
+      "rerank": 48191.31669998751,
+      "total_sin_rerank": 356.73440000391565,
+      "total": 48548.051099991426
+    },
+    {
+      "id": 293,
+      "embedding_consulta": 299.63389999466017,
+      "busqueda_dispersa": 2.2981000074651092,
+      "busqueda_densa_y_rrf": 2.2585999977309257,
+      "rerank": 47720.443300000625,
+      "total_sin_rerank": 304.1905999998562,
+      "total": 48024.63390000048
+    },
+    {
+      "id": 294,
+      "embedding_consulta": 272.3190999822691,
+      "busqueda_dispersa": 1.812900009099394,
+      "busqueda_densa_y_rrf": 2.1687999833375216,
+      "rerank": 46741.25890000141,
+      "total_sin_rerank": 276.300799974706,
+      "total": 47017.55969997612
+    },
+    {
+      "id": 295,
+      "embedding_consulta": 278.9345999772195,
+      "busqueda_dispersa": 3.109600016614422,
+      "busqueda_densa_y_rrf": 2.7932999946642667,
+      "rerank": 46506.788400001824,
+      "total_sin_rerank": 284.83749998849817,
+      "total": 46791.62589999032
+    },
+    {
+      "id": 296,
+      "embedding_consulta": 288.87839999515563,
+      "busqueda_dispersa": 3.6825000133831054,
+      "busqueda_densa_y_rrf": 2.1219999762251973,
+      "rerank": 46143.71810000739,
+      "total_sin_rerank": 294.68289998476394,
+      "total": 46438.400999992155
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿Tema,Detalle
+Fuente,"resultados_retrieval_2_latencia.json, resultados_retrieval_bge_m3_mejorado_latencia.json, resultados_retrieval_openai_mejorado_latencia.json"
+Medición,resultados_retrieval_2_latencia.json: una consulta a la vez; calentamiento de 5 consultas por modelo; modelos intercalados con orden rotado; embedding de consulta medido una vez por modelo y compartido por sus 3 chunk_sizes; resultados_retrieval_bge_m3_mejorado_latencia.json: una consulta a la vez; calentamiento de 5 consultas; pipelines intercalados con orden alternado; rerank medido envolviendo reranker.compute_score; resultados_retrieval_openai_mejorado_latencia.json: una consulta a la vez; calentamiento de 5 consultas; pipelines intercalados con orden alternado; rerank medido envolviendo reranker.compute_score
+Medida principal,Mediana de la latencia total por consulta; P95/P99 como medida de cola.
+Intervalos,"IC95 de la mediana por bootstrap percentil (5000 remuestreos, semilla 42)."
+Comparaciones,Pareadas por pregunta (mismas preguntas en todas las configuraciones): mediana de las diferencias B−A con IC95 bootstrap y prueba de Wilcoxon de rangos con signo.
+Desglose,Medias por etapa (aditivas); 'Otros' = media total − suma de etapas medidas.
+Sin embedding,Total − embedding de la consulta: aísla el costo local; en OpenAI el embedding incluye latencia de red a OpenRouter.
+Híbrido sin rerank,"Total − rerank, medido en la misma corrida que híbrido + rerank (no es una corrida independiente)."
+Precaución,Base y mejorado se midieron en corridas distintas; la comparación supone el mismo equipo y condiciones.

@@ -1,0 +1,316 @@
+{
+  "fecha_verificacion": "2026-10-29T20:27:08",
+  "reporte_regenerado_en_esta_corrida": true,
+  "resultado": {
+    "OK": 33,
+    "AVISO": 1,
+    "FALLA": 0
+  },
+  "fuentes": {
+    "gen_claude": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\resultados_generacion_llm.json",
+      "existe": true,
+      "bytes": 25599277,
+      "modificado": "2026-09-22T23:43:24",
+      "sha256": "9ff5a7b651953980db3edf09648a7e9999c41d7b3b746c90a32cf08cdad8e08d"
+    },
+    "gen_raft": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\resultados_generacion_llm_raft.json",
+      "existe": true,
+      "bytes": 8109409,
+      "modificado": "2026-10-25T19:01:17",
+      "sha256": "9ac42e4e3438ae3dcd3f349bf4bda8965bdc7b354ceafa20bf21c89d517f5c0f"
+    },
+    "gen_base": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\resultados_generacion_llm_base.json",
+      "existe": true,
+      "bytes": 8387781,
+      "modificado": "2026-10-28T01:18:26",
+      "sha256": "9e5d299965bfc4e601a31ac9c1007228204f4f789aa2fc6f67ec23570d6645d9"
+    },
+    "det_claude": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\evaluacion_generacion_detalle.csv",
+      "existe": true,
+      "bytes": 23098325,
+      "modificado": "2026-09-23T15:08:13",
+      "sha256": "73ff85baca42e04ab6c1002333fb36a688287e9d70abcc3588708d0ec0b781db"
+    },
+    "det_raft": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\evaluacion_generacion_detalle_raft.csv",
+      "existe": true,
+      "bytes": 7198041,
+      "modificado": "2026-10-26T22:15:02",
+      "sha256": "118fad879d2157dc0f616b54c0f06aaee6ad873fb6b8922ff80b743374fa4fb3"
+    },
+    "det_base": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\evaluacion_generacion_detalle_base.csv",
+      "existe": true,
+      "bytes": 7286960,
+      "modificado": "2026-10-28T10:01:11",
+      "sha256": "a2d01df8c72e76f07274c08cb363406250fca9feaea8d7b091ff0076935f1183"
+    },
+    "res_raft": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\evaluacion_generacion_resumen_raft.csv",
+      "existe": true,
+      "bytes": 779,
+      "modificado": "2026-10-27T20:23:36",
+      "sha256": "d0403030c8b083dc8ffd11d5637b73b2b7b013d995d9035ae871e8044f0ee1ac"
+    },
+    "res_base": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\evaluacion_generacion_resumen_base.csv",
+      "existe": true,
+      "bytes": 781,
+      "modificado": "2026-10-28T10:01:11",
+      "sha256": "827e614650ca4e9b9faf815e0a36d0f37f223718cf27ccb73726c26d492619f4"
+    },
+    "val_raft": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\validacion_respuestas_raft.csv",
+      "existe": true,
+      "bytes": 165235,
+      "modificado": "2026-10-25T19:59:02",
+      "sha256": "7c1fdb155e7ac8f5b1dc59f97588f37617959e9faf4c3851ebb5edbb1ba28591"
+    },
+    "val_base": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\validacion_respuestas_base.csv",
+      "existe": true,
+      "bytes": 165114,
+      "modificado": "2026-10-28T07:16:23",
+      "sha256": "e67d71c5134d426c2706d502ed7efdad6e12e35a2ab39c5ae44d3fe00ec4dcf6"
+    },
+    "dataset_val": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\dataset_validacion_final.json",
+      "existe": true,
+      "bytes": 304986,
+      "modificado": "2026-09-19T09:41:20",
+      "sha256": "7f165643db0f0d78eebd828c6d7fe2a10d410d4459a50822ba9db33afdc44644"
+    },
+    "corpus_1": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Generacion de corpus\\JsonsDatasetByChars\\dataset_acreditacion_primera_mitad.json",
+      "existe": true,
+      "bytes": 2543157,
+      "modificado": "2026-08-15T21:47:45",
+      "sha256": "e8a0b7c9441dcb27d79cf658b872d83b9593aa0260f959f4e9ceddd3c9698e9f"
+    },
+    "corpus_2": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Generacion de corpus\\JsonsDatasetByChars\\dataset_acreditacion_segunda_mitad.json",
+      "existe": true,
+      "bytes": 2682276,
+      "modificado": "2026-09-07T18:31:22",
+      "sha256": "c49452618740c7867665a2af9db7c8c05990f435a8416d235d66b06923ef324a"
+    },
+    "cot_cache": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Generacion de corpus\\raft\\salida\\cot_cache.jsonl",
+      "existe": true,
+      "bytes": 9335314,
+      "modificado": "2026-10-24T15:21:02",
+      "sha256": "9dcac81cd35e70bc03cb2b9a8a620b9f5f445062f701926b90a88cfe32d645cb"
+    },
+    "raft_completo": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Generacion de corpus\\raft\\salida\\raft_completo.jsonl",
+      "existe": true,
+      "bytes": 22067806,
+      "modificado": "2026-10-24T16:02:25",
+      "sha256": "7da50958eb87479f304e3309ee878a5ac5e0717236bef322ae6508faa718b5b2"
+    },
+    "raft_train": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Generacion de corpus\\raft\\salida\\raft_train.jsonl",
+      "existe": true,
+      "bytes": 17901711,
+      "modificado": "2026-10-24T16:02:24",
+      "sha256": "98bcf8fb6b9f38d1ce9f36af1ae6687a0b4bc29ac3ad51531aebe595560de3cc"
+    },
+    "raft_eval": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Generacion de corpus\\raft\\salida\\raft_eval.jsonl",
+      "existe": true,
+      "bytes": 898118,
+      "modificado": "2026-10-24T16:02:25",
+      "sha256": "f87e0eaa6910b4619db83117cf8dc23e8ccc903794bdf4f8c611bd1230e3d5b4"
+    },
+    "reporte_corpus": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Generacion de corpus\\raft\\salida\\reporte_raft.json",
+      "existe": true,
+      "bytes": 1159,
+      "modificado": "2026-10-24T16:02:25",
+      "sha256": "4624d391726338fb0f80a619397f2ef51f4d1f37d0e351c11e9a7597655cd569"
+    },
+    "kaggle_config": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Generacion de corpus\\raft\\entrenamiento\\config_entrenamiento.json",
+      "existe": true,
+      "bytes": 305,
+      "modificado": "2026-10-27T22:06:19",
+      "sha256": "12a8df794dcccf2e4255ee75ebec31ca24f46da5119d511c8e438c779f64fbe7"
+    },
+    "kaggle_log": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Generacion de corpus\\raft\\entrenamiento\\log_entrenamiento.json",
+      "existe": true,
+      "bytes": 9865,
+      "modificado": "2026-10-27T22:05:16",
+      "sha256": "ead9d6dac76ec1ad68a3604ea5cd8c5768eb14c3b9c5519201c602cbd9e35e9e"
+    },
+    "ck_openai_cs800__claude-sonnet-5__directo": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\checkpoints_evaluacion_generacion\\openai_cs800__claude-sonnet-5__directo.csv",
+      "existe": true,
+      "bytes": 2471468,
+      "modificado": "2026-09-23T11:10:42",
+      "sha256": "ca1566192dcd7c76d03fc3775bd7556fa5aab19449a78de5f939a590228acf95"
+    },
+    "ck_openai_cs800__claude-sonnet-5__estructurado": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\checkpoints_evaluacion_generacion\\openai_cs800__claude-sonnet-5__estructurado.csv",
+      "existe": true,
+      "bytes": 2445735,
+      "modificado": "2026-09-23T11:46:46",
+      "sha256": "001d457d9c2985eb5059e4deb5a3af64b4f258668b971853b9cb65dca9242871"
+    },
+    "ck_openai_cs800__claude-haiku-4.5__directo": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\checkpoints_evaluacion_generacion\\openai_cs800__claude-haiku-4.5__directo.csv",
+      "existe": true,
+      "bytes": 2452122,
+      "modificado": "2026-09-23T12:22:01",
+      "sha256": "4c0d002c3006b69ca77c149bcf8347693c88970ef28bef6ed4216fdeb91449a0"
+    },
+    "ck_openai_cs800__claude-haiku-4.5__estructurado": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\checkpoints_evaluacion_generacion\\openai_cs800__claude-haiku-4.5__estructurado.csv",
+      "existe": true,
+      "bytes": 2436106,
+      "modificado": "2026-09-23T12:54:44",
+      "sha256": "ab685a1fa7482d0a8317cbbff89fae94abeb5a0f648373164f6e8ed66b3d9de8"
+    },
+    "ck_openai_cs800__raft-llama3.1-8b__raft": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\checkpoints_evaluacion_generacion\\openai_cs800__raft-llama3.1-8b__raft.csv",
+      "existe": true,
+      "bytes": 2370863,
+      "modificado": "2026-10-26T19:54:09",
+      "sha256": "ba56628e93ccf215974c821bf231829533e5581d8865c0811e502950c9e6ecfc"
+    },
+    "ck_openai_cs800__raft-llama3.1-8b__estructurado": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\checkpoints_evaluacion_generacion\\openai_cs800__raft-llama3.1-8b__estructurado.csv",
+      "existe": true,
+      "bytes": 2366107,
+      "modificado": "2026-10-26T20:34:00",
+      "sha256": "2a84f8ed16b52ddc50a9a8f3b736350ae9553dbb49251038bc008b4efb2fc9be"
+    },
+    "ck_openai_cs800__raft-llama3.1-8b__directo": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\checkpoints_evaluacion_generacion\\openai_cs800__raft-llama3.1-8b__directo.csv",
+      "existe": true,
+      "bytes": 2392375,
+      "modificado": "2026-10-26T21:15:22",
+      "sha256": "3f5dd5ea8cca1ebc7bef8eb7a78e76499a0b62d8c65925f13e97362d71320d03"
+    },
+    "ck_openai_cs800__llama3.1-8b-base__raft": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\checkpoints_evaluacion_generacion\\openai_cs800__llama3.1-8b-base__raft.csv",
+      "existe": true,
+      "bytes": 2443311,
+      "modificado": "2026-10-28T08:01:16",
+      "sha256": "5d9b0ca369e65829a1158a2b5fbb14fe7eb1273f34316c84c59f852491094822"
+    },
+    "ck_openai_cs800__llama3.1-8b-base__estructurado": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\checkpoints_evaluacion_generacion\\openai_cs800__llama3.1-8b-base__estructurado.csv",
+      "existe": true,
+      "bytes": 2378695,
+      "modificado": "2026-10-28T08:43:01",
+      "sha256": "4847789b3841994c997f12fae1004761a935c3106c339cfad257129e591237aa"
+    },
+    "ck_openai_cs800__llama3.1-8b-base__directo": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\checkpoints_evaluacion_generacion\\openai_cs800__llama3.1-8b-base__directo.csv",
+      "existe": true,
+      "bytes": 2396339,
+      "modificado": "2026-10-28T09:25:38",
+      "sha256": "458fc5a112809cbb7cd3a2af604442b3bcae5f133a7bea0cb4329ffab663102d"
+    }
+  },
+  "tablas": {
+    "corpus_fuente": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\corpus_fuente.csv",
+      "existe": true,
+      "bytes": 531,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "ea59ffc6e7846b65afde26e21cdb8bccff0f2b550c9774d6b5dac47132378575"
+    },
+    "corpus_embudo": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\corpus_embudo.csv",
+      "existe": true,
+      "bytes": 785,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "6b8872d727153b4c826a80d279607b2d82438a3af58bd93d9358e3165be2d18e"
+    },
+    "control_calidad_llm": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\control_calidad_llm.csv",
+      "existe": true,
+      "bytes": 310,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "4e958c998a50026d680929cbcc47dfe500836331bf1c38acb0aa7ab2d2f05a31"
+    },
+    "ejemplos_raft": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\ejemplos_raft.csv",
+      "existe": true,
+      "bytes": 422,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "04de623849bedd364ce19079942241374bc4d9ea6bedd1bffcec77ba8fe28790"
+    },
+    "entrenamiento": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\entrenamiento.csv",
+      "existe": true,
+      "bytes": 1107,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "e2124f754b89b8ef8318b9638369c972546a3d2da6e923cb3eca46c3598cbe10"
+    },
+    "perdida": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\perdida.csv",
+      "existe": true,
+      "bytes": 2265,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "554a7f63ab486695b7d86aa7ae2fa649e32d03e54ad920ff2640c0d631fbdf56"
+    },
+    "metricas_generacion": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\metricas_generacion.csv",
+      "existe": true,
+      "bytes": 1343,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "d3d63083cc9c13ad9aadec1de37c8432c53126f63f395181ff7e2b57923fe53c"
+    },
+    "wilcoxon_raft": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\wilcoxon_raft.csv",
+      "existe": true,
+      "bytes": 8157,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "3ff0ffcbde87f75cb798201915570997e1cbc0fcc8e9e33915326642f475dedf"
+    },
+    "comportamiento": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\comportamiento.csv",
+      "existe": true,
+      "bytes": 899,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "6f509e3a4fa34c21cc7ba8e5830805cba60debbe1b63f26fb02da21157b63010"
+    },
+    "por_tipo_evidencia": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\por_tipo_evidencia.csv",
+      "existe": true,
+      "bytes": 1677,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "85a17cfcc2fe0dbaff3ae8caf1cc4d2d949226024556613bd1fea43addd5f6f3"
+    },
+    "xlsx": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\reporte_raft.xlsx",
+      "existe": true,
+      "bytes": 20747,
+      "modificado": "2026-10-29T20:27:05",
+      "sha256": "9ce263b43f574ae3520a900f3ad392daee5f7f3998bef3050508f98d1a6c9422"
+    }
+  },
+  "figuras": {
+    "fig_promedio": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\promedio_compuesto_raft_vs_claude.png",
+      "existe": true,
+      "bytes": 92515,
+      "modificado": "2026-10-29T20:27:02",
+      "sha256": "6cd43841bf281506f701b09a0a9e2bbdde99412ef6d6fb038e483f482a420f79"
+    },
+    "fig_perdida": {
+      "ruta": "C:\\Users\\gomex\\OneDrive\\Escritorio\\TG - Pruebas 2\\validacion\\reporte_raft\\perdida_entrenamiento.png",
+      "existe": true,
+      "bytes": 56221,
+      "modificado": "2026-10-29T20:27:02",
+      "sha256": "81e7ad20480a2077150cb1ce70311d3bbe6f1ab10e4874c652bc497f3a332d1d"
+    }
+  }
+}

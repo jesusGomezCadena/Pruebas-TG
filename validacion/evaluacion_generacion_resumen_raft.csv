@@ -1,0 +1,4 @@
+combinacion,pipeline_retrieve,modelo_llm,estilo_prompt,faithfulness,answer_relevancy,answer_correctness,semantic_similarity,n_preguntas,metricas_nulas,promedio_4_metricas,fallas_modelo,abstenciones,pct_citas_literales
+openai_cs800__raft-llama3.1-8b__directo,openai_cs800,raft-llama3.1-8b,directo,0.9188136406550729,0.7742226672503905,0.6766328586491664,0.807702980566727,196,2,0.7943430367803391,1,3,
+openai_cs800__raft-llama3.1-8b__estructurado,openai_cs800,raft-llama3.1-8b,estructurado,0.910928895367671,0.7896305694132673,0.6738648049066172,0.7983468700050548,196,0,0.7931927849231525,0,3,
+openai_cs800__raft-llama3.1-8b__raft,openai_cs800,raft-llama3.1-8b,raft,0.8728293928293929,0.808127268434735,0.6697431508008337,0.8123975397293953,196,4,0.7907743379485892,2,0,73.0
