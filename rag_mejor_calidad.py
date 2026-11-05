@@ -1,9 +1,29 @@
+#!/usr/bin/env python3
 """
-RAG sobre un PDF - version "mejor calidad".
+RAG sobre un PDF - configuracion de mayor calidad (Claude Sonnet 5).
 
 Retrieve: OpenAI text-embedding-3-large, denso, chunk_size=800 tokens, k=5.
 Generacion: Claude Sonnet 5, prompt estructurado.
 
+Por que Sonnet (generacion, 196 preguntas, Wilcoxon pareado con Holm, ver
+secciones 9.5 y 9.6 del documento):
+  - Gana en semantic_similarity (p Holm = 0.0088) y queda arriba, sin
+    significancia, en answer_correctness (p = 0.055).
+  - Pierde en answer_relevancy frente a Haiku 4.5 (p Holm < 0.0001) y empata
+    en el promedio compuesto y en faithfulness.
+Es la opcion cuando importa mas la cercania a la respuesta de referencia que
+el costo. La version barata es rag_eficiente.py (solo cambia MODELO_LLM).
+
+Si la coleccion de Qdrant no existe todavia, el script indexa el PDF antes de
+abrir el chat. Si ya existe, se salta directo a preguntar.
+
+pip install pymupdf4llm langchain-text-splitters langchain-core tiktoken openai qdrant-client python-dotenv
+
+Uso:
+    # OPENROUTER_API_KEY en un .env junto al script, o exportada:
+    export OPENROUTER_API_KEY=...
+    python rag_mejor_calidad.py --pdf ./mi_documento.pdf
+    python rag_mejor_calidad.py --reingestar   # fuerza reindexar
 """
 
 import argparse

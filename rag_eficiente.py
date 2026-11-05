@@ -1,24 +1,30 @@
 #!/usr/bin/env python3
 """
-RAG sobre un PDF - version "mejor calidad posible al menor costo".
+RAG sobre un PDF - configuracion eficiente (Claude Haiku 4.5).
 
 Retrieve: OpenAI text-embedding-3-large, denso, chunk_size=800 tokens, k=5.
 Generacion: Claude Haiku 4.5, prompt estructurado.
-Mismo retrieve que la version "mejor calidad" (rag_mejor_calidad.py) - lo unico
-que cambia es el LLM que genera la respuesta. En las pruebas quedo
-estadisticamente empatado con Sonnet en promedio general, y gana con
-significancia en answer_relevancy; sale ~2x mas barato. Justificacion completa
-en detalle_pruebas_generacion.md.
+
+Es el mismo flujo de rag_mejor_calidad.py; lo unico que cambia es MODELO_LLM.
+Por que Haiku (generacion, 196 preguntas, Wilcoxon pareado con Holm, ver
+secciones 9.5 y 9.6 del documento):
+  - Empata con Sonnet 5 en el promedio compuesto y en faithfulness.
+  - Gana en answer_relevancy (p Holm < 0.0001).
+  - Pierde en semantic_similarity (p Holm = 0.0088); en answer_correctness
+    Sonnet queda arriba pero sin significancia (p = 0.055).
+  - Cuesta la mitad por token (USD 1 / 5 vs. USD 2 / 10 por millon de
+    tokens de entrada / salida).
 
 Si la coleccion de Qdrant no existe todavia, el script indexa el PDF antes de
-abrir el chat. Si ya existe, se salta directo a preguntar. Ojo: usa la misma
+abrir el chat. Si ya existe, se salta directo a preguntar. Usa la misma
 coleccion que rag_mejor_calidad.py, asi que si ya corriste ese no hace falta
-reindexar de nuevo aca.
+reindexar aca.
 
-pip install pymupdf4llm langchain-text-splitters langchain-core tiktoken openai qdrant-client
+pip install pymupdf4llm langchain-text-splitters langchain-core tiktoken openai qdrant-client python-dotenv
 
 Uso:
-    export OPENROUTER_API_KEY=sk-...
+    # OPENROUTER_API_KEY en un .env junto al script, o exportada:
+    export OPENROUTER_API_KEY=...
     python rag_eficiente.py --pdf ./mi_documento.pdf
     python rag_eficiente.py --reingestar   # fuerza reindexar
 """
@@ -49,7 +55,7 @@ from qdrant_client.models import VectorParams, Distance, PointStruct
 
 # config del pipeline, no tocar sin volver a correr las pruebas
 PDF_PATH_DEFAULT = "./documento.pdf"
-RUTA_QDRANT = "/qdrant_data_produccion"
+RUTA_QDRANT = "./qdrant_data_produccion"
 COLECCION = "rag_openai_cs800"
 CHUNK_SIZE = 800
 CHUNK_OVERLAP = 0
@@ -61,7 +67,6 @@ MODELO_LLM = "anthropic/claude-haiku-4.5"
 current_dir = Path(__file__).parent
 env_path = current_dir / '.env'
 
-   # Carga el .env usando esa ruta exacta
 load_dotenv(dotenv_path=env_path)
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
@@ -89,9 +94,9 @@ def con_reintentos(func, intentos=3, espera=5):
 # --- extraccion del PDF ---
 # misma logica de las pruebas: texto continuo (sin cortar parrafos en el borde
 # de pagina) + tablas separadas con su metadata. Ojo: esta es la version SIN
-# las mejoras de division/filtrado de tablas que probamos despues, porque el
-# pipeline que quedo elegido se valido con esta version. Si algun dia se
-# revalida con la extraccion mejorada, actualizar aqui.
+# las mejoras de division/filtrado de tablas que se probaron despues (seccion
+# 9.3 del documento): no mejoraron el desempeño agregado y no se adoptaron.
+# El pipeline elegido se valido con esta version de la extraccion.
 
 PATRON_TABLA_MD = re.compile(
     r'(^\|.*\|\s*\n'
