@@ -1,32 +1,35 @@
 #!/usr/bin/env python3
 """
-RAG sobre un PDF - configuracion eficiente (Claude Haiku 4.5).
+RAG sobre un PDF - configuracion final (OpenAI denso + Claude Haiku 4.5).
 
 Retrieve: OpenAI text-embedding-3-large, denso, chunk_size=800 tokens, k=5.
-Generacion: Claude Haiku 4.5, prompt estructurado.
+Generacion: Claude Haiku 4.5 por defecto, prompt estructurado.
 
-Es el mismo flujo de rag_mejor_calidad.py; lo unico que cambia es MODELO_LLM.
-Por que Haiku (generacion, 196 preguntas, Wilcoxon pareado con Holm, ver
-secciones 9.5 y 9.6 del documento):
-  - Empata con Sonnet 5 en el promedio compuesto y en faithfulness.
+Por que Haiku por defecto (generacion, 196 preguntas, Wilcoxon pareado con
+Holm, ver secciones 9.5 y 9.6 del documento). Frente a Claude Sonnet 5, con el
+mismo retrieve y el mismo prompt:
+  - Empata en el promedio compuesto y en faithfulness (Haiku con la media mas
+    alta, sin significancia).
   - Gana en answer_relevancy (p Holm < 0.0001).
-  - Pierde en semantic_similarity (p Holm = 0.0088); en answer_correctness
-    Sonnet queda arriba pero sin significancia (p = 0.055).
-  - Cuesta la mitad por token (USD 1 / 5 vs. USD 2 / 10 por millon de
-    tokens de entrada / salida).
+  - Pierde en semantic_similarity por muy poco (+0.0038 de Sonnet, p Holm =
+    0.0088); en answer_correctness Sonnet queda arriba sin significancia
+    (p = 0.055).
+  - Cuesta la mitad por token (USD 1 / 5 vs. USD 2 / 10 por millon de tokens
+    de entrada / salida).
+No hay evidencia de que pagar el modelo mas caro mejore la calidad general.
+Si se prefiere Sonnet 5, no hace falta tocar el codigo: basta con definir
+LLM_MODEL=anthropic/claude-sonnet-5 (o ponerlo en el .env).
 
 Si la coleccion de Qdrant no existe todavia, el script indexa el PDF antes de
-abrir el chat. Si ya existe, se salta directo a preguntar. Usa la misma
-coleccion que rag_mejor_calidad.py, asi que si ya corriste ese no hace falta
-reindexar aca.
+abrir el chat. Si ya existe, se salta directo a preguntar.
 
 pip install pymupdf4llm langchain-text-splitters langchain-core tiktoken openai qdrant-client python-dotenv
 
 Uso:
     # OPENROUTER_API_KEY en un .env junto al script, o exportada:
     export OPENROUTER_API_KEY=...
-    python rag_eficiente.py --pdf ./mi_documento.pdf
-    python rag_eficiente.py --reingestar   # fuerza reindexar
+    python rag_final.py --pdf ./mi_documento.pdf
+    python rag_final.py --reingestar   # fuerza reindexar
 """
 
 import argparse
@@ -62,12 +65,15 @@ CHUNK_OVERLAP = 0
 K = 5
 MODELO_EMBEDDING = "openai/text-embedding-3-large"
 DIMENSION_EMBEDDING = 3072
-MODELO_LLM = "anthropic/claude-haiku-4.5"
+MODELO_LLM_DEFECTO = "anthropic/claude-haiku-4.5"
 
 current_dir = Path(__file__).parent
 env_path = current_dir / '.env'
 
 load_dotenv(dotenv_path=env_path)
+
+# mismo nombre de variable que usa la aplicacion (LLM_MODEL)
+MODELO_LLM = os.environ.get("LLM_MODEL", MODELO_LLM_DEFECTO)
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 if not OPENROUTER_API_KEY:
@@ -95,7 +101,7 @@ def con_reintentos(func, intentos=3, espera=5):
 # misma logica de las pruebas: texto continuo (sin cortar parrafos en el borde
 # de pagina) + tablas separadas con su metadata. Ojo: esta es la version SIN
 # las mejoras de division/filtrado de tablas que se probaron despues (seccion
-# 9.3 del documento): no mejoraron el desempeño agregado y no se adoptaron.
+# 9.3 del documento): no mejoraron el desempeno agregado y no se adoptaron.
 # El pipeline elegido se valido con esta version de la extraccion.
 
 PATRON_TABLA_MD = re.compile(
@@ -284,7 +290,7 @@ def generar(pregunta: str, hits) -> str:
 # --- chat interactivo ---
 
 def main():
-    parser = argparse.ArgumentParser(description="RAG sobre un PDF - eficiente (Claude Haiku 4.5)")
+    parser = argparse.ArgumentParser(description=f"RAG sobre un PDF - configuracion final ({MODELO_LLM})")
     parser.add_argument("--pdf", default=PDF_PATH_DEFAULT, help="ruta del PDF a consultar")
     parser.add_argument("--reingestar", action="store_true", help="fuerza reindexar aunque la coleccion ya exista")
     args = parser.parse_args()
